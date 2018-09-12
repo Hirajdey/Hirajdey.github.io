@@ -1,0 +1,145 @@
+
+@each $herroBanner in (homeBannerSlide1),(homeBannerSlide2),(homeBannerSlide3),(homeBannerSlide4),(homeBannerSlide5),(homeBannerSlide6),(homeBannerSlide7),(homeBannerSlide8),(homeBannerSlide9){
+ .#{$herroBanner}-img{
+	 background-image:url(../img/imagica/#{$herroBanner}.jpg);
+ }
+}
+
+@each $singlePageHerroBanner in (singleHeroBannerUiDesign),{
+ .#{$singlePageHerroBanner}-img{
+	 background-image:url(../img/imagica/#{$singlePageHerroBanner}.jpg);
+ }
+}
+
+
+.hero-banner-wrap.single-page-hero-banner-wrap{
+	height:480px;
+}
+.hero-banner-wrap.single-page-hero-banner-wrap{
+	.container{
+		margin-top:0;
+	}
+}
+
+.site-hero-banner-sec{
+	.carousel-inner{
+		height: 560px;	
+	}
+}
+
+.hero-banner-wrap{ 
+ height: 560px;
+ width:100%;
+ background-size:cover;
+ background-repeat:no-repeat;
+
+ .container{
+
+	h2{
+	 	color:$white;
+	 	text-align: center;
+	  font-size: 65px;
+	  font-weight: 700;
+	 }
+	h4{
+	 	color: $white;
+	  text-align: center;
+	  font-weight: 300;
+	  font-size: 47px;
+	 }
+	 a{
+	  width: 190px;
+    height: 45px;
+    border: solid 1px #fff;
+    border-radius: 30px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin: 50px auto 0;
+    font-size: 20px;
+	 }
+ }
+}
+
+@include media-breakpoint-up(xs) {
+ 
+}
+
+@include media-breakpoint-up(sm) {
+ .hero-banner-wrap{ 
+	 .container{
+		// margin-top:-150px;
+		h2{
+		  font-size: 80px;
+		 }
+	 }
+	}
+}
+
+@include media-breakpoint-up(md) {
+
+}
+
+@include media-breakpoint-up(lg) {
+	.site-hero-banner-sec{
+		.carousel-inner{
+			height: 600px;	
+		}
+	}
+	.hero-banner-wrap{ 
+	  height: 600px;
+	 .container{
+		// margin-top:-150px;
+		h2{
+		  font-size: 80px;
+		 }
+		h4{
+		  font-size: 47px;
+		 }
+	 }
+	}
+}
+
+@include media-breakpoint-up(xl) {
+	.site-hero-banner-sec{
+		.carousel-inner{
+			height: 900px;	
+		}
+	}
+
+	.hero-banner-wrap{ 
+	  height: 900px;
+	 .container{
+		margin-top:-150px;
+		h2{
+		  font-size: 80px;
+		 }
+		h4{
+		  font-size: 47px;
+		 }
+	 }
+	}
+}
+
+
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+
+
+
