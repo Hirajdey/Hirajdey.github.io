@@ -1,0 +1,41 @@
+.container{
+    max-width: 832px;
+    border: 1px solid #3D9D76;
+}
+.banner-bg {
+    /* The image used */
+    background-image: url("../images/actia-emailer/actia-banner.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerBg {
+    background-image: url(../images/actia-emailer/actia-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 175px;
+    color: #fff;
+}
+
+@media screen and (max-width: 544px){
+.banner{
+    display: none;
+}
+}
+@media screen and (min-width: 544px){
+    .mobile-banner{
+        display: none;
+    }
+}
+@media screen and (max-width: 667px){
+    .mobile-banner{
+        display: none;
+        border:1px solid red;
+    }
+}

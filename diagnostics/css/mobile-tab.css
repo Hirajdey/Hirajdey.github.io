@@ -1,0 +1,176 @@
+#dropdown-1, #dropdown-2, #dropdown-3 {
+    float: left;
+    margin: 0!important;
+    border-radius: 0;
+    background: #f8f8f8;
+    width: 100%;
+}
+#dropdown-1 .dropdown-link, #dropdown-2 .dropdown-link, #dropdown-3 .dropdown-link{
+    /*background: -moz-linear-gradient(-45deg, rgba(90,58,195,0) 0%, rgba(0,192,245,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(90,58,195,0) 0%,rgba(0,192,245,1) 100%);
+    background: linear-gradient(135deg, rgba(90,58,195,0) 0%,rgba(0,192,245,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005a3ac3', endColorstr='#00c0f5',GradientType=1 );
+    background-color: #3175b8;
+    -webkit-box-shadow: 0px 1px 68px -3px rgba(45,51,68,0.25);
+    -moz-box-shadow: 0px 1px 68px -3px rgba(45,51,68,0.25);*/
+    box-shadow: 0px 1px 68px -3px rgba(45,51,68,0.25);
+    /*border-left: 1px solid transparent;*/
+}
+#dropdown-1 .dropdown-link, #dropdown-2 .dropdown-link, #dropdown-3 .dropdown-link {
+    color: #ffffff;
+    width: 100%;
+    font-size: 18px;
+    padding: 22px 60px 46px 60px;
+    float: left;
+    position: relative;
+    height: 100%;
+    border-left: 1px solid #efefef;
+
+    /*background-color: #f8f8f8;
+    background: none;
+    color: #707070;*/
+}
+
+/*Unlink Tab*/
+#dropdown-1 .unlink, #dropdown-2 .unlink, #dropdown-3 .unlink{
+    background-color: #f8f8f8;
+    background: none;
+    color: #707070;
+}
+#dropdown-1 a .catIcon1.unlink{
+    background: url(../images/claria.png) no-repeat;
+    background-position: center;
+}
+#dropdown-2 a .catIcon2.unlink{
+    background: url(../images/actia.png) no-repeat;
+    background-position: center;
+}
+#dropdown-3 a .catIcon3.unlink{
+    background: url(../images/prima.png) no-repeat;
+    background-position: center;
+}
+#dropdown-1 a .bottom-bg-unlink, #dropdown-2 a .bottom-bg-unlink, #dropdown-3 a .bottom-bg-unlink{
+    background: none !important;
+    /*border-bottom: 1px solid rgb(0,192,245);*/
+}
+/*End Unlink*/
+#dropdown-1 a .listbg, #dropdown-2 a .listbg, #dropdown-3 a .listbg {
+    float: left;
+    width: 100%;
+}
+#dropdown-1 a .catIcon1, #dropdown-2 a .catIcon2, #dropdown-3 a .catIcon3 {
+    background: url(../images/claria.png) no-repeat;
+    background-position: center;
+    width: 100%;
+    left: 0;
+    top: 55px;
+    background-position: center;
+    height: 44px;
+    /*background-size: auto 100%;*/
+    position: absolute;
+}
+#dropdown-2 a .catIcon2{
+    background: url(../images/actia.png) no-repeat;
+    background-position: center;
+}
+#dropdown-3 a .catIcon3{
+    background: url(../images/prima.png) no-repeat;
+    background-position: center;
+}
+#dropdown-1 a .listbg .tabText, #dropdown-2 a .listbg .tabText, #dropdown-3 a .listbg .tabText {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 60px;
+    color: #000;
+    opacity: 0.6;
+}
+#dropdown-1 a .hoverEffect, #dropdown-2 a .hoverEffect, #dropdown-3 a .hoverEffect {
+    background: rgb(0,192,245);
+    background: -moz-linear-gradient(45deg, rgba(0,192,245,1) 0%, rgba(93,255,207,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(0,192,245,1) 0%,rgba(93,255,207,1) 100%);
+    background: linear-gradient(45deg, rgba(0,192,245,1) 0%,rgba(93,255,207,1) 100%);
+    opacity: 0;
+    width: 100%;
+    height: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 1 !important;
+}
+#dropdown-1 .dropdown-container {
+    background: url(../images/tabBg-dia.png) no-repeat top right;
+}
+#dropdown-2 .dropdown-container {
+    background: url(../images/tabBg2-dia.png) no-repeat top right;
+}
+#dropdown-3 .dropdown-container {
+    background: url(../images/tabBg3-dia.png) no-repeat top right;
+}
+#dropdown-1 .dropdown-container, #dropdown-2 .dropdown-container, #dropdown-3 .dropdown-container {
+    padding: 30px 20px;
+    float: left;
+    width: 100%;
+    z-index: 9;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 1px 68px -3px rgba(45,51,68,0.25);
+    -moz-box-shadow: 0px 1px 68px -3px rgba(45,51,68,0.25);
+    box-shadow: 0px 1px 68px -3px rgba(45,51,68,0.25);
+    position: relative;
+}
+.dropdown-container .tabContent1, .dropdown-container .tabContent2 {
+    width: 100%;
+    float: left;
+}
+.dropdown-container .tabContent1 h3, .dropdown-container .tabContent2 h3, .dropdown-container .tabContent h3 {
+    text-transform: none;
+}
+.dropdown-container h3, .dropdown-container h3, .dropdown-container h3 {
+    color: #40a9eb;
+    font-weight: 400;
+    width: 80%;
+}
+.dropdown-container h3 a, #dropdown-2 .dropdown-container ul li a, #dropdown-3 .dropdown-container ul li a {
+    color: #009ae8;
+    font-size: 18px;
+    font-weight: 600;
+}
+.tabContent1 ul, .tabContent2 ul, .tabContent ul {
+    margin-bottom: 10px;
+}
+#dropdown-1 a .listbg .active-text, #dropdown-2 a .listbg .active-text, #dropdown-3 a .listbg .active-text{
+    color: #fff;
+    opacity: 1;
+}
+#dropdown-1 a .active-logo, #dropdown-2 a .active-logo, #dropdown-3 a .active-logo{
+    background: url(../images/claria-hover.png) no-repeat;
+    background-position: center;
+    width: 100%;
+    left: 0;
+    top: 55px;
+    background-position: center;
+    height: 44px;
+    position: absolute;
+}
+#dropdown-2 a .active-logo{
+    background: url(../images/actia-hover.png) no-repeat;
+    background-position: center;
+}
+#dropdown-3 a .active-logo{
+    background: url(../images/prima-hover.png) no-repeat;
+    background-position: center;
+}
+.active-tab-background{
+    background: -moz-linear-gradient(-45deg, rgba(90,58,195,0) 0%, rgba(0,192,245,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(90,58,195,0) 0%,rgba(0,192,245,1) 100%);
+    background: linear-gradient(135deg, rgba(90,58,195,0) 0%,rgba(0,192,245,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005a3ac3', endColorstr='#00c0f5',GradientType=1 );
+    background-color: #3175b8;
+    -webkit-box-shadow: 0px 1px 68px -3px rgba(45,51,68,0.25);
+    -moz-box-shadow: 0px 1px 68px -3px rgba(45,51,68,0.25);
+    box-shadow: 0px 1px 68px -3px rgba(45,51,68,0.25);
+    border-left: 1px solid transparent;
+}

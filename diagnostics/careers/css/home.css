@@ -1,0 +1,336 @@
+.header {
+    background-color: #ffffff;
+    height: 90px;
+    -webkit-box-shadow: 0px 14px 35px 0px rgba(45,51,68,0.4);
+    -moz-box-shadow: 0px 14px 35px 0px rgba(45,51,68,0.4);
+    box-shadow: 0px 14px 35px 0px rgba(45,51,68,0.4);
+    z-index: 999;
+    position: fixed;
+}
+.header .logo{
+    margin-top: 5px;
+    margin-right: 100px;
+}
+.header .menu li a{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #707070;
+    padding: 33px 8px 36px;
+    float: left;
+    transition: none;
+}
+.header .contact-detail{
+    margin-top: 22px;
+}
+.header .contact-detail li{
+    font-size: 13px;
+}
+.header .contact-detail li a{
+    color: #000;
+    text-decoration: none;
+}
+.header .contact-detail li div{
+    margin-right: 20px;
+    text-align: right;
+}
+.header .contact-detail li img{
+    margin-left: 7px;
+    margin-top: -4px;
+}
+.home-page-container{
+    margin-top:100px;
+}
+/*Research*/
+.research{
+    background: url(../img/us/research.jpg) center;
+    background-size: auto;
+    height: 456px;
+    position: relative;
+    color: #FFF;
+    cursor: pointer;
+}
+.research-text h1, .diagnostics-text h1{
+    letter-spacing: 4px;
+}
+.research div, .diagnostics div{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.research .research-sub-text, .diagnostics .diagnostics-sub-text{
+    top: 33%;
+    letter-spacing: 2px;
+}
+.research .research-description, .diagnostics .diagnostics-description{
+    top: 39%;
+    font-size: 14px;
+    width: 59%;
+    letter-spacing: 0.8px;
+}
+.research .learn-more, .diagnostics .learn-more{
+    top: 54%;
+}
+.research .learn-more a, .diagnostics .learn-more a{
+    color: #FFF;
+}
+.research .announcement, .diagnostics .announcement{
+    top: unset;
+    right: 0;
+    left: unset;
+    bottom: 0;
+    background: #25BBB2;
+    padding: 13px 5px 0px 10px;
+    width: 69%;
+}
+.diagnostics .announcement{
+    background: #0F81BF;
+    right: unset;
+    padding: 13px 5px 0px 10px;
+}
+.announcement ul img{
+    float: left;
+}
+.diagnostics{
+    background: url(../img/us/diagnostics.jpg) center;
+    background-size: auto;
+    height: 456px;
+    position: relative;
+    color: #FFF;
+    cursor: pointer;
+}
+.diagnostics .logos{
+    top: 65%;
+}
+.index-page-body{
+    padding: 0;
+}
+.home-page-footer{
+    background-color: #2e4253;
+    color: #FFF;
+    padding: 33px 0;
+}
+.main-header{
+    text-transform: uppercase;
+    padding: 55px 309px;
+    font-weight: 600;
+    line-height: 80%;
+    color: #2E4254;
+}
+.main-header h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.research-announcement ul img{
+    float: left;
+}
+/*footer*/
+.home-page-footer h3 {
+    font-size: 26px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.home-page-footer .social-media ul{
+    list-style: none;
+}
+.home-page-footer li {
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+.home-page-footer li.tw {
+    background: url(../img/us/social.png) no-repeat left;
+    background-position: 0 -35px;
+    margin-left: 37px;
+}
+.home-page-footer .social-media li a {
+    opacity: .5;
+}
+.home-page-footer .social-media a {
+    color: #ffffff;
+    margin-left: -125px;
+}
+.home-page-footer .social-media .linked a{
+    margin-left: -110px;
+}
+.home-page-footer li.linked {
+    background: url(../img/us/social.png) no-repeat left;
+    background-position: 0 -75px;
+    margin-left: 37px;
+}
+/*.footer-us {
+    opacity: 0.5;
+}*/
+.footer-us ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.footer-country-us {
+    background: url(../img/us/us-flag.png) no-repeat left;
+    background-position: 0px 5px;
+    padding-left: 25px;
+    margin-bottom: 3px !important;
+    margin-left: 0 !important;
+}
+.footer-country-us span{
+    opacity: 0.5;
+}
+.footer-country-border {
+    border-bottom: 1px solid #265169;
+    margin-bottom: 10px;
+    width: 240px;
+}
+.footerContact li {
+    margin-bottom: 15px;
+}
+.footermail {
+    background: url(../img/us/footermail.png) no-repeat left;
+    padding-left: 25px;
+}
+.footermail a{
+    color: #FFF;
+    opacity: 0.5;
+}
+.footerContact li {
+    margin-bottom: 15px;
+}
+.footerPhone {
+    background: url(../img/us/footerphone.png) no-repeat left;
+    padding-left: 25px;
+}
+.footerPhone span{
+    opacity: 0.5;
+}
+.footerAddr {
+    background: rgba(0, 0, 0, 0) url(../img/us/location.png) no-repeat scroll left top;
+    padding-left: 25px;
+}
+.footerAddr span{
+    opacity: 0.5;
+}
+.contact-info{
+    margin-left: 10px;
+}
+/*event pop-up in home page*/
+.events-popup-section {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    z-index: 9;
+}
+#events-popup .container {
+    max-width: 450px;
+}
+.events-popup-section .body-section{
+    padding: 15px;
+    background: #F8F8F9;
+    margin-left: -12px;
+    margin-right: -12px;
+    height: 340px;
+    overflow: scroll;
+}
+/*.main-row button{
+    margin-right: 15px;
+    color: #FFF;
+    opacity: unset;
+    font-size: 35px;
+}*/
+.main-row button:hover{
+    color: #FFF;
+    text-decoration: none;
+    opacity: unset;
+}
+.events-popup-section .main-row .title{
+    background: #FFF;
+    padding: 8px 0 11px 15px;
+    color: #6b7680;
+    font-weight: 600;
+    font-size: 19px;
+    border: 1px solid #c7ccd1;
+}
+.events-popup-section .event-date{
+    padding-top: 22px;
+    border-right: 1px solid #C4D2DB;
+}
+.events-popup-section .event-date h3{
+    color: #1B75B0;
+    font-weight: 600;
+}
+.events-popup-section .event-date .date {
+    font-weight: normal;
+}
+.event-text h4{
+    color: #1B75B0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 10px;
+}
+.event-text a{
+    text-decoration: none;
+}
+.event-row{
+    background: #fff;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 15px;
+}
+.body-section .first{
+    margin-top: 0;
+}
+.event-text p{
+    color: #000;
+    font-size: 12px;
+    margin-top: 7px;
+}
+.event-text p a{
+    color: #1B75B0;
+}
+.contact-us{
+    background: #FAB99E;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 24px;
+    border-radius: 10px 10px 0px 0px;
+}
+.open-pop-up .title:after{
+    content: "\2014";
+    font-family: FontAwesome;
+    float: right;
+    position: relative;
+    right: 11px;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+.close-pop-up .title:after{
+    content: "\f0d7";
+    font-family: FontAwesome;
+    float: right;
+    position: relative;
+    right: 11px;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+.contact-us:after {
+    font-family: FontAwesome;
+    float: right;
+    position: relative;
+}
+#events-popup .form-control{
+    border-radius: 0;
+}
+#events-popup .container-fluid {
+    padding-left: 0;
+}
+.footer-country-india {
+    background: url(../img/us/india-flag.png) no-repeat left;
+    background-position: 0px 5px;
+    padding-left: 25px;
+    margin-bottom: 3px !important;
+    margin-left: 0px !important;
+}

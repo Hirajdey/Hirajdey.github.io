@@ -1,0 +1,32 @@
+﻿@media (min-width: 1200px){
+  .admin{
+    width: 35%;
+  }
+}
+.admin{
+  margin-top: 20px;
+}
+.dashboard .left ul{
+  border:1px solid #eee;
+  margin-top: 10px;
+}
+.dashboard .left li{
+  margin: 7px 0;
+  padding: 10px;
+  text-align: center;
+}
+.dashboard .left li{
+  border-bottom: 1px solid #eee;
+}
+.dashboard .left li:last-child{
+  border: none;
+}
+.dashboard .table-responsive {
+  margin: 15px 0 40px;
+}
+.permission{
+  margin: 100px auto 80px;
+}
+.resultrows td:nth-child(5) p{
+  width: 400px;
+}

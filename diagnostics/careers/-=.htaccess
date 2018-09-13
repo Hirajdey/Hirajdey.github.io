@@ -1,0 +1,24 @@
+RewriteEngine On
+RewriteBase /homepage
+ErrorDocument 404 /homepage/404page.php
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME} \.(gif|jpe?g|png|js|css|swf|ico|txt|pdf|xml)$ [NC]
+RewriteRule ^ - [L]
+
+# browser requests PHP
+RewriteRule ^([a-zA-Z0-9-]+)/?$ $1.php [L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
+RewriteRule ^(.*)\.php$ /homepage/$1 [R=301,L]
+
+#RewriteRule ^(.*)$ http://medgenomenipt.com/$1 [R=301,L]
+
+#RewriteRule ^(.*)stories\.php$ /homepage/media.php [R=301,L]
+RewriteRule ^(.*)panorama\.php$ http://medgenomenipt.com/ [R=301,L]
+RewriteRule ^(.*)panorama/Media\.html$ http://medgenomenipt.com/ [R=301,L]
+RewriteRule ^(.*)panorama/Healthcare-providers\.html$ http://medgenomenipt.com/ [R=301,L]
+
+# One month for css and js
+<filesMatch ".(css|js|jpg|jpeg|png|gif|ico)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>

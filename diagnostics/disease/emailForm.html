@@ -1,0 +1,49 @@
+<div id="emailform">
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="close()" data-dismiss="modal" aria-hidden="true">x</button>
+        <h3 class="modal-title">Login</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <div class="col-md-24">
+                    <input type="email" class="form-control" id="name" placeholder="email" ng-model="loginemail">
+                    <div ng-show="emailValid" class="text-danger">Email field is invalid</div><br><br>
+                    <div id="registerLink" style="display: none" class="text-center text-danger">Your email is not in our database, please <a href ng-click="showRegisterForm(geneid)" class="text-success"><b>click here</b></a> to register</div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-info" type="button" ng-click="emailSubmit(geneid)">Submit</button>
+        <button class="btn btn-info" type="button" ng-click="close()">Close</button>
+    </div>
+</div>
+
+<div id="geneResult" style="display: none">
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="close()" data-dismiss="modal" aria-hidden="true">x</button>
+        <h3 class="modal-title">Gene List</h3>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4"><b>Code</b></div>
+            <div class="col-md-12"><b>Test</b></div>
+            <div class="col-md-4"><b>Method</b></div>
+            <div class="col-md-4"><b>TAT</b></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">{{products[1]}}</div>
+            <div class="col-md-12" ng-bind-html="products[2]"></div>
+            <div class="col-md-4">{{products[3]}}</div>
+            <div class="col-md-4">{{products[4]}}</div>
+        </div>
+    </div>
+    <hr>
+    <div class="modal-body text-center genelistresult" ng-bind-html="products[0]"></div>
+    <div class="modal-footer">
+        <button class="btn btn-info" type="button" ng-click="close()">Close</button>
+    </div>
+</div>

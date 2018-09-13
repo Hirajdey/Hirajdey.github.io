@@ -1,0 +1,138 @@
+<div class="homepage-slider-banner">
+    <div class="container banner-content">
+        <!-- Slider-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                    <img src="{{ curl }}/img/slider/3-min.jpg" class="img-responsive banner hidden-xs">
+                    <img src="{{ curl }}/img/slider/M3-min.jpg" class="img-responsive banner visible-xs">
+                    <div class="banner1-text">
+				   <span>
+					   <div class="thirdline">CLIA certified, CAP accredited, ISO15189 compliant Next Generation Sequencing Lab in California</div>
+					   <div class="secondline">Leading provider of genomic research services</div>
+				   </span>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="{{ curl }}/img/slider/2-min.jpg" class="img-responsive banner hidden-xs">
+                    <img src="{{ curl }}/img/slider/M2-min.jpg" class="img-responsive banner visible-xs">
+                    <div class="banner2-text">
+                                   <span>
+                                   <div class="firstline">Market leader for genetic diagnostic testing in India </div>
+
+                                   </span>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="{{ curl }}/img/slider/1-min.jpg" class="img-responsive banner hidden-xs">
+                    <img src="{{ curl }}/img/slider/M1-min.jpg" class="img-responsive banner visible-xs">
+                    <div class="banner3-text">
+                        <div>How’re you doing, baby?</div>
+                        <div>Know your baby’s genetic health with A NEVER BEFORE</div>
+                        <div>Accuracy</div>
+                        <div class="hidden-xs hidden-sm hidden-md hidden-lg">Know your baby’s genetic health</div>
+                        <a class="scrollto" href="http://medgenomenipt.com/" target="_blank" >Know More</a></div>
+                </div>
+                <div class="item">
+                    <img src="{{ curl }}/img/slider/grant_challenge-min.jpg" class="img-responsive banner hidden-xs">
+                    <img src="{{ curl }}/img/slider/southeast-asia-m-min.jpg" class="img-responsive banner visible-xs">
+                    <div class="banner1-text banner4-text">
+					   <span>
+							<div class="thirdline banner4-text">MedGenome Singapore Announces Whole Genome Sequencing Grant Challenge for South East Asia <a class="scrollto" href="http://www.prnewswire.co.uk/news-releases/medgenome-singapore-announces-whole-genome-sequencing-grant-challenge-for-south-east-asia-607409976.html" target="_blank">Know More</a></div>
+                           <!--<div class="secondline banner4-text"><a class="scrollto" href="http://www.prnewswire.co.uk/news-releases/medgenome-singapore-announces-whole-genome-sequencing-grant-challenge-for-south-east-asia-607409976.html" target="_blank">Know More</a></div>-->
+					   </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#myCarousel").carousel({
+                interval : 3000,
+                pause: false
+            });
+        });
+    </script>
+    <div class="wrapper disease-areas">
+        <div class="container pad-space">
+            <div class="right-arrw visible-lg"></div>
+            <div class="ul-wrapper">
+                <ul>
+                    <li><a href="{{ curl }}/disease.php?act=cardiology">
+                        <div class="round two"></div>
+                        <span>Cardiology</span>
+                    </a>
+                    </li>
+                    <li><a href="{{ curl }}/disease.php?act=connective-tissue-disorder">
+                        <div class="round one"></div>
+                        <span>Tissue Disorders</span>
+                    </a>
+                    </li>
+                    <li><a href="{{ curl }}/disease.php?act=dermatology">
+                        <div class="round three"></div>
+                        <span>Dermatology</span>
+                    </a>
+                    </li>
+                    <li><a href="{{ curl }}/disease.php?act=endocrinology" >
+                        <div class="round four"></div>
+                        <span>Endocrinology</span>
+                    </a>
+                    </li>
+                    <li><a href="{{ curl }}/disease.php?act=ent" >
+                        <div class="round five"></div>
+                        <span>ENT</span>
+                    </a>
+                    </li>
+                    <li><a href="{{ curl }}/disease.php?act=haematology">
+                        <div class="round six"></div>
+                        <span>Haematology</span>
+                    </a>
+                    </li>
+                    <li><a href="{{ curl }}/disease.php?act=immunology" >
+                        <div class="round seven"></div>
+                        <span>Immunology</span>
+                    </a>
+                    </li>
+                    <li><a href="{{ curl }}/disease.php?act=metabolic-disorders">
+                        <div class="round eight"></div>
+                        <span>Metabolic disorders</span>
+                    </a>
+                    </li>
+                    <li><a href="{{ curl }}/disease.php?act=miscellaneous">
+                        <div class="round nine"></div>
+                        <span>Miscellaneous</span>
+                    </a>
+                    </li>
+                    <li><a href="{{ curl }}/disease.php?act=nephrology">
+                        <div class="round ten"></div>
+                        <span>Nephrology</span>
+                    </a>
+                    </li>
+                    <li><a href="{{ curl }}/disease.php?act=neurology">
+                        <div class="round eleven"></div>
+                        <span>Neurology</span>
+                    </a>
+                    </li>
+                    <li><a href="{{ curl }}/disease.php?act=oncology">
+                        <div class="round twelve"></div>
+                        <span>Oncology</span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="left-arrw visible-lg"></div>
+        </div>
+    </div>
+</div>

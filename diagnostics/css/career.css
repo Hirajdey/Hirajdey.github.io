@@ -1,0 +1,10 @@
+#g1-section-1 .g1-layout-inner {
+    margin: 50px auto;
+    max-width: 968px;
+}
+#g1-section-1 .g1-layout-inner h2 {
+    margin-bottom: 1em;
+}
+#g1-section-1 .g1-layout-inner table {
+    width: 100%;
+}

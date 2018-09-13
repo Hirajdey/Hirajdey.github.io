@@ -1,0 +1,48 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-05012017.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-cli": "^1.0.0-beta.28.3",
+    "angular-mocks": "^1.6.2",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-4.x-local-example": "^0.0.0",
+    "express-react-views": "^0.10.2",
+    "express-session": "^1.14.2",
+    "jasmine": "^2.5.3",
+    "jasmine-core": "^2.5.2",
+    "jquery": "^3.2.1",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0",
+    "mysql": "^2.12.0",
+    "nodemon": "^1.11.0",
+    "npm": "^3.10.8",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "passport-oauth": "^1.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "router": "^1.1.4",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

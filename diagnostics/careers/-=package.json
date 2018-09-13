@@ -1,0 +1,17 @@
+{
+  "name": "medgenomereactnode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \" Error: no test specified\" && exit 1 "
+  },
+  "author": "Haja Mynudeen",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-react-views": "^0.10.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}

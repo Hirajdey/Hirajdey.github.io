@@ -1,0 +1,442 @@
+/*Media Queries*/
+@media screen and (max-width: 1350px) {
+.logo img{
+width: 100%;
+height: auto;
+}
+.logo{
+margin: 2% 0;
+padding-left: 10px;
+}
+.contactRightBg{
+width: 230px;
+}
+.contactLeft{
+width: 50px;
+}
+.headerMenu li a{
+font-size: 13px;
+}
+.headerContact{
+width:280px;
+}
+}
+
+@media screen and (max-width: 1200px) {
+
+.logo img{
+width: 95%;
+height: auto;
+}
+.headerMenu li a{
+padding: 36px 9px 37px;
+}
+
+.headerContact{
+width: 270px;
+}
+.contactRightBg{
+width:220px;
+}
+}
+
+@media screen and (max-width: 1119px) {
+.wrapper{
+width: 98%;
+}
+.logo{
+margin: 2.5% 0;
+}
+.headerMenu li a{
+padding: 39px 8px 37px;
+font-size: 11px;
+}
+.eventRight, .pastEvents .eventRight{
+width: 71%;
+}
+.events .eventLeft h5{
+padding: 10px 15px 45px;
+}
+.classLogos li{
+margin-right: 6%;
+}
+.videos li{
+margin-right: 2%;
+}
+.serviceForm .inputField{
+margin: 10px 19.4px;
+}
+.bgAlign .inputThanksTextDiv{
+width: 75%;
+}
+}
+
+@media screen and (max-width: 1023px) {
+.headerMenu li a{
+padding: 39px 6.5px 37px;
+}
+.tabTitle .listbg .tabText{
+height: 50px;
+}
+.bannerContent{
+top: 15%;
+}
+.bannerContent p{
+font-size: 35px;
+}
+ul.tabTitle li a{
+padding: 50px 0 32px 100px;
+}
+.classLogos li{
+margin-right: 5%;
+}
+.upcomingEvents .eventLeft, .pastEvents .eventLeft{
+width: 29%;
+}
+.serviceForm .inputField{
+margin: 10px 18px;
+}
+}
+
+@media screen and (max-width: 979px) {
+.headerMenu{
+display: none;
+}
+.logo{
+margin: 20px auto;
+position: absolute;
+text-align: center;
+float: none;
+width: 100%;
+padding: 0;	
+z-index: -1;
+}
+.header .mobileMenu{
+display: block;
+}
+.logo img {
+height: auto;
+width: auto;
+}
+.homeTab{
+margin-top: 40px;
+z-index: -1;
+}
+.bannerContent p{
+font-size: 30px;
+}
+.tabTitle .listIcon{
+
+}
+.tabTitle .listbg .tabText{
+width: auto;
+font-size: 14px;
+height: 60px;
+}
+ul.tabTitle li a{
+padding: 35px 0 32px 100px;
+}
+.tabContent1 h3, .tabContent2 h3, .tabContent h3{
+font-size: 16px;
+
+}
+.tabContent1 li, .tabContent2 li, .tabContent li{
+font-size: 12px;
+}
+.events h5 span{
+margin-left: 0;
+}
+
+.events .eventLeft h5 {
+padding: 10px 15px 45px;
+}
+.classLogos ul{
+text-align: center;
+}
+.classLogos li{
+width: 30%;
+margin-right: 0;
+margin-bottom: 20px;
+}
+.videoImage img{
+min-height: 185px;
+}
+.videos li a p{
+margin: 58px 0 0 -10px;
+}
+.videos li a span{
+left: 10px;
+}
+.videos li a{
+top: 25%;
+}
+.serviceForm .inputField{
+margin: 10px 16px;
+}
+
+.footerBottom ul{
+width: 515px;
+margin: auto;
+display: block;
+float: none;
+}
+.footerBottom p{
+margin-top: 10px;
+float: left;
+width: 100%;
+text-align: center;
+}
+.unlocking li a{
+margin-left: 18px;
+}
+.unlocking li p{
+margin-right: 10px;
+}
+
+}
+@media screen and (max-width: 875px) {
+.eventRight, .pastEvents .eventRight{
+min-height: 185px;
+}
+.bgAlign .inputThanksTextDiv {
+width: 73%;
+}
+}
+
+@media screen and (max-width: 767px) {
+ul.tabTitle li{
+width: 100%;
+}
+.bannerContent p{
+margin-bottom: 50px;
+font-size: 25px;
+}
+.tabTitle .listbg .tabText{
+font-size: 20px;
+}
+.tabContent1, .tabContent2{
+width: 100%;
+}
+.tabContent1 h3, .tabContent2 h3, .tabContent h3{
+height: auto;
+margin-bottom: 0;
+}
+a.learn{
+float: left;
+}
+.tabContent1{
+margin-bottom: 30px;
+}
+.tabContent1 ul, .tabContent2 ul, .tabContent ul{
+margin-bottom: 10px;
+}
+.noBefore{
+display: none;
+}
+#tabs-3 .tabContent1 li, #tabs-3 .tabContent2 li{
+line-height: 40px;
+}
+.serviceForm .inputField{
+width: 90%;
+}
+.bestInClass{
+padding-top: 40px;
+}
+.upcomingEvents, .pastEvents{
+width: 100%;
+}
+.eventRight, .pastEvents .eventRight{
+min-height: 145px;
+}
+.serviceForm .bgAlign{
+padding:48px 0;
+}
+.bgAlign .inputThanksTextDiv{
+width: 72.7%;
+}
+.footerLeft, .footerRight{
+width: 100%;
+float: left;
+}
+.footerRight{
+margin-top: 30px;
+}
+.header1Right p, .header1Right a{
+background-position: 10px;
+padding: 12px 10px 12px 40px;
+}
+.logo1{
+padding: 20px 0 0 10px;
+}
+.header1Right{
+margin-right: 10px;
+}
+.unlocking li{
+width: 100%;
+margin-bottom: 25px;
+}
+.unlocking h2{
+font-size: 45px;
+}
+
+.unlocking li a {
+margin: auto;
+width: 300px;
+}
+.unlocking ul{
+width: 100%;
+}
+.unlocking li p{
+margin-top: 10px;
+}
+}
+@media screen and (max-width: 639px) {
+.bannerContent p{
+margin-bottom: 25px;
+}
+.homeTab {
+margin-top: 0;
+}
+.customerSaying p{
+font-size: 25px;
+}
+.customerSaying{
+padding: 50px 0;
+}
+.bestInClass h3{
+font-size: 30px;
+}
+.serviceFormDiv .submitBtn{
+margin: auto 0;
+width: 22%;
+}
+.serviceForm .serviceFormCatInput, .serviceForm .serviceFormCatRight{
+width: 100%;
+
+}
+.logo1{
+width: 100%;
+padding: 20px 0 0 0;
+}
+.logo1 img{
+display: block;
+margin: auto;
+width: auto;
+}
+.header1Right{
+width: 100%;
+margin: 0;
+padding: 20px;
+}
+}
+@media screen and (max-width: 769px) {
+.logo {
+text-align: left;
+margin: 20px 0 20px 26%;
+}
+
+}
+@media screen and (max-width: 529px) {
+.wrapper{
+width:320px;
+}
+.header{
+height: auto;
+}
+
+.logo {
+margin: 20px 0;
+padding: 0;
+width: 100%;
+}
+.events .eventLeft h5{
+padding: 10px 15px 25px;
+}
+.videos li{
+width: 100%;
+}
+
+.serviceFormDiv .submitBtn {
+display: block;
+margin: auto;
+width: 50%;
+}
+
+.bgAlign .inputThanksTextDiv {
+text-align: center;
+width: 100%;
+}
+.headerContact{
+width: 100%;
+}
+.footerBottom ul{
+width: 100%;
+text-align: center;
+}
+.tabTitle .listbg .tabText{
+font-size: 18px;
+}
+
+.logo img {
+display: block;
+height: auto;
+margin: auto 4px auto auto;
+width: auto;
+float: right;
+}
+.contactRightBg{
+width: 80%;
+}
+
+.contactLeft {
+padding-left: 10px;
+width: 20%;
+}
+.bannerContent a{
+font-size: 12px;
+padding: 10px 40px;
+}
+.bannerContent p{
+font-size: 14px;
+margin-bottom: 18px;
+}
+.customerSaying p{
+font-size: 14px;
+}
+.customerSaying a{
+font-size: 12px;
+}
+.classLogos li{
+width: 100%;
+}
+.bestInClass h3{
+text-align: center;
+}
+.serviceFormDiv h1, .serviceFormDiv h2{
+font-size: 30px;
+}
+
+.videos li a span {
+left: 30px;
+}
+
+.videos li a p {
+margin: 58px 0 0 10px;
+}
+.footerBottom li{
+width: 100%;
+padding: 0;
+margin-bottom: 10px;
+border: none;
+}
+.footerBottom li a{
+float: none;
+}
+.unlocking h2{
+font-size: 30px;
+}
+.unlocking li a{
+padding-top: 10px;
+height: 50px;
+}
+}

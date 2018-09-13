@@ -1,0 +1,2392 @@
+body, html {
+ height: 100%;
+  background-color: white;
+  color: white;
+  font-family: HelveticaNeueLTPro;
+
+}
+
+h1, h2 {
+  color: black;
+}
+
+h3, h4, h5, h6 {
+  color: black;
+}
+
+p, li, td, th, input, textarea, select, button, label {
+  color: black;
+}
+
+a {
+  color: inherit;
+}
+a:focus, a:active {
+  outline: none;
+  border: none;
+}
+
+@font-face {
+  font-family: HelveticaNeueLTPro;
+  font-weight: 300;
+  src: url(../fonts/HelveticaNeueLTPro-Lt.woff) format("woff");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-Roman;
+  font-weight: normal;
+  src: url(../fonts/HelveticaNeueLTPro-Roman.woff) format("woff");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-bold;
+  font-weight: bold;
+  src: url(../fonts/HelveticaNeueLTPro-Bd.woff) format("woff");
+}
+.home-banr {
+  background-image: url("../img/oncomd/banners/full-banner.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 1280px;
+  height: auto;
+}
+
+.mob-dis-block {
+  display: none;
+}
+
+#mainNav {
+  position: relative;
+}
+#mainNav .one-page {
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  z-index: 99;
+  margin-top: -37px;
+}
+#mainNav .one-page .home-banner-outer {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #ff9000;
+  cursor: pointer;
+  -webkit-border-radius: 220%;
+  -moz-border-radius: 220%;
+  -ms-border-radius: 220%;
+  border-radius: 220%;
+}
+#mainNav .one-page .home-banner-outer:hover {
+  background-color: white;
+  border: 2px solid #ff9000;
+}
+
+#mainNav {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+#mainNav.fade-in {
+  display: block;
+}
+
+.family {
+  font-family: Arial;
+}
+
+.blue {
+  color: #00aeff;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.head-row {
+  z-index: 1;
+  float: left;
+  height: auto;
+  padding: 0;
+  padding-top: 30px;
+  width: 100%;
+  height: auto;
+}
+.head-row .navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  padding: 0;
+  height: auto;
+}
+
+.navbar-default {
+  background: none;
+  border: none;
+}
+.navbar-default .navbar-nav li a {
+  color: white;
+  font-size: 24px;
+  padding: 14px;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus, .navbar-default .navbar-nav li a.active {
+  color: #009dd1;
+}
+.navbar-default .mob-menuwp {
+  display: none;
+}
+.navbar-default .left-margn li a {
+  float: left;
+  display: block;
+}
+
+.hom-tp-butn {
+  float: right;
+  margin-top: 0;
+  visibility:hidden;
+}
+.hom-tp-butn .navbar-right ul {
+  padding-top: 6px;
+  float: left;
+  text-align: center;
+}
+.hom-tp-butn .navbar-right li a {
+  padding: 0;
+}
+.hom-tp-butn .navbar-right li .top-mrgn {
+  margin-top: 13px;
+}
+.hom-tp-butn .navbar-right img {
+  float: left;
+}
+.hom-tp-butn .navbar-right .btn {
+  display: block;
+  float: right;
+  padding: 0 0 0 42px;
+  width: 195px;
+  height: 50px;
+  text-align: left;
+  line-height: 46px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+  font-family: calibri;
+  font-size: 17px;
+  background-image: url("../img/oncomd/icons/in-touch.png");
+  background-position: 11px 14px;
+  background-repeat: no-repeat;
+}
+.hom-tp-butn .navbar-right .btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.hom-tp-butn .navbar-right .btn:focus {
+  outline: none;
+}
+.hom-tp-butn .navbar-right .btn-white-trns {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.main-menu {
+  margin: 0px;
+  padding: 0px;
+}
+
+.banner-head {
+  margin-top: 50px;
+  bottom: 35%;
+  text-align: center;
+  width: 100%;
+}
+.banner-head h2 {
+  color: white;
+  font-size: 72px;
+  font-weight: bold;
+}
+.banner-head h3 {
+  margin-top: 15px;
+  color: white;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.arrw-down {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -27px;
+  -webkit-animation: animate 0.4s ease-out infinite;
+  -moz-animation: animate 0.4s ease-out infinite;
+  animation: animate 0.4s ease-out infinite;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    bottom: 20px;
+  }
+
+  50% {
+    bottom: 23px;
+  }
+
+  100% {
+    bottom: 20px;
+  }
+}
+@-moz-keyframes animate {
+  0% {
+    bottom: 20px;
+  }
+
+  50% {
+    bottom: 23px;
+  }
+
+  100% {
+    bottom: 20px;
+  }
+}
+@keyframes animate {
+  0% {
+    bottom: 20px;
+  }
+
+  50% {
+    bottom: 23px;
+  }
+
+  100% {
+    bottom: 20px;
+  }
+}
+.wrapper-blue1 {
+  padding-top: 34px;
+  width: 100%;
+  height: 190px;
+  background-color: #009dd1;
+  text-align: center;
+}
+.wrapper-blue1 h4 {
+  font-size: 48px;
+  color: white;
+}
+
+.research-wrp {
+  width: 100%;
+  padding: 0;
+}
+.research-wrp .btn {
+  padding: 6px 23px;
+  margin-top: 15px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  font-family: calibri;
+  font-size: 24px;
+}
+.research-wrp h4 {
+  margin-top: 100px;
+  color: #3399ff;
+  font-size: 48px;
+  font-weight: bold;
+}
+.research-wrp p {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.half-col1 {
+  height: 400px;
+  float: left;
+  border-right: 2px solid #cccccc;
+  text-align: center;
+  background-image: url("../img/oncomd/bg/col-1.png");
+  background-size: cover;
+}
+
+.half-col2 {
+  height: 400px;
+  float: right;
+  text-align: center;
+  background-image: url("../img/oncomd/bg/col-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper-black {
+  width: 100%;
+  background-color: #35393b;
+}
+.wrapper-black ul {
+  width: 100%;
+}
+.wrapper-black ul li {
+  padding: 13px 30px;
+  display: block;
+  color: white;
+  font-size: 28px;
+}
+.wrapper-black ul li .size {
+  display: block;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 60px;
+  color: #edaa02;
+}
+
+.center {
+  width: 100%;
+  padding: 0 40px 40px 40px;
+  height: auto;
+  text-align: center;
+}
+.center h4 {
+  padding: 40px 20px 25px 20px;
+  font-size: 48px;
+  color: #286dcc;
+}
+.center p {
+  text-align: justify;
+  font-size: 30px;
+  line-height: 1.3;
+}
+
+.wrapper-white {
+  height: 285px;
+  width: 100%;
+  text-align: center;
+  background-color: #e6ecf4;
+}
+.wrapper-white h5 {
+  margin-top: 45px;
+  font-size: 48px;
+}
+.wrapper-white h6 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+.wrapper-white h6 .mailto {
+  width: auto;
+  height: auto;
+}
+.wrapper-white h6 .family {
+  white-space: nowrap;
+}
+.wrapper-white ul {
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+.wrapper-white li {
+  display: inline-block;
+  margin: 0 3px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+.wrapper-white li:hover {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.wrapper-white li:nth-child(1) {
+  background: url(../img/oncomd/sprites/social-home-icons.png) no-repeat -4px -5px;
+}
+.wrapper-white li:nth-child(2) {
+  background: url(../img/oncomd/sprites/social-home-icons.png) no-repeat -63px -5px;
+}
+.wrapper-white li:nth-child(3) {
+  background: url(../img/oncomd/sprites/social-home-icons.png) no-repeat -122px -5px;
+}
+.wrapper-white a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.wrapper-footer {
+  height: 65px;
+  background-color: #090909;
+}
+.wrapper-footer .container {
+  text-align: center;
+}
+.wrapper-footer p {
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 64px;
+  color: white;
+}
+.wrapper-footer p a {
+  color: #2e87ff;
+}
+.wrapper-footer p a:hover {
+  text-decoration: underline;
+}
+
+.research-baner {
+  background-image: url(../img/oncomd/banners/research-banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.research-baner h3 {
+  font-weight: normal;
+}
+
+.wrapper-research {
+  padding: 150px 0 139px 0;
+  width: 100%;
+  background: #2e87ff;
+}
+.wrapper-research .rech-para {
+  position: relative;
+  margin: 0px auto;
+  height: auto;
+  width: 100%;
+}
+.wrapper-research h4 {
+  color: white;
+  font-size: 38px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.inner-banner {
+  width: 100%;
+  height: 100%;
+}
+.inner-banner > .container {
+  height: 100%;
+}
+.inner-banner .banner-title-wrp {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.inner-banner h3 {
+  font-size: 48px;
+  color: white;
+  vertical-align: middle;
+  font-weight: normal;
+  padding: 11% 7% 0 7%;
+}
+.inner-banner h3 span {
+  font-size: 52px;
+}
+.inner-banner .redce-padg-hd h3 {
+  font-size: 48px;
+  padding: 6% 5% 0 5%;
+}
+
+.onco-gene-wrp {
+  position: relative;
+  padding: 66px 0;
+  padding-bottom: 50px;
+  width: 100%;
+  background: white;
+}
+.onco-gene-wrp h3 {
+  padding: 0 8%;
+  color: black;
+  font-size: 48px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.onco-gene-bg {
+  padding-top: 5%;
+}
+.onco-gene-bg .inner-content {
+  position: absolute;
+  top: 83px;
+  left: 29px;
+}
+.onco-gene-bg .carousel-indicators li {
+  margin: 0px;
+  width: 14px;
+  height: 14px;
+  background: #ff9000;
+  border: none;
+}
+.onco-gene-bg .carousel-indicators .active {
+  background-color: white;
+  border: 2px solid #ff9000;
+}
+.onco-gene-bg .carousel-indicators {
+  left: 43%;
+  bottom: -60px;
+}
+
+.onco-gene-bg-right {
+  padding: 5% 0 5% 0%;
+}
+.onco-gene-bg-right .inner-content {
+  position: absolute;
+  top: 84px;
+  left: 175px;
+}
+
+.devlop-wp {
+  display: block;
+}
+
+.clinicians-banner {
+  background-image: url(../img/oncomd/banners/clinicians-banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clinicians-info {
+  width: 100%;
+  padding: 35px 0 0 0;
+}
+.clinicians-info h3 {
+  padding: 0 5%;
+  text-align: center;
+  font-size: 48px;
+  color: black;
+}
+.clinicians-info .clinicians-pic-wrp {
+  padding: 60px 0 25px 0;
+  text-align: center;
+}
+.clinicians-info .clinicians-pic-wrp .clinician-profile {
+  padding: 0;
+  margin: 0;
+}
+
+.report-wrp {
+  width: 100%;
+  height: 268px;
+  text-align: center;
+  background-color: #4d9ed6;
+}
+.report-wrp h3 {
+  margin-top: 65px;
+  margin-bottom: 24px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.report-wrp .btn-primary {
+  display: inline-block;
+  padding: 0 20px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-family: Calibri;
+  font-size: 17px;
+  background-color: #01c9c9;
+  border-color: #02b3b3;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+}
+.report-wrp .btn-primary:hover {
+  background-color: #13d5d5;
+  border-color: #02b3b3;
+}
+
+.enterprise-banner {
+  background-image: url(../img/oncomd/banners/enterprise-baner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.data-info {
+  padding-top: 5px;
+  width: 100%;
+  height: 78px;
+  background-color: #04a09e;
+  text-align: center;
+}
+.data-info h4 {
+  font-weight: 700;
+  color: white;
+  font-size: 48px;
+}
+
+.data-mid-section {
+  padding: 25px 0;
+  width: 100%;
+  height: auto;
+  background-color: #00c1bf;
+}
+.data-mid-section .data-content {
+  padding: 0 15px;
+  text-align: center;
+  display: block;
+  height: 250px;
+}
+.data-mid-section .data-content h3 {
+  padding: 30px 0 10px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  width: 100%;
+}
+.data-mid-section .data-content p {
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+  padding: 0 10px 51px 10px;
+}
+
+.analytics-info {
+  padding-top: 5px;
+  width: 100%;
+  height: 78px;
+  background-color: #029f5f;
+  text-align: center;
+}
+.analytics-info h4 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.analytics-data-mid-section {
+  padding: 21px 0 8px 0;
+  width: 100%;
+  height: auto;
+  background-color: #00b76c;
+  border-bottom: 2px solid white;
+}
+.analytics-data-mid-section .data-content {
+  padding: 0 15px;
+  text-align: center;
+}
+.analytics-data-mid-section h3 {
+  padding: 30px 0 10px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  display: block;
+}
+.analytics-data-mid-section p {
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+  padding: 0 5px 51px 5px;
+}
+
+.img-responsive {
+  display: inline !important;
+}
+
+.partner-baner {
+  background-image: url(../img/oncomd/banners/partner-baner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partner-info {
+  padding-top: 15px;
+  width: 100%;
+  height: 99px;
+  background-color: #cccccc;
+  text-align: center;
+}
+.partner-info h4 {
+  padding-top: 25px;
+  color: black;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.partner-content {
+  padding: 55px 0 40px 0;
+  width: 100%;
+  background-color: #cccccc;
+  text-align: center;
+}
+.partner-content .box-col {
+  float: left;
+  margin-right: 10px;
+  min-height: 420px;
+  background: white;
+  text-align: center;
+}
+.partner-content .box-col:last-child {
+  margin-right: 0;
+}
+.partner-content .box-col h2 {
+  padding-top: 45px;
+  color: #62a5ff;
+  font-size: 30px;
+  font-weight: 700;
+}
+.partner-content .box-col h3 {
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+}
+.partner-content .box-col p {
+  padding: 25px 20px;
+  height: 120px;
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: justify;
+}
+.partner-content .box-col .btn-primary {
+  margin: 30px 0 30px;
+  padding-top: 8px;
+  width: 155px;
+  height: 38px;
+  background: black;
+  font-family: Calibri;
+  font-size: 14px;
+  font-weight: normal;
+  color: white;
+  border: none;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+.partner-content .box-col .btn-primary:hover, .partner-content .box-col .btn-primary:focus, .partner-content .box-col .btn-primary:active {
+  background: #33373f;
+}
+.partner-content .box-col .sponser {
+  padding-top: 37px;
+  height: 116px;
+  background: #2989c0;
+}
+.partner-content .box-col .sponser-two {
+  padding-top: 28px;
+  background: #049f9a;
+}
+.partner-content .box-col .sponser-three {
+  padding-top: 43px;
+  background: #084467;
+}
+.partner-content .spn-two h2 {
+  color: #049f9a !important;
+}
+.partner-content .spn-three h2 {
+  color: #084467 !important;
+}
+
+.press-baner {
+  background-image: url(../img/oncomd/banners/press-banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.press-info {
+  padding-top: 15px;
+  padding-bottom: 48px;
+  width: 100%;
+  background-color: #128ccb;
+  text-align: center;
+}
+.press-info h4 {
+  padding-top: 25px;
+  color: white;
+  font-size: 41px;
+  font-weight: 700;
+}
+
+.press-content {
+  padding-bottom: 40px;
+  width: 100%;
+  background-color: #128ccb;
+}
+.press-content .press-box-col {
+  float: left;
+  padding: 38px 30px 38px 30px;
+  margin: 0px 10px 10px 0px;
+  width: 100%;
+  height: 347px;
+  background-color: white;
+}
+.press-content .press-box-col:nth-child(even) {
+  margin-right: 0;
+}
+.press-content .press-box-col p {
+  padding-top: 30px;
+  color: black;
+  font-size: 21px;
+  font-weight: normal;
+}
+.press-content .press-box-col a {
+  float: right;
+  color: #00469d;
+  font-size: 21px;
+  font-weight: normal;
+}
+.press-content .press-box-col a:hover {
+  color: #4f88cf;
+}
+.press-content .press-box-col .fix-height {
+  height: 250px;
+}
+.press-content .press-box-col .fix-height .pres-news {
+  padding-top: 9px;
+}
+.press-content .press-box-col .btn-primary {
+  padding-top: 8px;
+  width: 155px;
+  height: 38px;
+  background: black none repeat scroll 0% 0%;
+  font-family: Calibri;
+  font-size: 14px;
+  font-weight: normal;
+  color: white;
+  border: medium none;
+  border-radius: 30px;
+}
+.press-content .press-box-col .btn-primary:hover {
+  color: white;
+  background: #33373f;
+}
+
+.about-banner {
+  background-image: url(../img/oncomd/banners/about-banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-info {
+  width: 100%;
+  background-color: #153f6e;
+  height: 164px;
+}
+.about-info > .container {
+  display: table;
+  height: 100%;
+}
+.about-info p {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+}
+.about-info .about-send-para {
+  padding: 0 4%;
+}
+
+.about-mid-section {
+  padding: 54px 0 44px 0;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.about-mid-section .info-row-wp {
+  padding: 0 20px;
+  float: left;
+  width: 100%;
+}
+.about-mid-section p {
+  padding: 0 20px;
+  margin-bottom: 80px;
+  font-size: 26px;
+  color: black;
+  text-align: justify;
+}
+.about-mid-section .abut-para {
+  float: left;
+}
+.about-mid-section .info-row {
+  display: table;
+  margin: 0 auto 11px auto;
+  width: 100%;
+  height: 127px;
+}
+.about-mid-section .info-row p {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+.about-mid-section .info-row.color-1 {
+  background-color: #2b8bc8;
+}
+.about-mid-section .info-row.color-2 {
+  background-color: #03bcc8;
+}
+.about-mid-section .info-row.color-3 {
+  background-color: #507e81;
+}
+
+.genomic-info-wrp {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 4px;
+}
+.genomic-info-wrp .left-col {
+  padding: 0 20px;
+  background-color: #147eb5;
+  border-right: solid 2px white;
+  width: 50%;
+}
+.genomic-info-wrp .left-col .content-area {
+  padding: 20px 0 40px 0;
+  float: right;
+  height: 890px;
+}
+.genomic-info-wrp .left-col .content-area .about-alter {
+  height: 586px;
+}
+.genomic-info-wrp .right-col {
+  padding: 0;
+  float: right;
+  width: 50%;
+  background-color: #03bcc8;
+}
+.genomic-info-wrp .right-col .content-area {
+  padding: 20px 0 40px 18px;
+  float: left;
+  height: 890px;
+  border-left: solid 2px white;
+}
+.genomic-info-wrp p {
+  margin-bottom: 0;
+  padding-right: 15px;
+  font-size: 28px;
+  color: white;
+}
+.genomic-info-wrp ul {
+  padding: 40px 60px 0 20px;
+  width: 100%;
+}
+.genomic-info-wrp li {
+  display: inline-block;
+  margin-bottom: 25px;
+  vertical-align: top;
+  width: 24.4%;
+}
+.genomic-info-wrp li span {
+  display: block;
+  margin: 0 auto 12px auto;
+  width: 105px;
+  height: 85px;
+  background-image: url(../img/oncomd/sprites/sprites.png);
+  background-repeat: no-repeat;
+}
+.genomic-info-wrp li .genes {
+  background-position: 0 0;
+}
+.genomic-info-wrp li .ammino {
+  background-position: -105px 0;
+}
+.genomic-info-wrp li .approved {
+  background-position: -210px 0;
+}
+.genomic-info-wrp li .protein {
+  background-position: 0 -85px;
+}
+.genomic-info-wrp li .list {
+  background-position: -105px -85px;
+}
+.genomic-info-wrp li .sample {
+  background-position: -210px -85px;
+}
+.genomic-info-wrp li .cancers {
+  background-position: 0 -170px;
+}
+.genomic-info-wrp li .link {
+  background-position: -105px -170px;
+}
+.genomic-info-wrp li .frequency {
+  background-position: -210px -170px;
+}
+.genomic-info-wrp li .chromosomes {
+  background-position: 0 -255px;
+}
+.genomic-info-wrp li .mutations {
+  background-position: -105px -255px;
+}
+.genomic-info-wrp li .pathway {
+  background-position: -210px -255px;
+}
+.genomic-info-wrp li label {
+  display: block;
+  padding: 0 5px;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.genomic-info-wrp .exploratory-wrp {
+  width: 100%;
+  margin: 48px auto;
+  text-align: center;
+  height: 525px;
+}
+
+@media (min-width: 1280px) {
+	
+		
+  .container {
+    width: 1164px;
+  }
+  .container .wrapper-black ul {
+    width: 100%;
+  }
+  .container .wrapper-black ul li {
+    font-size: 20px;
+  }
+  .container .wrapper-black ul li .size {
+    font-size: 55px;
+  }
+  .container .left-margn {
+    margin-left: 0px;
+	width:66%;
+  }
+  .container .left-margn li a {
+    padding: 15px 13px;
+  }
+  .container .data-content {
+    height: 280px;
+  }
+  .container .data-content h3 {
+    display: block;
+  }
+  
+  #page-one.home-banr .left-margn.nav.navbar-nav.col-md-15 {
+    width: 66%;
+}
+}
+@media (min-width: 992px) and (max-width: 1198px) {
+  .container {
+    width: 955px;
+  }
+  .container .navbar-brand img {
+    margin: -5% 0px 0px 9%;
+  }
+  .container .navbar-nav li a {
+    font-size: 19px;
+    padding: 7px;
+  }
+  .container .navbar-nav li .top-mrgn {
+    margin-top: 0;
+  }
+  .container .banner-head h2 {
+    font-size: 65px;
+  }
+  .container .banner-head h3 {
+    font-size: 25px;
+  }
+
+#page-one.home-banr .left-margn.nav.navbar-nav.col-md-15 {
+    width: 65%;
+}
+  .wrapper-blue1 h4 {
+    font-size: 43px;
+  }
+
+  .wrapper-black ul {
+    width: 100%;
+  }
+  .wrapper-black ul li {
+    font-size: 21px;
+  }
+  .wrapper-black ul li .size {
+    font-size: 40px;
+  }
+
+  .center h4 {
+    font-size: 43px;
+  }
+  .center p {
+    font-size: 25px;
+  }
+
+  .navbar-nav li .top-mrgn {
+    margin-top: 5px;
+  }
+
+  .onco-gene-wrp h3 {
+    font-size: 43px;
+  }
+
+  .inner-banner h3 {
+    font-size: 43px;
+  }
+
+  .clinicians-info h3 {
+    font-size: 43px;
+  }
+
+  .analytics-data-mid-section h3 {
+    font-size: 24px;
+  }
+
+  .data-content {
+    height: 280px;
+  }
+  .data-content h3 {
+    display: block;
+  }
+
+  .box-col {
+    margin-bottom: 8px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .banner-head {
+    margin-top: 95px;
+  }
+
+#page-one.home-banr .left-margn.nav.navbar-nav.col-md-15 {
+    width: 65%;
+}
+  .inner-banner h3 {
+    padding-top: 18%;
+  }
+  .inner-banner .data-content {
+    padding: 0 25px;
+  }
+  .inner-banner .data-content h3 {
+    padding-top: 8%;
+  }
+  .inner-banner .redce-padg-hd h3 {
+    padding-top: 6%;
+  }
+
+  .genomic-info-wrp p {
+    padding-right: 0;
+    font-size: 27px;
+  }
+  .genomic-info-wrp .left-col .content-area ul {
+    padding: 0;
+  }
+  .genomic-info-wrp .left-col .content-area ul li {
+    width: 24%;
+  }
+  .genomic-info-wrp .left-col .content-area .about-alter {
+    height: 558px;
+  }
+
+  .analytics-data-mid-section .data-content {
+    padding: 0px 25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+  .inner-banner {
+    height: 48%;
+  }
+
+  .research-baner, .clinicians-banner, .partner-baner, .about-banner, .press-baner {
+    min-height: 268px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  input[type="text"], select, button, textarea {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+
+  .home-banr {
+    height: auto;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .container .navbar-brand img {
+    margin: -5% 0px 0px 24%;
+  }
+  .container .container-fluid {
+    padding-left: 0;
+  }
+  .container .navbar-header {
+    width: 100%;
+  }
+  .container .hom-tp-butn {
+    float: left;
+    margin-top: 0;
+    width: 71%;
+  }
+  .container .hom-tp-butn ul {
+    float: left;
+  }
+  .container .hom-tp-butn .navbar-right .btn {
+    width: 197px;
+  }
+  .container .hom-tp-butn .navbar-right li .left-margn {
+    margin-top: 0px;
+    margin-left: 13px;
+  }
+  .container .hom-tp-butn .navbar-right li .top-mrgn {
+    margin-top: 0px;
+    margin-left: 13px;
+  }
+  .container .mob-menuwp {
+    display: block;
+  }
+  .container .mob-menuwp .mob-menu {
+    margin: 1.4% 2.3% 0 0;
+    float: right;
+    height: 39px;
+    position: relative;
+  }
+  .container .mob-menuwp .menu-drop-toggle {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99;
+  }
+  .container .mob-menuwp .menu-drop-toggle ul {
+    margin: 0px;
+  }
+  .container .mob-menuwp .menu-drop-toggle li {
+    border-bottom: 1px solid #30668d;
+    background: #1e4d6f;
+    opacity: 0.98;
+  }
+  .container .mob-menuwp .menu-drop-toggle li a {
+    color: #c1e2fa;
+    display: block;
+    padding: 15px 0 15px 0px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .container .mob-menuwp .menu-drop-toggle li a:hover, .container .mob-menuwp .menu-drop-toggle li a.active {
+    color: #00aeff;
+  }
+  .container .mob-menuwp .menu-drop-toggle .mob-menu-butn {
+    width: 100%;
+    opacity: 100%;
+    background: #1e4f71;
+    padding: 33px 0;
+  }
+  .container .mob-menuwp .menu-drop-toggle .mob-menu-butn ul {
+    width: 100%;
+  }
+  .container .mob-menuwp .menu-drop-toggle .mob-menu-butn ul li {
+    width: 100%;
+    border: none;
+    background: none;
+    text-align: center;
+  }
+  .container .mob-menuwp .menu-drop-toggle .mob-menu-butn ul li a {
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+  }
+  .container .mob-menuwp .menu-drop-toggle .mob-menu-butn ul li .top-mrgn {
+    margin-top: 13px;
+    margin-left: 0;
+  }
+  .container .mob-menuwp .menu-drop-toggle .mob-togle {
+    position: relative;
+  }
+  .container .mob-menuwp .menu-drop-toggle .mob-togle-butn {
+    position: absolute;
+    top: 30%;
+    right: 42px;
+    width: 23px;
+    height: 22px;
+    cursor: pointer;
+  }
+  .container .mob-menuwp .menu-drop-toggle .mob-log {
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+  }
+  .container .mob-menuwp .menu-drop-toggle .mob-log:hover {
+    color: white;
+  }
+  .container .left-margn {
+    display: none;
+  }
+
+  .banner-head {
+    margin-top: 19px;
+  }
+  .banner-head h2 {
+    margin-top: 35px;
+    font-size: 42px;
+  }
+  .banner-head h3 {
+    margin-bottom: 85px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .navbar-brand img {
+    margin: -5% 0px 0px 9%;
+  }
+  .navbar-brand .navbar-nav li a {
+    font-size: 19px;
+    padding: 7px;
+  }
+  .navbar-brand .navbar-nav li .top-mrgn {
+    margin-top: 0;
+  }
+
+  .wrapper-blue1 {
+    padding-top: 24px;
+    height: 114px;
+  }
+  .wrapper-blue1 h4 {
+    font-size: 28px;
+  }
+
+  .wrapper-black ul {
+    width: 100%;
+  }
+  .wrapper-black ul li {
+    font-size: 19px;
+    padding: 13px 1px;
+  }
+  .wrapper-black ul li .size {
+    font-size: 41px;
+  }
+
+  .center {
+    padding: 0 30px 20px 20px;
+    background: white;
+  }
+  .center h4 {
+    padding: 26px 20px 18px 20px;
+    font-size: 28px;
+  }
+  .center p {
+    font-size: 17px;
+  }
+
+  .research-wrp h4 {
+    font-size: 30px;
+  }
+  .research-wrp p {
+    font-size: 19px;
+  }
+  .research-wrp .btn {
+    font-size: 20px;
+  }
+
+  .research-baner, .clinicians-banner, .enterprise-banner, .partner-baner, .about-banner, .press-baner {
+    min-height: 381px;
+  }
+
+  .wrapper-white {
+    height: auto;
+  }
+  .wrapper-white h5 {
+    margin-top: 27px;
+    font-size: 38px;
+  }
+  .wrapper-white h6 {
+    font-size: 20px;
+  }
+
+  .half-col1, .half-col2 {
+    height: 290px;
+  }
+
+  .mob-menu {
+    display: block;
+  }
+
+  .inner-banner {
+    height: auto;
+  }
+  .inner-banner h3 {
+    font-size: 36px;
+    padding-top: 100px;
+  }
+  .inner-banner h3 span {
+    font-size: 36px;
+  }
+  .inner-banner .redce-padg-hd h3 {
+    font-size: 30px;
+    padding: 47px 0px 95px;
+  }
+
+  .wrapper-research {
+    padding: 135px 0px 133px;
+  }
+  .wrapper-research h4 {
+    font-size: 28px;
+  }
+
+  .full-wdth {
+    width: 100%;
+  }
+
+  .clinicians-info h3 {
+    font-size: 30px;
+  }
+
+  .report-wrp h3 {
+    font-size: 48px;
+  }
+
+  .data-info {
+    height: 65px;
+  }
+  .data-info h4 {
+    font-size: 40px;
+  }
+
+  .data-content {
+    height: 280px;
+  }
+  .data-content h3 {
+    font-size: 24px;
+    display: block;
+    padding-top: 30px;
+  }
+
+  .rech-para h4 {
+    font-size: 26px;
+  }
+
+  .onco-gene-wrp h3 {
+    font-size: 30px;
+  }
+
+  .partner-info {
+    height: 75px;
+  }
+  .partner-info h4 {
+    padding-top: 0px;
+    font-size: 35px;
+  }
+
+  .partner-content {
+    padding: 0px;
+  }
+  .partner-content .box-col {
+    margin-bottom: 8px;
+    min-height: inherit;
+  }
+  .partner-content .box-col h2 {
+    padding-top: 37px;
+  }
+  .partner-content .box-col p {
+    height: auto;
+    padding-bottom: 5%;
+  }
+  .partner-content .box-col .btn-primary {
+    margin-top: 0px;
+  }
+
+  .press-content {
+    outline: none;
+    border: none;
+    margin-top: -1px;
+  }
+
+  .press-info h4 {
+    font-size: 35px;
+  }
+
+  .genomic-info-wrp p {
+    padding-right: 0;
+    font-size: 26px;
+  }
+  .genomic-info-wrp .left-col {
+    margin-bottom: 5px;
+    width: 100%;
+    border-right: none;
+  }
+  .genomic-info-wrp .right-col {
+    width: 100%;
+  }
+  .genomic-info-wrp .right-col .content-area {
+    border-left: 0;
+  }
+
+  .about-info {
+    height: 115px;
+  }
+  .about-info p {
+    font-size: 17px;
+  }
+
+  .about-mid-section p {
+    font-size: 16px;
+  }
+  .about-mid-section .info-row {
+    height: 77px;
+  }
+  .about-mid-section .info-row p {
+    font-size: 18px;
+  }
+
+  .banner-title-wrp h3 {
+    padding-bottom: 121px;
+  }
+  .banner-title-wrp .press {
+    font-size: 40px;
+  }
+
+  .onco-gene-bg .carousel-indicators {
+    left: 50%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  .inner-banner {
+    height: auto;
+  }
+
+  .research-baner, .clinicians-banner, .partner-baner, .about-banner, .press-baner {
+    height: 100% !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  input[type="text"], select, button, textarea {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+
+  .home-banr {
+    height: auto;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .left-margn {
+    display: none;
+  }
+  .left-margn .hom-tp-butn {
+    display: none;
+  }
+
+  .one-page {
+    display: none;
+  }
+
+  .inner-banner {
+    height: auto;
+  }
+  .inner-banner h3 {
+    padding: 75px 1% 0 1%;
+  }
+  .inner-banner .redce-padg-hd h3 {
+    font-size: 17px;
+    padding-top: 24px;
+  }
+
+  .banner-head {
+    margin-top: 30px;
+  }
+  .banner-head h2 {
+    font-size: 23px;
+  }
+  .banner-head h3 {
+    margin: 11px 0 87px 0;
+    font-size: 13.7px;
+    line-height: 19px;
+  }
+
+  .navbar-brand img {
+    width: 109px;
+    margin-left: 15px;
+  }
+
+  .wrapper-blue1 {
+    padding-top: 25px;
+    height: 114px;
+  }
+  .wrapper-blue1 h4 {
+    font-size: 17px;
+  }
+
+  .research-wrp h4 {
+    margin-top: 73px;
+    font-size: 30px;
+  }
+  .research-wrp p {
+    font-size: 19px;
+  }
+  .research-wrp .btn {
+    font-size: 17px;
+  }
+
+  .half-col1 {
+    height: 273px;
+    border-right: none;
+    border-bottom: 2px solid #cccccc;
+    background-size: cover;
+  }
+
+  .half-col2 {
+    height: 273px;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .wrapper-black ul li {
+    font-size: 14px;
+    padding: 19px 15px;
+    border-bottom: 2px solid #3c4042;
+  }
+  .wrapper-black ul li .size {
+    font-size: 30px;
+  }
+  .wrapper-black ul .mob-rate {
+    border-left: 2px solid #3c4042;
+  }
+
+  .center {
+    padding-bottom: 0;
+  }
+  .center h4 {
+    font-size: 22px;
+    padding: 30px 0px 25px;
+  }
+  .center p {
+    font-size: 16px;
+    padding-bottom: 26px;
+    margin-bottom: 0;
+  }
+
+  .wrapper-white {
+    height: 240px;
+  }
+  .wrapper-white h5 {
+    margin-top: 17px;
+    font-size: 24px;
+  }
+  .wrapper-white ul {
+    margin-top: 28px;
+    margin-bottom: 5px;
+  }
+  .wrapper-white h6 {
+    font-size: 13px;
+  }
+  .wrapper-white .mob-menu-butn {
+    width: 100%;
+    opacity: 100%;
+    background: #1e4f71;
+    padding: 33px 0;
+  }
+  .wrapper-white .mob-menu-butn ul {
+    width: 100%;
+  }
+  .wrapper-white .mob-menu-butn ul li {
+    width: 100%;
+    border: none;
+    background: none;
+    text-align: center;
+  }
+  .wrapper-white .mob-menu-butn ul li a {
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+  }
+  .wrapper-white .mob-menu-butn ul li .top-mrgn {
+    margin-top: 13px;
+  }
+  .wrapper-white .navbar-right {
+    display: none;
+  }
+
+  .mob-menuwp {
+    display: block !important;
+  }
+  .mob-menuwp .mob-menu {
+    margin: 1.4% 25px 0 0;
+    float: right;
+    height: 39px;
+    position: relative;
+  }
+  .mob-menuwp .menu-drop-toggle {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99;
+    height: 100%;
+    overflow: scroll;
+  }
+  .mob-menuwp .menu-drop-toggle ul {
+    margin: 0px;
+  }
+  .mob-menuwp .menu-drop-toggle li {
+    border-bottom: 1px solid #30668d;
+    background: #1e4d6f;
+    opacity: 0.98;
+  }
+  .mob-menuwp .menu-drop-toggle li a {
+    color: #c1e2fa;
+    display: block;
+    padding: 15px 0 15px 0px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .mob-menuwp .menu-drop-toggle li a:hover, .mob-menuwp .menu-drop-toggle li a.active {
+    color: #00aeff;
+  }
+  .mob-menuwp .menu-drop-toggle .mob-menu-butn {
+    width: 100%;
+    opacity: 100%;
+    background: #1e4f71;
+    padding: 33px 0;
+  }
+  .mob-menuwp .menu-drop-toggle .mob-menu-butn ul {
+    width: 100%;
+  }
+  .mob-menuwp .menu-drop-toggle .mob-menu-butn ul li {
+    width: 100%;
+    border: none;
+    background: none;
+    text-align: center;
+  }
+  .mob-menuwp .menu-drop-toggle .mob-menu-butn ul li a {
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+  }
+  .mob-menuwp .menu-drop-toggle .mob-menu-butn ul li .top-mrgn {
+    margin-top: 13px;
+  }
+  .mob-menuwp .menu-drop-toggle .mob-togle {
+    position: relative;
+  }
+  .mob-menuwp .menu-drop-toggle .mob-togle-butn {
+    position: absolute;
+    top: 30%;
+    right: 42px;
+    width: 23px;
+    height: 22px;
+    cursor: pointer;
+  }
+  .mob-menuwp .menu-drop-toggle .mob-log {
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+  }
+  .mob-menuwp .menu-drop-toggle .mob-log:hover {
+    color: white;
+  }
+
+  .left-margn {
+    display: none;
+  }
+
+  .mob-menu {
+    display: block;
+  }
+
+  .hom-top-round {
+    display: none;
+  }
+
+  .inner-banner h3 {
+    font-size: 23px;
+  }
+
+  .wrapper-research {
+    padding: 135px 0px 125px;
+  }
+  .wrapper-research h4 {
+    font-size: 28px;
+  }
+
+  .report-wrp {
+    height: 230px;
+  }
+  .report-wrp h3 {
+    margin-top: 60px;
+    font-size: 28px;
+  }
+
+  .data-info h4 {
+    padding: 15px;
+    font-size: 30px;
+  }
+
+  .analytics-info h4 {
+    padding: 15px;
+    font-size: 30px;
+  }
+  .analytics-info .clinicians-pic-wrp {
+    padding-top: 20px;
+  }
+
+  .data-content {
+    height: 280px;
+  }
+  .data-content h3 {
+    font-size: 24px;
+    display: block;
+    padding-top: 30px;
+  }
+
+  .rech-para h4 {
+    font-size: 26px;
+  }
+
+  .onco-gene-wrp {
+    padding-top: 40px;
+  }
+  .onco-gene-wrp h3 {
+    font-size: 30px;
+  }
+  .onco-gene-wrp .onco-gene-bg, .onco-gene-wrp .onco-gene-bg-right {
+    padding-left: 0px;
+  }
+
+  .clini-analys {
+    width: 100%;
+  }
+
+  .clini-spc {
+    color: #086993;
+  }
+
+  .clini-analytics-wp {
+    width: 100%;
+    background: #e5e5e5;
+    padding: 10px 10px 30px 10px;
+  }
+  .clini-analytics-wp h3 {
+    padding-bottom: 5px;
+    font-size: 26px;
+    color: black;
+    text-align: center;
+  }
+  .clini-analytics-wp .anal-blk {
+    margin-bottom: 2px;
+    width: 100%;
+    background: #378bd2;
+  }
+  .clini-analytics-wp .anal-blk .anly-img {
+    float: left;
+    width: 75px;
+  }
+  .clini-analytics-wp .anal-blk .anly-img .tube-img {
+    margin: 18px 0 0 -5px;
+  }
+  .clini-analytics-wp .anal-blk .anly-txt {
+    float: left;
+    padding: 25px 20px 29px 5px;
+    font-size: 15px;
+    color: white;
+    line-height: 17px;
+    width: 74%;
+  }
+
+  .clini-mob-vari {
+    position: relative;
+    margin: 8px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .clini-mob-vari img {
+    text-align: center;
+  }
+  .clini-mob-vari p {
+    position: absolute;
+    color: #006c7e;
+    font-size: 14px;
+    right: 5px;
+    top: 23px;
+    width: 45%;
+  }
+
+  .clini-blue-wp {
+    padding: 25px 18px;
+    width: 100%;
+    background: #1061a6;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .clin-pant-wp {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .clin-pant-wp .pant-inblk {
+    width: 100%;
+    background: #00b1d1;
+    padding: 15px 18px;
+    color: white;
+    font-size: 14px;
+  }
+  .clin-pant-wp span {
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  .partner-content {
+    padding: 0px;
+  }
+  .partner-content .box-col {
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .partner-content .box-col h2 {
+    padding-top: 37px;
+  }
+  .partner-content .box-col p {
+    height: auto;
+  }
+  .partner-content .box-col .btn-primary {
+    margin-top: 0px;
+  }
+
+  .partner-info h4 {
+    font-size: 20px;
+  }
+
+  .press-info {
+    padding: 25px 0;
+  }
+  .press-info h4 {
+    padding-top: 0;
+    font-size: 28px;
+  }
+
+  .press-content {
+    outline: none;
+    border: none;
+    margin-top: -1px;
+  }
+  .press-content .press-box-col {
+    padding: 30px 22px;
+    height: auto;
+  }
+  .press-content .press-box-col a {
+    float: none;
+  }
+  .press-content .press-box-col p {
+    font-size: 16px;
+  }
+  .press-content .press-box-col .fix-height {
+    height: auto;
+  }
+
+  .press-mob {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .inner-banner h3 span {
+    font-size: 24px;
+  }
+
+  .banner-title-wrp h3 {
+    padding-top: 55px;
+    height: 253px;
+  }
+  .banner-title-wrp .press {
+    font-size: 26px;
+  }
+  .banner-title-wrp .abut-hd {
+    font-size: 24px;
+  }
+
+  .about-info {
+    height: auto;
+    padding: 29px 3px;
+  }
+  .about-info p {
+    font-size: 15px;
+  }
+
+  .about-mid-section {
+    padding-top: 27px;
+  }
+  .about-mid-section p {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+  .about-mid-section .info-row {
+    height: 62px;
+  }
+  .about-mid-section .info-row p {
+    font-size: 16px;
+  }
+
+  .genomic-info-wrp .exploratory-wrp {
+    margin: 0px;
+    height: auto;
+  }
+  .genomic-info-wrp .about-alter {
+    width: 100%;
+  }
+  .genomic-info-wrp .about-alter ul {
+    width: 100%;
+    padding: 0;
+  }
+  .genomic-info-wrp .about-alter ul li {
+    margin-bottom: 40px;
+    width: 31.4%;
+  }
+  .genomic-info-wrp .about-alter ul li span {
+    display: block;
+    margin: 0 auto 12px auto;
+    width: 86px;
+    height: 67px;
+    background-image: url(../img/oncomd/sprites/mob-sprites.png);
+    background-repeat: no-repeat;
+  }
+  .genomic-info-wrp .about-alter ul li .genes {
+    background-position: 0px -3px;
+  }
+  .genomic-info-wrp .about-alter ul li .ammino {
+    background-position: -88px -3px;
+  }
+  .genomic-info-wrp .about-alter ul li .approved {
+    background-position: -164px -3px;
+  }
+  .genomic-info-wrp .about-alter ul li .protein {
+    background-position: 0 -70px;
+  }
+  .genomic-info-wrp .about-alter ul li .list {
+    background-position: -89px -70px;
+  }
+  .genomic-info-wrp .about-alter ul li .sample {
+    background-position: -164px -70px;
+  }
+  .genomic-info-wrp .about-alter ul li .cancers {
+    background-position: 0px -136px;
+  }
+  .genomic-info-wrp .about-alter ul li .link {
+    background-position: -88px -137px;
+  }
+  .genomic-info-wrp .about-alter ul li .frequency {
+    background-position: -174px -140px;
+  }
+  .genomic-info-wrp .about-alter ul li .chromosomes {
+    background-position: 0px -204px;
+  }
+  .genomic-info-wrp .about-alter ul li .mutations {
+    background-position: -81px -203px;
+  }
+  .genomic-info-wrp .about-alter ul li .pathway {
+    background-position: -165px -203px;
+  }
+  .genomic-info-wrp .about-alter ul li label {
+    font-size: 12px;
+  }
+  .genomic-info-wrp p {
+    font-size: 22px;
+    padding: 32px 0 40px 0;
+  }
+  .genomic-info-wrp .left-col {
+    margin-bottom: 5px;
+    padding: 0 10px;
+    width: 100%;
+    border-right: 0;
+  }
+  .genomic-info-wrp .left-col .content-area {
+    width: 100%;
+    height: auto;
+  }
+  .genomic-info-wrp .left-col .content-area .about-alter {
+    height: auto;
+  }
+  .genomic-info-wrp .right-col {
+    margin-bottom: 5px;
+    float: left;
+    width: 100%;
+  }
+  .genomic-info-wrp .right-col .content-area {
+    width: 100%;
+    border-left: 0px;
+    padding: 0 10px;
+    height: auto;
+  }
+
+  .clinicians-prof-wp .profile-wp {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+
+  .clinicians-info h3 {
+    font-size: 30px;
+  }
+
+  .lts-figt {
+    background: white;
+  }
+
+  .press-hd h3 {
+    font-size: 26px;
+  }
+
+  .clin-slidr-mobwp {
+    position: relative;
+    width: 100%;
+  }
+
+  .image {
+    width: 299px;
+    height: 233px;
+    float: left;
+    margin-right: 2px;
+    font-size: 60px;
+    line-height: 90px;
+  }
+
+  .visible {
+    width: 298px;
+    height: 233px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 6px solid #606060;
+    position: relative;
+  }
+
+  .outer {
+    width: 1530px;
+  }
+
+  .slide-out {
+    transition: all 0.8s ease-out;
+  }
+
+  .one {
+    background-image: url(../img/oncomd/banners/clini-slidr-1.jpg);
+  }
+
+  .two {
+    background-image: url(../img/oncomd/banners/clini-slidr-2.jpg);
+  }
+
+  .three {
+    background-image: url(../img/oncomd/banners/clini-slidr-3.jpg);
+  }
+
+  .four {
+    background-image: url(../img/oncomd/banners/clini-slidr-4.jpg);
+  }
+
+  .five {
+    background-image: url(../img/oncomd/banners/clini-slidr-5.jpg);
+  }
+
+  #prevBtn {
+    position: absolute;
+    left: 11px;
+    top: 99px;
+    width: 15px;
+    height: 30px;
+    background: url(../img/oncomd/banners/clini-lft-arow.png) no-repeat;
+    border: none;
+    background-color: none;
+    color: white;
+    z-index: 1;
+    opacity: 0.4;
+  }
+  #prevBtn:disabled {
+    opacity: 0.1;
+  }
+
+  #nextBtn {
+    position: absolute;
+    right: 11px;
+    top: 99px;
+    width: 15px;
+    height: 30px;
+    background: url(../img/oncomd/banners/clini-rgt-arow.png) no-repeat;
+    border: none;
+    background-color: none;
+    color: white;
+    z-index: 1;
+    opacity: 0.4;
+  }
+  #nextBtn:disabled {
+    opacity: 0.1;
+  }
+
+  .fix-height {
+    text-align: center;
+  }
+
+  .partner-content .box-col {
+    min-height: inherit;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  .banner-title-wrp h3 {
+    padding-top: 60px;
+  }
+  .banner-title-wrp .partner-content .box-col {
+    height: auto;
+  }
+  .banner-title-wrp .wrapper-blue1 h4 {
+    font-size: 15px;
+  }
+  .banner-title-wrp .research-baner, .banner-title-wrp .clinicians-banner, .banner-title-wrp .partner-baner, .banner-title-wrp .about-banner, .banner-title-wrp .press-baner {
+    height: 260px;
+  }
+}
+@media (min-width: 320px) and (max-width: 510px) {
+  .inner-banner {
+    height: 333px;
+  }
+  .inner-banner h3 {
+    font-size: 22px;
+  }
+  .inner-banner .redce-padg-hd h3 {
+    padding-top: 17px;
+  }
+
+  .clinicians-info h3 {
+    font-size: 21px;
+  }
+  .clinicians-info .clinicians-pic-wrp {
+    padding-top: 20px;
+  }
+
+  .report-wrp h3 {
+    font-size: 27px;
+  }
+
+  .clinicians-prof-wp {
+    width: 100%;
+  }
+  .clinicians-prof-wp .profile-wp {
+    font-size: 20px;
+    padding: 0 5px;
+  }
+
+  .onco-gene-wrp h3 {
+    font-size: 21px;
+  }
+
+  .clini-spc {
+    color: #086993;
+  }
+
+  .clinicians-pic-wrp {
+    padding-top: 40px;
+  }
+
+  .clini-analytics-wp {
+    width: 100%;
+    color: #e5e5e5;
+  }
+
+  .research-baner {
+    background-position: right center;
+  }
+
+  .wrapper-blue1 h4 {
+    font-size: 17px;
+  }
+}
+@media (min-width: 450px) and (max-width: 767px) {
+  #prevBtn {
+    left: 15px;
+  }
+
+  #nextBtn {
+    right: 15px;
+  }
+
+  .inner-banner .redce-padg-hd h3 {
+    padding-top: 53px;
+  }
+
+  .wrapper-blue1 h4 {
+    font-size: 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 410px) {
+  .mob-dis-block {
+    display: block;
+  }
+
+  .mob-dis-non {
+    display: none;
+  }
+
+  .analytics-data-mid-section p {
+    float: left;
+  }
+
+  .carousel-inner {
+    max-width: 410px;
+  }
+  .carousel-inner img {
+    margin: 0 auto;
+  }
+
+  .wrapper-blue1 h4 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 319px) {
+  body {
+    display: none;
+  }
+}
+
+.top-menu ul {
+  margin: 4px 0 7px 0;
+  float: right;
+}
+.top-menu ul li {
+  padding-left: 10px;
+  display: inline-block;
+}
+.top-menu ul li a {
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .top-menu ul {
+    float: none;
+    text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .top-menu ul {
+    float: none;
+    text-align: center;
+  }
+}
+.g1-header > .g1-background {
+    background-color: transparent !important;
+}
+.header {
+  background-color: #334c9e;
+  padding: 8px 0 0 0;
+}
+@media (min-width: 1200px){
+.lite-advanced{
+  width: 60%;
+}
+}

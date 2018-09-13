@@ -1,0 +1,43 @@
+.transition(){
+  -webkit-transition:all linear 0.5s;
+  -moz-transition:all linear 0.5s;
+  -o-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+  display:block;
+}
+.transition-delay(@delaySec){
+  transition-delay: @delaySec;
+}
+.opacity-zero(){
+  opacity:0;
+}
+.opacity-one(){
+  opacity:1;
+}
+
+.banner.ng-hide-add, .banner.ng-hide-remove, .loading-text.ng-hide-add, .loading-text.ng-hide-remove {
+  .transition();
+}
+.banner.ng-hide-add, .banner.ng-hide-remove {
+  .transition-delay(0.5s);
+}
+.banner.ng-hide-add.ng-hide-add-active, .banner.ng-hide-remove, .loading-text.ng-hide-add.ng-hide-add-active, .loading-text.ng-hide-remove {
+  .opacity-zero();
+}
+.banner.ng-hide-add, .banner.ng-hide-remove.ng-hide-remove-active, .loading-text.ng-hide-add, .loading-text.ng-hide-remove.ng-hide-remove-active {
+  .opacity-one();
+}
+
+/*Example 2*/
+.genomicasia.ng-hide-add, .genomicasia.ng-hide-remove, .loading-text.ng-hide-add, .loading-text.ng-hide-remove {
+  .transition();
+}
+.genomicasia.ng-hide-add, .genomicasia.ng-hide-remove {
+  .transition-delay(1s);
+}
+.genomicasia.ng-hide-add.ng-hide-add-active, .genomicasia.ng-hide-remove, .loading-text.ng-hide-add.ng-hide-add-active, .loading-text.ng-hide-remove {
+  .opacity-zero();
+}
+.genomicasia.ng-hide-add, .genomicasia.ng-hide-remove.ng-hide-remove-active, .loading-text.ng-hide-add, .loading-text.ng-hide-remove.ng-hide-remove-active {
+  .opacity-one();
+}

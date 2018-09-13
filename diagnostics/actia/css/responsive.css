@@ -1,0 +1,108 @@
+/*Media Queries*/
+@media screen and (max-width: 1350px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+    .header-content .main-menu {
+        width: 59%;
+        text-align: left;
+        margin-left: -12px !important;
+        padding: 34px 0 35px;
+    }
+    .header-content .main-menu ul li a {
+        font-size: 11px;
+        padding: unset;
+    }
+
+    .header-us-flag a {
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #707070;
+        padding: 3px 17px 37px 37px;
+        float: right;
+        transition: none;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+
+}
+
+@media screen and (max-width: 1023px) {
+
+}
+
+@media screen and (max-width: 979px) {
+
+
+
+}
+@media screen and (max-width: 875px) {
+
+}
+
+/*iPad*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)  {
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)  {
+
+}
+@media only screen and (max-device-width : 1024px) and (orientation : landscape){
+
+}
+/*iPad end*/
+@media screen and (max-width: 767px) {
+
+    .hero-block {
+        padding-top: 5%;
+        padding-bottom: 25%;
+    }
+    .hero-block img{
+        position: unset;
+        top: auto;
+        left: auto;
+        width: 40%;
+    }
+    .hero-block h1{
+        font-size: 40px;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 639px) {
+
+}
+@media screen and (max-width: 769px) {
+
+}
+/*320 x 480*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait){
+
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape){
+
+}
+@media screen and (max-width: 529px) {
+    #fixed-top {
+        position: static;
+    }
+    /*.hero-block {
+        padding-top: 5%;
+        padding-bottom: 25%;
+    }
+    .hero-block img{
+        position: unset;
+        top: auto;
+        left: auto;
+        width: 19%;
+    }
+    .hero-block h1{
+        font-size: 14px;
+    }
+    .hero-block .book-now{
+        font-size: 9px;
+        font-weight: normal;
+    }*/
+}

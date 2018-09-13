@@ -1,0 +1,7 @@
+Preliminary Screening Procedure:
+ 
+The online test is our primary screen. You will be asked to attempt 20 questions, each carrying equal weightage. Each question tests your knowledge about bioinformatics in general, and NGS in particular. Attempt the test to the best of your knowledge. Remember: after the test – you may have to attend a telephonic technical interview too.
+ 
+By taking this test, you agree to abide by the honor code:
+ 
+1.     You will not ask anyone else to impersonate you, to take this test.

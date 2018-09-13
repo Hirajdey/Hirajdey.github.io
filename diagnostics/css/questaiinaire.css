@@ -1,0 +1,136 @@
+/*Questionnaire*/
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 65px;
+}
+#questionnaire-body{
+    margin-top: 25px;
+}
+.order-mail-sent a{
+    color: #11C9DF;
+    cursor: pointer;
+    text-decoration: none;
+}
+.quentionnairepage .container{
+    margin: 30px auto;
+}
+.order-body ul li input{
+    height:auto;
+    float: right;
+}
+.order-body ul li .alphaber-order{
+    border: 1px solid #DFDEE3;
+    border-radius: 50%;
+    color: #DFDEE3;
+    padding: 4px 10px;
+    margin-right: 10px;
+}
+.quentionnairepage .container .question{
+    font-weight:bold;
+}
+.resultsection .testresult{
+    border: 1px solid #DDE2E6;
+    background-color: #F4FAFA;
+    font-family: AvenirNextLTPro;
+    padding: 30px 0px;
+    margin: 30px auto 50px;
+    text-align: center;
+}
+.resultsection h2{
+    line-height: 45px;
+}
+.resultsection .score{
+    margin-top: 13px;
+}
+.resultsection .score span{
+    color: #16c2f4;
+    font-size: 50px;
+    font-weight: 600;
+}
+.resultsection .testresult hr{
+    width:15%;
+    border-width:2px;
+}
+.quentionnairepage .welcomeuser{
+    float: right;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.quentionnairepage .questionnaire-header-bg{
+    background-color: #F2F1F6;
+    margin-top: -25px;
+}
+.quentionnairepage .questionnaire-header div:nth-child(1){
+    font-size: 30px;
+}
+.quentionnairepage .questionnaire-header div:nth-child(2){
+    background-color: #f66666;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 0;
+    text-align: center;
+    width: 20%;
+}
+.quentionnairepage .testnotesformobile{
+    background-color: #f7fcff;
+    border: 3px solid #9cdff0;
+    color: #54a0b7;
+    font-size: 18px;
+    padding: 15px;
+}
+.quentionnairepage .mobiletimeleft{
+    background-color: #f66666;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 2em;
+    margin: 0 auto 64px;
+    padding: 5px 0;
+    text-align: center;
+    width: 90%;
+}
+.quentionnairepage .testnotes .text-center{
+    background-color: #f7fcff;
+    border: 3px solid #9cdff0;
+    color: #54a0b7;
+    font-size: 18px;
+    padding: 15px;
+    margin: 20px 0;
+}
+.quentionnairepage ul{
+    border: 1px solid #dfdee3;
+    border-bottom: none;
+    margin: 11px 0 0;
+}
+.quentionnairepage ul li{
+    border-bottom: 1px solid #dfdee3;
+    cursor: pointer;
+    padding: 15px;
+}
+.register-success{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.quentionnairepage .row .btn-info {
+    margin: 10px 0 30px 10px;
+}
+.form div{
+    margin-bottom: 14px;
+}
+#questionnaire-body .notes{
+    border: 1px solid #DDE2E6;
+    margin: 30px auto;
+}
+#questionnaire-body .container{
+    max-width:1100px;
+}
+#questionnaire-body .col-md-16{
+    background-color: #F4FAFA;
+    padding: 20px;
+}
+.quentionnairepage .mobilewelcomeuser{
+    color: #000000;
+    font-size: 2em;
+    margin: 0 auto 64px;
+    padding: 5px 0;
+    text-align: center;
+}

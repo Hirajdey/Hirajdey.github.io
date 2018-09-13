@@ -1,0 +1,103 @@
+{ "careers":
+  [
+    {
+      "name": "Java Developer",
+      "url": "careers-java-developer",
+      "type": "it"
+    },
+    {
+      "name": "PHP Developer",
+      "url": "careers-php-developer",
+      "type": "it"
+    },
+    {
+      "name": "Product Manager/Sr. Product Manager",
+      "url": "product-manager",
+      "type": "it"
+    },
+    {
+      "name": "Linux Administrator",
+      "url": "linux-administrator",
+      "type": "it"
+    },
+    {
+      "name": "MIS Manager",
+      "url": "mis-manager",
+      "type": "it"
+    },
+    {
+      "name": "Quality Analyst - Lead",
+      "url": "qa-lead",
+      "type": "it"
+    },
+    {
+      "name": "Bioinformatics Trainee",
+      "url": "",
+      "type": "bioinformatics"
+    },
+    {
+      "name": "Bioinformatics Analyst",
+      "url": "bioinformatics-analyst",
+      "type": "bioinformatics"
+    },
+    {
+      "name": "Bioinformatics Senior Analyst",
+      "url": "bioinformatics-senior-analyst",
+      "type": "bioinformatics"
+    },
+    {
+      "name": "Bioinformatics Scientist",
+      "url": "bioinformatics-scientist",
+      "type": "bioinformatics"
+    },
+    {
+      "name": "Biostatistician",
+      "url": "Biostatistician",
+      "type": "bioinformatics"
+    },
+
+
+    {
+      "name": "Trainee-Genome Analyst",
+      "url": "careers-lab-genome-analyst-trainee",
+      "type": "laboperations"
+    },
+    {
+      "name": "Genome Analyst",
+      "url": "careers-lab-genome-analyst",
+      "type": "laboperations"
+    },
+    {
+      "name": "Research Associate (NIPT)",
+      "url": "careers-lab-research-associate-nipt",
+      "type": "laboperations"
+    },
+    {
+      "name": "Field Embryo biopsy specialist",
+      "url": "careers-embryo-biopsy-specialist",
+      "type": "laboperations"
+    },
+    {
+      "name": "Sr. Executive – Admin & Infrastructure Management",
+      "url": "sr-executive-admin",
+      "type": "administration"
+    },
+
+    {
+      "name": "Manager - Scientific Affairs - Nephrology",
+      "url": "manager-scientific-affairs-nephrology",
+      "type": "marketingandsale"
+    },
+    {
+      "name": "Sales Head -  PGS, PGD and Prenatal Services",
+      "url": "sales-head-pgs-pgd-prenantal-services",
+      "type": "marketingandsale"
+    },
+    {
+      "name": "Training Manager (Individual Contributor Role)",
+      "url": "hr-training-manager",
+      "type": "financeandhr"
+    }
+
+  ]
+}

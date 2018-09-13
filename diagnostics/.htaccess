@@ -1,0 +1,37 @@
+RewriteEngine On
+ErrorDocument 404 /claria/404page.php
+DirectoryIndex index.php index.html index.htm
+Options +Indexes
+
+RewriteBase /diagnostics
+
+# add a trailing slash to /diagnostics
+RewriteRule ^diagnostics$ diagnostics/ [R=301,L]
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule . index.php [L]
+
+#RewriteCond %{HTTP_HOST} ^diagnostics\.medgenome\.com
+#RewriteRule ^(.*)$ http://www\.medgenome\.com/diagnostics /$1 [L]
+
+# browser requests PHP
+#RewriteRule ^([a-zA-Z0-9-]+)/?$ $1.php [L]
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
+
+# browser requests PHP
+RewriteRule ^([a-zA-Z0-9-]+)/?$ $1.php [L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
+RewriteRule ^(.*)\.php$ /claria/$1 [R=301,L]
+
+#RewriteCond %{HTTP_HOST} ^example.com[nc]
+#RewriteRule ^(.*)$ http://www.example.com/$1 [r=301,nc]
+
+#RewriteCond %{HTTP_HOST} !^diagnostics.medgenome.com$ [NC]
+#RewriteRule ^(.*)$ https://www.diagnostics.medgenome.com/$1 [L,R=301]
+
+#RewriteCond %{HTTP_HOST} ^/claria[nc]
+#RewriteRule ^(.*)$ http://localhost/claria/index.php/$1 [r=301,nc]
+
+#RewriteRule ^press.php$ http://medgenome.com/press/ [R=301,L]
+#Redirect /claria/press.php /claria/pressnews.php

@@ -1,0 +1,62 @@
+@font-face {
+  font-family : 'medgenome-custom-icon-font';
+  font-weight : normal;
+  font-style : normal;
+
+  src : url('../fonts/medgenome-custom-icon-font.eot?');
+  src : url('../fonts/medgenome-custom-icon-font.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/medgenome-custom-icon-font.ttf?') format('truetype'),
+  url('../fonts/medgenome-custom-icon-font.woff?') format('woff'),
+  url('../fonts/medgenome-custom-icon-font.svg?#medgenome-custom-icon-font') format('svg');
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family : 'medgenome-custom-icon-font';
+  font-weight : normal;
+  font-style : normal;
+  font-variant : normal;
+  line-height : 1;
+  text-transform : none;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing : grayscale;
+  speak : none;
+}
+
+.mgci-book:before {
+  content : '\e908';
+}
+
+.mgci-events:before {
+  content : '\e905';
+}
+
+.mgci-press:before {
+  content : '\e906';
+}
+
+.mgci-video:before {
+  content : '\e907';
+}
+
+.mgci-sms:before {
+  content : '\e902';
+}
+
+.mgci-envelope:before {
+  content : '\e903';
+}
+
+.mgci-phone-ring:before {
+  content : '\e904';
+}
+
+.mgci-phone:before {
+  content : '\e900';
+}
+
+.mgci-speech:before {
+  content : '\e901';
+}

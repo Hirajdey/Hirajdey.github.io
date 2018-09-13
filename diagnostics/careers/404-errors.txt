@@ -1,0 +1,13 @@
+sitehttp://medgenome.com/oncomdpress.php, Click -> News Today -> 404
+
+Dermatology - link having :http://medgenome.com/disease.php?act=dermatology/, pls remove the end slash.
+
+In sitemap, GRS is linked with: http://medgenome.com/grs/genomic-research-services.html, can we change it to http://medgenome.com/service.php
+
+In sitemap, give media link like media.php?year=2016&month=january instead of meadia.php
+
+MedGenome Inc. is a genomics-based research company headquartered in California with the mission to improve global health by decoding genetic information contained in an individual's genome. It is also a founding member of GenomeAsia 100K initiative to sequence 100,000 Genomes in South, North and East Asia.
+Our NGS lab in Foster City, California is ISO 15189 compliant, CLIA certified, and CAP accredited.
+
+<p>MedGenome Inc. is a genomics-based research company headquartered in California with the mission to improve global health by decoding genetic information contained in an individual's genome. It is also a founding member of GenomeAsia 100K initiative to sequence 100,000 Genomes in South, North and East Asia.</p>
+    <p>Our NGS lab in Foster City, California is ISO 15189 compliant, CLIA certified, and CAP accredited.</p>

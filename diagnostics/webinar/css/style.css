@@ -1,0 +1,24 @@
+.thank-you-title{
+    font-size: 42px;
+    color: rgb(3, 78, 129);
+    font-weight: bold;
+    font-family: Lato;
+    font-style: italic;
+    margin: 10px 0;
+}
+.thank-you-message{
+    line-height: 38px;
+    font-family: Lato;
+    font-size: 28px;
+}
+.facebook-button{
+    color: #FFF;
+    background: rgba(128,43,121,1);
+    padding: 6px 32px;
+    border: none;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 20px 0;
+}

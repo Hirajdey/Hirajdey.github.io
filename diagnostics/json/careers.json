@@ -1,0 +1,116 @@
+{ "careers":
+  [
+    {
+      "name": "Java Developer",
+      "url": "careers-java-developer",
+      "type": "it"
+    },
+    {
+      "name": "PHP Developer",
+      "url": "careers-php-developer",
+      "type": "it"
+    },
+    {
+      "name": "MIS Manager",
+      "url": "mis-manager",
+      "type": "it"
+    },
+    {
+      "name": "Quality Analyst - Lead",
+      "url": "qa-lead",
+      "type": "it"
+    },
+    {
+      "name": "Bioinformatics Trainee",
+      "url": "",
+      "type": "bioinformatics"
+    },
+    {
+      "name": "Bioinformatics Analyst",
+      "url": "bioinformatics-analyst",
+      "type": "bioinformatics"
+    },
+    {
+      "name": "Bioinformatics Senior Analyst",
+      "url": "bioinformatics-senior-analyst",
+      "type": "bioinformatics"
+    },
+    {
+      "name": "Bioinformatics Scientist",
+      "url": "bioinformatics-scientist",
+      "type": "bioinformatics"
+    },
+    {
+      "name": "Biostatistician",
+      "url": "Biostatistician",
+      "type": "bioinformatics"
+    },
+
+
+    {
+      "name": "Clinical Geneticist",
+      "url": "clinical-geneticist",
+      "type": "laboperations"
+    },
+    {
+      "name": "Statistical Geneticist",
+      "url": "statistical-geneticist",
+      "type": "laboperations"
+    },
+    {
+      "name": "Genome Analyst",
+      "url": "genome-analyst",
+      "type": "laboperations"
+    },
+    {
+      "name": "Associate Scientist",
+      "url": "associate-scientist",
+      "type": "laboperations"
+    },
+    {
+      "name": "Senior Research Associate",
+      "url": "senior-research-associate",
+      "type": "laboperations"
+    },
+    {
+      "name": "Medical Lab Technician",
+      "url": "medical-lab-technician",
+      "type": "laboperations"
+    },
+    {
+      "name": "Genetic Counsellor",
+      "url": "genetic-counsellor",
+      "type": "laboperations"
+    },
+    {
+      "name": "Sr. Executive – Admin & Infrastructure Management",
+      "url": "sr-executive-admin",
+      "type": "administration"
+    },
+
+
+    {
+      "name": "Manager - Scientific Affairs - Oncology",
+      "url": "manager-scientific-affairs-oncology",
+      "type": "marketingandsale"
+    },
+    {
+      "name": "Business Development Manager - NIPT",
+      "url": "business-development-manager-nipt",
+      "type": "marketingandsale"
+    },
+    {
+      "name": "Business Development Manager - Oncology",
+      "url": "business-development-manager-oncology",
+      "type": "marketingandsale"
+    },
+
+
+    {
+      "name": "Training Manager (Individual Contributor Role)",
+      "url": "hr-training-manager",
+      "type": "financeandhr"
+    }
+
+  ]
+}

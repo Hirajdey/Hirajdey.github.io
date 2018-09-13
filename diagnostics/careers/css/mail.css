@@ -1,0 +1,43 @@
+/*body {
+    width: 80%;!* whatever , can be a fixed width , basicly to show behavior on resize *!
+    margin: auto;
+}
+body>div {
+    background:
+            linear-gradient(to bottom right, #830024 50%, transparent 50.5%) no-repeat bottom,
+                !* bottom part *!
+            linear-gradient(0deg, #830024, #830024) no-repeat top;
+    !* top portion *!
+    color: white;
+    padding-bottom: 3em;
+    background-size: 100% 7em, 100% calc(100% - 7em)
+}
+
+.skewed-bg{
+    background: #830024;
+    -webkit-transform: skew(0deg, -9deg);
+    transform: skew(0deg, -9deg);
+    margin-top: -200px;
+}
+.skewed-bg .container{
+    -webkit-transform: skew(0deg, 9deg);
+    transform: skew(0deg, 9deg);
+    padding-top: 200px;
+    color: white;
+}
+.skewed-bg2{
+    background:
+            !*linear-gradient(to bottom right, #830024 50%, transparent 50.5%) no-repeat bottom,
+            linear-gradient(0deg, #830024, #830024) no-repeat top;*!
+
+            linear-gradient(to top right, #830024 50%, transparent 50.5%) no-repeat top, linear-gradient(to bottom right, #830024 50%, transparent 50.5%) no-repeat bottom,
+            linear-gradient(0deg, #830024, #830024) no-repeat bottom;
+    !* top portion *!
+    color: white;
+    padding-bottom: 10em;
+    background-size: 100% 5em, 100% calc(100% - 7em)
+}*/
+.top{
+    border:1px solid black;
+    background: #3FBAEB;
+}
