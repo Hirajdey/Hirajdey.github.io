@@ -1,0 +1,50 @@
+{
+	"siteLogo":"img/logo.png",
+	"contactBtn":[
+		"Contact Us"
+	],
+	"navLink":[
+		{
+			"secHed": "Websites",
+			"bgcolor":"",
+			"text" :"We design experiences keeping the user-first approach. Our websites are innovative, reflecting style and intelligence. We build simple, creative, usable websites by blending latest technology and creativity.",
+			"col":[
+
+			]
+		},
+		{
+			"secHed": "Mobile Apps",
+			"bgcolor":"pink",
+			"col":[
+				
+			]
+		},
+		{
+			"secHed": "Seo",
+			"bgcolor":"",
+			"text":"If you are a webdevelopr? you need to know about SEO",
+			"col":[
+				
+			]		
+		},
+		{
+			"secHed": "Videos",
+			"bgcolor":"",
+			"col":[
+				
+			]	
+		},
+		{
+			"secHed": "Team",
+			"bgcolor":"",
+			"col":[
+				
+			]
+		}
+		
+	]
+}
+
+
+
+

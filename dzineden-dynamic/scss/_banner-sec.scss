@@ -1,0 +1,117 @@
+// .banner-sec{
+// 	height:400px;
+// 	background-color:#673ab7;
+// }
+
+.banner-sec{
+	background-color:#8561c5;
+	position:relative;
+	.container{
+		position: relative;
+		.celebrations-tag{
+			width:210px;
+			position:absolute;
+			top:-22px;
+			img{
+				display:block;
+				width:100%;
+			}
+		}
+		.banner-text{
+			max-width:360px;
+			margin:0 auto;
+			padding:35px 0 0;
+			h1{
+				font-size:20px;
+				font-weight:300;
+				text-align:center;
+				color:#fff;
+				line-height:32px;
+			}
+		}
+	}
+	img{
+		display:block;
+		width:100%;
+	}
+	.celebrat-logo{
+		width:180px;
+		position:absolute;
+		bottom:-80px;
+		margin:0 auto;
+		left:0;
+		right:0;
+		img{
+			display:block;
+			width:100%;	
+		}	
+	}
+}
+
+@media(min-width:575px){
+	.banner-sec{
+		.container{
+			.celebrations-tag{
+				width:270px;
+				position:absolute;
+				top:-22px;
+				left:0;
+			}
+			.banner-text{
+				max-width:100%;
+				margin:0 auto;
+			}
+		}
+		.celebrat-logo{
+			width:250px;
+			bottom:-110px;
+		}
+	}
+}
+
+@media(min-width:768px){
+	.banner-sec{
+		.container{
+			.banner-text{
+				max-width:830px;
+				margin:0 auto;
+				padding:50px 0 0;
+				h1{
+					font-size:26px;
+					line-height:42px;
+				}
+			}
+		}
+		.celebrat-logo{
+			width:320px;
+			bottom:-145px;
+		}
+	}
+}
+
+@media(min-width:990px){
+  .banner-sec{
+		.container{
+			.celebrations-tag{
+				top:-15px;
+			}
+			.banner-text{
+				h1{
+					margin-bottom:5px;
+				}
+			}
+		}
+	}
+}
+
+@media(min-width:1200px){
+  .banner-sec{
+		.container{
+			.banner-text{
+				padding:100px 0 22px;
+			}
+		}
+	}
+}
+
+

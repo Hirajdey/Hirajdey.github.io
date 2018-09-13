@@ -1,0 +1,248 @@
+
+
+	.site-header{
+		background-color:#764dbe;
+	}
+	.site-header{
+	  	.container{
+	  		padding:15px 15px;
+	  		position:relative;
+	  	}
+	 }
+	.site-logo{
+		width:160px;
+		img{
+			display:block;
+			width:100%;
+		}
+	}
+	.site-nav{
+  	position: absolute;
+  	top:100%;
+  	right:0;
+  	width:230px;
+  	background-color:#f0ebf8;
+  	display:none;
+  	transition:1000ms;
+  	-webkit-transition:1000ms;
+  	-moz-transition:1000ms;
+  	z-index:1000;
+  	ul{
+  		z-index:1000;
+  		margin:0;
+  		padding:0;
+  		li{
+  			display:block;
+  			list-style:none;
+  			a{
+  				color:#666666;
+  				font-size:14px;
+  				text-decoration:none;
+  				text-transform: uppercase;
+  				padding:7px 0;
+  				display:block;
+  				border-bottom:solid 1px #fff;
+  				text-align:right;
+  				padding-right:20px;
+  				&:hover{
+  					background-color:#673ab7;
+  					color:#fff;
+  				}
+  			}
+  		}
+  	}
+  }
+  .contact-us{
+  	position:absolute;
+  	right:15px;
+  	top:20%;
+  	a{
+  		display:inline-block;
+  		border:solid 1px #fff;
+  		border-radius:50%;
+  		width:35px;  		
+  		height:35px;  	
+  		color:#fff;	
+  		span{
+  			display:none;
+  		}
+  	}
+  	&:before{
+  		 content:'';
+       display: block;
+       position: absolute;
+       border-style:solid;
+       border-width:.5px;
+       border-color:#b9b6bd;
+       top:0px;
+       bottom:0px;
+  		left:-20px;
+  	}
+  }
+  .hamburger{
+  	position:absolute;
+  	top:40%;
+  	right:90px;
+  	width:30px;
+  	height:20px;
+  	cursor: pointer;
+  	span{
+  		height:3px;
+  		background-color:#fff;
+  		border-radius:5px;
+  		position:absolute;
+  		right:0;
+  		&:first-child{
+  			width:20px;
+  			top:0;
+  		}
+  		&:nth-child(2){
+  			width:25px;
+  			top:7px;
+  		}
+  		&:nth-child(3){
+  			width:30px;
+  			top:14px;
+  		}
+  	}
+  }
+  ._hamrot{
+  	transform: rotate(90deg);
+  	-webkit-transform: rotate(90deg);
+  	-moz-transform: rotate(90deg);
+  	transition:1000ms;
+  	-webkit-transition:1000ms;
+  	-moz-transition:1000ms;
+  }
+
+ 	._ifnavlink{
+ 		overflow-y:scroll;
+ 		height:200px;
+  }
+
+@media(min-width:575px){
+
+}
+
+@media(min-width:768px){
+
+}
+
+@media(min-width:990px){
+  .site-header{
+  	.container{
+  		display:grid;
+  		grid-template-columns:200px 1fr auto;
+  		grid-template-rows:auto;
+  		align-items: center;
+  		grid-column-gap:40px;
+  	}
+  }
+  ._ifnavlink{
+  	position:absolute;
+  	top:80%;
+  	width:100%;
+  	left:0;
+  	right:0;
+  	background-color:#764dbe;
+  	text-align:center;
+  	border-bottom-right-radius:100px;
+		border-bottom-left-radius:100px;
+  	padding:5px 0 !important;
+  	transition: 500ms;
+	-webkit-transition: 500ms;
+	-moz-transition: 500ms;
+	height:unset;
+	overflow-y:unset;
+  }
+
+  .site-logo{
+  	width:unset;
+  }
+  .site-nav{
+  	position: static;
+  	justify-self:end;
+  	width:unset;
+  	background-color:unset;
+  	display:block;
+  	ul{
+  		li{
+  			display:inline-block;
+  			padding: 0 15px;
+  			a{
+  				text-align:unset;
+  				padding-right:0;
+  				color:#fff;
+  				text-decoration:none;
+  				text-transform: uppercase;
+  				border-bottom:solid 1px #764dbe; 
+  				padding:0;
+  				&:hover{
+  					color:#ffd700;
+  					border-bottom:solid 1px #ffd700; 
+  					background-color:unset;
+  				}
+  			}
+  		}
+  	}
+  }
+  .contact-us{
+  	justify-self:end;
+  	position: relative;
+  	top:unset;
+  	a{
+  		width:auto;
+  		height:30px;
+  		border-radius:20px;
+  		padding:0 10px;
+  		line-height:28px;
+  		text-decoration: none;
+  		span{
+  			display:block;
+  		}
+  	}
+  }
+
+  .hamburger{
+  	display:none;
+  }
+
+}
+
+@media(min-width:1200px){
+ 
+}
+
+._stikyheader{
+		transition:1000ms;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top:0;
+    -webkit-transition:1000ms;
+    -moz-transition:1000ms;
+    animation-name:headerSlow;
+    -webkit-animation-name:headerSlow;
+    -moz-animation-name:headerSlow;
+    animation-duration: 0.5s;   
+    -webkit-animation-duration: 0.5s;   
+    -moz-animation-duration: 0.5s;   
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    z-index:1000;
+   
+}
+
+@keyframes headerSlow{
+  0%{
+    top:-50px;
+    opacity: 0;
+  }
+  100%{
+    top:0;
+    opacity: 1;
+  }
+}
+
+	
