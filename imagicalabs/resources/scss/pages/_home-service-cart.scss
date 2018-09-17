@@ -1,6 +1,5 @@
 
 .home-service-box{
-	margin-bottom: 100px;
 	position: relative;
 	.marquee-box{
 	  position: absolute;
@@ -16,7 +15,7 @@
 	}
 
 	h2{
-		font-size:40px;
+		font-size:36px;
 	}
 	.home-services-cart-img{
 		border: solid 10px $white;
@@ -29,7 +28,7 @@
 		-moz-box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.06);
 		box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.06);
 		h3{
-			font-size:40px;
+			font-size:30px;
 			font-weight:700;
 		}
 		ul{
@@ -37,19 +36,19 @@
 			margin:0;
 			li{
 				list-style-type:none;
-				line-height:60px;
+				margin:15px 0;
 				a{
 					color:#414141;
-					font-size:22px;
+					font-size:18px;
 				}
 			}
 		}
 	}
 	.home-service-text{
 		p{
-			font-size: 22px;
-    line-height: 40px;
-    font-weight: 300;
+	    font-size: 18px;
+	    line-height: 30px;
+	    font-weight: 300;
 		}
 	}
 }
@@ -109,8 +108,15 @@
 
 @include media-breakpoint-up(lg) {
 	.home-service-box{
+		margin-bottom: 100px;
 		h2{
 			font-size:80px;
+		}
+		.home-service-text{
+			p{
+				font-size: 22px;
+		    line-height: 40px;
+			}
 		}
 		.homeservice-cart-wrap{
 			// max-width:992px;
@@ -118,6 +124,17 @@
 		}
 		.home-service-small-cart{
 			padding:50px;
+			h3{
+				font-size:40px;
+			}
+			ul{
+				li{
+					margin:24px 0;
+					a{
+						font-size:20px;
+					}
+				}
+			}
 		}
 	}
 }

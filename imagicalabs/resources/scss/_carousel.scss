@@ -169,14 +169,14 @@
 
 .carousel-indicators {
   position: absolute;
-  right:-60px;
+  right: 0;
   z-index: 15;
   display: flex;
   justify-content: center;
   padding-left: 0;
   list-style: none;
-  transform: rotate(90deg);
-  top: 50%;
+  bottom: 30px;
+  left: 0;
   li {
     position: relative;
     flex: 0 1 auto;

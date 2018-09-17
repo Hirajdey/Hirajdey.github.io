@@ -2,10 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   padding-top:15px;
+  padding-left:0;
   list-style: none;
   margin-bottom:0;
   @include border-radius($breadcrumb-border-radius);
-  float: right;
 }
 
 .breadcrumb-item {

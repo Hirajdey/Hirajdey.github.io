@@ -13,8 +13,9 @@
 
 
 .hero-banner-wrap.single-page-hero-banner-wrap{
-	height:480px;
+	height:280px;
 }
+
 .hero-banner-wrap.single-page-hero-banner-wrap{
 	.container{
 		margin-top:0;
@@ -23,12 +24,12 @@
 
 .site-hero-banner-sec{
 	.carousel-inner{
-		height: 560px;	
+		height: 390px;	
 	}
 }
 
 .hero-banner-wrap{ 
- height: 560px;
+ height: 390px;
  width:100%;
  background-size:cover;
  background-repeat:no-repeat;
@@ -38,14 +39,14 @@
 	h2{
 	 	color:$white;
 	 	text-align: center;
-	  font-size: 65px;
+	  font-size: 36px;
 	  font-weight: 700;
 	 }
 	h4{
 	 	color: $white;
 	  text-align: center;
 	  font-weight: 300;
-	  font-size: 47px;
+	  font-size: 24px;
 	 }
 	 a{
 	  width: 190px;
@@ -71,7 +72,7 @@
 	 .container{
 		// margin-top:-150px;
 		h2{
-		  font-size: 80px;
+		  font-size: 45px;
 		 }
 	 }
 	}
@@ -99,6 +100,9 @@
 		 }
 	 }
 	}
+	.hero-banner-wrap.single-page-hero-banner-wrap{
+		height:380px;
+	}
 }
 
 @include media-breakpoint-up(xl) {
@@ -123,23 +127,23 @@
 }
 
 
-.vert .carousel-item-next.carousel-item-left,
-.vert .carousel-item-prev.carousel-item-right {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-}
+// .vert .carousel-item-next.carousel-item-left,
+// .vert .carousel-item-prev.carousel-item-right {
+//     -webkit-transform: translate3d(0, 0, 0);
+//             transform: translate3d(0, 0, 0);
+// }
 
-.vert .carousel-item-next,
-.vert .active.carousel-item-right {
-    -webkit-transform: translate3d(0, 100%, 0);
-            transform: translate3d(0, 100% 0);
-}
+// .vert .carousel-item-next,
+// .vert .active.carousel-item-right {
+//     -webkit-transform: translate3d(0, 100%, 0);
+//             transform: translate3d(0, 100% 0);
+// }
 
-.vert .carousel-item-prev,
-.vert .active.carousel-item-left {
--webkit-transform: translate3d(0,-100%, 0);
-        transform: translate3d(0,-100%, 0);
-}
+// .vert .carousel-item-prev,
+// .vert .active.carousel-item-left {
+// -webkit-transform: translate3d(0,-100%, 0);
+//         transform: translate3d(0,-100%, 0);
+// }
 
 
 

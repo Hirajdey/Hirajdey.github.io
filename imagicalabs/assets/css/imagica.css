@@ -4158,10 +4158,10 @@ input[type=button].btn-block {
   display: flex;
   flex-wrap: wrap;
   padding-top: 15px;
+  padding-left: 0;
   list-style: none;
   margin-bottom: 0;
   border-radius: 0.25rem;
-  float: right;
 }
 
 .breadcrumb-item + .breadcrumb-item {
@@ -5326,14 +5326,14 @@ button.close {
 
 .carousel-indicators {
   position: absolute;
-  right: -60px;
+  right: 0;
   z-index: 15;
   display: flex;
   justify-content: center;
   padding-left: 0;
   list-style: none;
-  transform: rotate(90deg);
-  top: 50%;
+  bottom: 30px;
+  left: 0;
 }
 .carousel-indicators li {
   position: relative;
@@ -8894,7 +8894,7 @@ h3 {
 }
 
 .hero-banner-wrap.single-page-hero-banner-wrap {
-  height: 480px;
+  height: 280px;
 }
 
 .hero-banner-wrap.single-page-hero-banner-wrap .container {
@@ -8902,11 +8902,11 @@ h3 {
 }
 
 .site-hero-banner-sec .carousel-inner {
-  height: 560px;
+  height: 390px;
 }
 
 .hero-banner-wrap {
-  height: 560px;
+  height: 390px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8914,14 +8914,14 @@ h3 {
 .hero-banner-wrap .container h2 {
   color: #fff;
   text-align: center;
-  font-size: 65px;
+  font-size: 36px;
   font-weight: 700;
 }
 .hero-banner-wrap .container h4 {
   color: #fff;
   text-align: center;
   font-weight: 300;
-  font-size: 47px;
+  font-size: 24px;
 }
 .hero-banner-wrap .container a {
   width: 190px;
@@ -8938,7 +8938,7 @@ h3 {
 
 @media (min-width: 576px) {
   .hero-banner-wrap .container h2 {
-    font-size: 80px;
+    font-size: 45px;
   }
 }
 @media (min-width: 992px) {
@@ -8954,6 +8954,10 @@ h3 {
   }
   .hero-banner-wrap .container h4 {
     font-size: 47px;
+  }
+
+  .hero-banner-wrap.single-page-hero-banner-wrap {
+    height: 380px;
   }
 }
 @media (min-width: 1200px) {
@@ -8974,26 +8978,7 @@ h3 {
     font-size: 47px;
   }
 }
-.vert .carousel-item-next.carousel-item-left,
-.vert .carousel-item-prev.carousel-item-right {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-.vert .carousel-item-next,
-.vert .active.carousel-item-right {
-  -webkit-transform: translate3d(0, 100%, 0);
-  transform: translate3d(0, 100% 0);
-}
-
-.vert .carousel-item-prev,
-.vert .active.carousel-item-left {
-  -webkit-transform: translate3d(0, -100%, 0);
-  transform: translate3d(0, -100%, 0);
-}
-
 .home-service-box {
-  margin-bottom: 100px;
   position: relative;
 }
 .home-service-box .marquee-box {
@@ -9009,7 +8994,7 @@ h3 {
   z-index: 100;
 }
 .home-service-box h2 {
-  font-size: 40px;
+  font-size: 36px;
 }
 .home-service-box .home-services-cart-img {
   border: solid 10px #fff;
@@ -9023,7 +9008,7 @@ h3 {
   box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.06);
 }
 .home-service-box .home-service-small-cart h3 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
 }
 .home-service-box .home-service-small-cart ul {
@@ -9032,15 +9017,15 @@ h3 {
 }
 .home-service-box .home-service-small-cart ul li {
   list-style-type: none;
-  line-height: 60px;
+  margin: 15px 0;
 }
 .home-service-box .home-service-small-cart ul li a {
   color: #414141;
-  font-size: 22px;
+  font-size: 18px;
 }
 .home-service-box .home-service-text p {
-  font-size: 22px;
-  line-height: 40px;
+  font-size: 18px;
+  line-height: 30px;
   font-weight: 300;
 }
 
@@ -9086,11 +9071,27 @@ h3 {
   }
 }
 @media (min-width: 992px) {
+  .home-service-box {
+    margin-bottom: 100px;
+  }
   .home-service-box h2 {
     font-size: 80px;
   }
+  .home-service-box .home-service-text p {
+    font-size: 22px;
+    line-height: 40px;
+  }
   .home-service-box .home-service-small-cart {
     padding: 50px;
+  }
+  .home-service-box .home-service-small-cart h3 {
+    font-size: 40px;
+  }
+  .home-service-box .home-service-small-cart ul li {
+    margin: 24px 0;
+  }
+  .home-service-box .home-service-small-cart ul li a {
+    font-size: 20px;
   }
 }
 @media (min-width: 1200px) {
@@ -9283,19 +9284,19 @@ h3 {
 }
 .inner-services-sec .inner-service-box h2 {
   color: #0BBDD1;
-  font-size: 42px;
+  font-size: 33px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 .inner-services-sec .inner-service-box h3 {
   color: #000;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
   margin-top: 45px;
   margin-bottom: 18px;
 }
 .inner-services-sec .inner-service-box p {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 34px;
   font-weight: 300;
 }
@@ -9305,12 +9306,12 @@ h3 {
 }
 .inner-services-sec .inner-service-box ul li {
   list-style-type: none;
-  margin: 7px 0;
+  margin: 8px 0;
 }
 .inner-services-sec .inner-service-box ul li a {
   display: block;
   color: #3A3A3A;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   text-decoration: none;
 }
@@ -9366,16 +9367,24 @@ h3 {
   font-size: 16px;
 }
 
+.breadcrumb-wrap {
+  background-color: #fff;
+}
+
 .list-of-services-sec {
-  padding: 50px 0;
+  padding: 30px 0;
+  background-color: #fff;
+}
+.list-of-services-sec .service-wrap {
+  width: 100%;
 }
 .list-of-services-sec .service-wrap h2 {
   color: #0BBDD1;
-  font-size: 36px;
+  font-size: 33px;
   margin-bottom: 20px;
 }
 .list-of-services-sec .service-wrap h3 {
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 20px;
   font-weight: 400;
 }
@@ -9385,9 +9394,25 @@ h3 {
   font-weight: 400;
 }
 .list-of-services-sec .service-wrap p {
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 32px;
 }
 
+@media (min-width: 768px) {
+  .list-of-services-sec .service-wrap p {
+    font-size: 18px;
+  }
+
+  .breadcrumb-wrap .container:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .breadcrumb {
+    float: right;
+  }
+}
 @media (min-width: 992px) {
   .ux-design-cart {
     background-image: url(../img/imagica/ux-design.png);
@@ -9422,6 +9447,23 @@ h3 {
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+
+  .inner-services-sec .inner-service-box h2 {
+    font-size: 42px;
+  }
+  .inner-services-sec .inner-service-box h3 {
+    font-size: 32px;
+  }
+  .inner-services-sec .inner-service-box p {
+    font-size: 22px;
+  }
+  .inner-services-sec .inner-service-box ul li {
+    margin: 7px 0;
+  }
+  .inner-services-sec .inner-service-box ul li a {
+    font-size: 20px;
+    display: inline-block;
   }
 
   .branding-design-floting-img1 {
