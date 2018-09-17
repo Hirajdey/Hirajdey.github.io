@@ -1,0 +1,2824 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+
+    <div class="main-body-wrap">
+        <div class="main-navagation MainNavagation" id="">
+            <div class="nav-header">
+                <h1>Siriadarsha</h1>
+                <div class="close-button CloseNavagation" id="">
+                    <span></span>
+                    <span></span>
+                </div><!-- close-button -->
+
+                <div class="cust-img">
+                    <span></span>
+                </div>
+                <div class="cust-text">
+                    <h3>naveen</h3>
+                    <p>Customer ID:STL3456789</p>
+                </div>
+            </div><!-- nav-header -->
+
+             <div class="nav-sec">
+                <ul>
+                    <li><a href="#" id="ClickLoan"><i class="icon-poll"></i>Loans</a></li>
+                    <li><a href="#" id="ClickTransactionH"><i class="icon-restore"></i>Transaction History</a></li>
+                    <li><a href="#" id="ClickSettings"><i class="icon-settings"></i>Settings</a></li>
+                    <li><a href="#" id="ClickHelp"><i class="icon-help"></i>Help</a></li>
+                </ul>
+            </div><!-- nav-sec -->
+        
+        </div><!-- main-navagation -->
+        <div class="main-site-wrap MainSiteWrap" id="">
+            <div class="site-header SiteHeader" id="">
+                <div class="header-mob border-rgt HeaderMob" id="">
+                    <div class="site-logo">
+                        <h1>Siriadarsha</h1>
+                        <div class="humburger HumburgerNav" id="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- humburger -->
+                    </div><!-- site-logo -->
+                </div><!-- header-mob -->
+                    <div class="notification-box" id="NotificaBox">
+                        <ul>
+                            <li><a href="#"><i class="icon-notifications"></i></a></li>
+                            <li><a href="#"><i class="icon-mail_outline"></i></a></li>
+                        </ul>
+                    </div><!-- notification-box -->
+
+                <div class="search-box border-rgt SearchIcon"  id="">
+                    <div class="in-search-box">
+                        <form method="">
+                            <input id="" type="search" placeholder="Search">
+                        </form>
+                        <div class="search-icon">
+                        <span class="icon-search"></span>
+                        </div><!-- search-icon -->
+                    </div><!-- in-search-box -->
+                </div><!-- search-box -->
+
+                <div class="add-pay-create-new border-rgt AddPayCreate" id="">
+                    <ul>
+                        <li id="myBtn"><a href="#"><i class="icon-control_point"></i>Add Payment</a></li>
+                        <li><a href="#" class=""><i class="icon-control_point"></i>Create New Loan</a></li>
+                    </ul>
+                </div><!-- add-pay-create-new -->
+
+                <div class="administrator">
+                    <div class="adm-img">
+                        <span></span>
+                    </div>
+                    <div class="adm-text">
+                        <h3>Ganesh</h3>
+                        <p>Administrator</p>
+                    </div>
+                </div><!-- administrator -->
+                
+            </div><!-- site-header -->
+
+            <div class="site-container" id="SiteContLoans">
+                <div class="container-wrap">           
+                    <div class="loan-details LoanDetails" id="">
+                        <h2>Loans</h2>
+                        <div class="loan-types-add-cust-box">
+
+                            <div class="loan-types">
+                                <div class="click-loan-type" id="OnClickLoanType">
+                                    <p>Loan Types</p>
+                                    <span></span>
+                                </div>
+                                <div class="drop-dn-loan-type" id="ShowDropDown">
+                                    <ul>
+                                        <li><a href="#">Short Term</a></li>
+                                        <li><a href="#">Mid Term</a></li>
+                                        <li><a href="#">Long Term</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- loan-types -->
+                            <div class="add-new-cust">
+                                <div class="add-cust-button ClickAddCustomer">
+                                    <p><i class="icon-add"></i>Add New Customer</p>
+                                </div>
+                            </div><!-- add-new-cust -->
+                        </div><!-- loan-types-add-cust-box -->
+                            
+                        <div class="list-of-cust-lon-dtl-sec">
+                            <div class="l-d-n-r">
+                                <ul>
+                                    <li class="ClickloanList"><a href="#">List</a></li>
+                                    <li class="ClickloanDefault"><a href="#">Defaulted</a></li>
+                                    <li class="ClickloanNew"><a href="#">New</a></li>
+                                    <li class="ClickloanReport"><a href="#">Report</a></li>
+                                </ul>
+                            </div><!-- l-d-n-r -->
+
+<!-- =============LOAN LIST SEC============= -->
+
+                            <div class="cust-id-name-list-box LoanListSec">
+                                <div class="show-item-search">
+                                    <div class="show-item">
+                                        <form method="">
+                                        <label for="">Show</label>
+                                            <input type="number" max="20" min="01">
+                                        <label for="">items</label>
+                                        </form>
+                                    </div><!-- show-item -->
+                                    <div class="loan-search-box">
+                                        <div class="loan-in-search-box">
+                                            <form method="">
+                                                <input id="" type="search" placeholder="Search">
+                                            </form>
+                                            <div class="loan-search-icon">
+                                                <span class="icon-search"></span>
+                                            </div><!-- search-icon -->
+                                        </div><!-- in-search-box -->
+                                    </div><!-- loan-search-box -->
+                                </div><!-- show-item-search -->
+
+                                <div class="cust-lone-dtl-body">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Customer ID</th>
+                                                    <th>Name</th>
+                                                    <th>Pending Amt</th>
+                                                    <th>Due Date</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr class="OnClickCustomerDtl">
+                                                    <tr>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                </div><!-- cust-lone-dtl-body -->
+                                <div class="showing-pagination-main">
+                                    <div class="showing-item">
+                                        <p>Showing 20 of 48 entries</p>
+                                    </div><!-- showing-item -->
+                                    <div class="pagination-wrap">
+                                        <div class="pagination">
+                                            <a href="#" class="prv">Previous</a>
+                                            <a href="#" class="active">1</a>
+                                            <a href="#">2</a>
+                                            <a href="#">3</a>
+                                            <a href="#">4</a>
+                                            <a href="#" class="nxt">Next</a>
+                                        </div><!-- pagination -->
+                                    </div><!-- pagination-wrap -->
+                                </div><!-- showing-pagination-main -->
+
+                            </div><!-- cust-id-name-list-box -->
+
+
+<!-- =============LOAN DEFAULTED SEC============= -->
+
+                            <div class="cust-id-name-list-box LoanDefaultedSec">
+                                <div class="show-item-search">
+                                    <div class="show-item">
+                                        <form method="">
+                                        <label for="">Show</label>
+                                            <input type="number" max="20" min="01">
+                                        <label for="">items</label>
+                                        </form>
+                                    </div><!-- show-item -->
+                                    <div class="loan-search-box">
+                                        <div class="loan-in-search-box">
+                                            <form method="">
+                                                <input id="" type="search" placeholder="Search">
+                                            </form>
+                                            <div class="loan-search-icon">
+                                                <span class="icon-search"></span>
+                                            </div><!-- search-icon -->
+                                        </div><!-- in-search-box -->
+                                    </div><!-- loan-search-box -->
+                                </div><!-- show-item-search -->
+
+                                <div class="cust-lone-dtl-body">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Customer ID</th>
+                                                    <th>Name</th>
+                                                    <th>Pending Amt</th>
+                                                    <th>Due Date</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr class="OnClickCustomerDtl">
+                                                    <tr>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                </div><!-- cust-lone-dtl-body -->
+                                <div class="showing-pagination-main">
+                                    <div class="showing-item">
+                                        <p>Showing 20 of 48 entries</p>
+                                    </div><!-- showing-item -->
+                                    <div class="pagination-wrap">
+                                        <div class="pagination">
+                                            <a href="#" class="prv">Previous</a>
+                                            <a href="#" class="active">1</a>
+                                            <a href="#">2</a>
+                                            <a href="#">3</a>
+                                            <a href="#">4</a>
+                                            <a href="#" class="nxt">Next</a>
+                                        </div><!-- pagination -->
+                                    </div><!-- pagination-wrap -->
+                                </div><!-- showing-pagination-main -->
+
+                            </div><!-- cust-id-name-list-box -->
+
+
+<!-- ===============LOAN NEW SEC================= -->
+
+                            <div class="cust-id-name-list-box LoanNewSec">
+                                <div class="show-item-search">
+                                    <div class="show-item">
+                                        <form method="">
+                                        <label for="">Show</label>
+                                            <input type="number" max="20" min="01">
+                                        <label for="">items</label>
+                                        </form>
+                                    </div><!-- show-item -->
+                                    <div class="loan-search-box">
+                                        <div class="loan-in-search-box">
+                                            <form method="">
+                                                <input id="" type="search" placeholder="Search">
+                                            </form>
+                                            <div class="loan-search-icon">
+                                                <span class="icon-search"></span>
+                                            </div><!-- search-icon -->
+                                        </div><!-- in-search-box -->
+                                    </div><!-- loan-search-box -->
+                                </div><!-- show-item-search -->
+
+                                <div class="cust-lone-dtl-body">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Customer ID</th>
+                                                    <th>Name</th>
+                                                    <th>Pending Amt</th>
+                                                    <th>Due Date</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr class="OnClickCustomerDtl">
+                                                    <tr>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                </div><!-- cust-lone-dtl-body -->
+                                <div class="showing-pagination-main">
+                                    <div class="showing-item">
+                                        <p>Showing 20 of 48 entries</p>
+                                    </div><!-- showing-item -->
+                                    <div class="pagination-wrap">
+                                        <div class="pagination">
+                                            <a href="#" class="prv">Previous</a>
+                                            <a href="#" class="active">1</a>
+                                            <a href="#">2</a>
+                                            <a href="#">3</a>
+                                            <a href="#">4</a>
+                                            <a href="#" class="nxt">Next</a>
+                                        </div><!-- pagination -->
+                                    </div><!-- pagination-wrap -->
+                                </div><!-- showing-pagination-main -->
+
+                            </div><!-- cust-id-name-list-box -->
+
+
+<!-- =============LOAN REPORT SEC================ -->
+
+                            <div class="cust-id-name-list-box LoanReportSec">
+                                <div class="total-invested-wrap">
+                                    <div class="in-total-invested">
+                                        <div class="t-invested">
+                                            <div class="t-invested-box">
+                                                <p>Total invested amount</p>
+                                                <p>in Short Term Loan</p>
+                                                <p>₹1,00,00,000</p>
+                                            </div>
+                                        </div>
+                                        <div class="t-pending">
+                                            <div class="t-pending-box">
+                                                <p>Total amount Pending</p>
+                                                <p>in Short Term Loan</p>
+                                                <p>₹5,000,000</p>
+                                            </div>
+                                        </div>
+                                        <div class="t-defaulted">
+                                            <div class="t-defaulted-box">
+                                                <p>Total defaulted amount</p>
+                                                <p>In Short Term Loan</p>
+                                                <p>₹4,50,000</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- in-total-invested -->
+                                </div><!-- total-invested-wrap -->    
+                                
+                                <div class="rpt-pendingpay-sec">
+                                <div class="show-item-search rpt-sw-item-src">
+                                    <div class="show-item rpt-show-item">
+                                        <form method="">
+                                        <label for="">Show</label>
+                                            <input type="number" max="20" min="01">
+                                        <label for="">items</label>
+                                        </form>
+                                    </div><!-- show-item -->
+                                    <div class="rpt-heading-text">
+                                        <h4>Pending Payment</h4>
+                                    </div><!-- rpt-heading-text -->
+                                    <div class="loan-search-box rpt-search-box">
+                                        <div class="loan-in-search-box">
+                                            <form method="">
+                                                <input id="" type="search" placeholder="Search">
+                                            </form>
+                                            <div class="loan-search-icon">
+                                                <span class="icon-search"></span>
+                                            </div><!-- search-icon -->
+                                        </div><!-- in-search-box -->
+                                    </div><!-- loan-search-box -->
+                                </div><!-- show-item-search rpt-sw-item-src-->
+                    
+                                <div class=""></div>
+
+                                <div class="cust-lone-dtl-body report-lone-dtl-table">
+                                        <table>
+                                         <thead>
+                                                <tr>
+                                                    <th>Customer ID</th>
+                                                    <th>Name</th>
+                                                    <th>Amount</th>
+                                                    <th>Pending Amt</th>
+                                                    <th>EMI/Month</th>
+                                                    <th>Due Date</th>
+                                                    <th>Phone</th>
+                                                    <th>Agent</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>Agent</td>
+                                                </tr>
+                                               <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div><!-- cust-lone-dtl-body -->
+                                </div><!-- defaulters-sec -->
+                                <div class="rpt-defaulters-sec">
+                                <div class="show-item-search rpt-sw-item-src">
+                                    <div class="show-item rpt-show-item">
+                                        <form method="">
+                                        <label for="">Show</label>
+                                            <input type="number" max="20" min="01">
+                                        <label for="">items</label>
+                                        </form>
+                                    </div><!-- show-item -->
+                                    <div class="rpt-heading-text">
+                                        <h4>Defaulters</h4>
+                                    </div><!-- rpt-heading-text -->
+                                    <div class="loan-search-box rpt-search-box">
+                                        <div class="loan-in-search-box">
+                                            <form method="">
+                                                <input id="" type="search" placeholder="Search">
+                                            </form>
+                                            <div class="loan-search-icon">
+                                                <span class="icon-search"></span>
+                                            </div><!-- search-icon -->
+                                        </div><!-- in-search-box -->
+                                    </div><!-- loan-search-box -->
+                                </div><!-- show-item-search rpt-sw-item-src-->
+
+                                <div class="cust-lone-dtl-body report-lone-dtl-table">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Customer ID</th>
+                                                    <th>Name</th>
+                                                    <th>Amount</th>
+                                                    <th>Pending Amt</th>
+                                                    <th>EMI/Month</th>
+                                                    <th>Due Date</th>
+                                                    <th>Phone</th>
+                                                    <th>Agent</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                               <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹100,000</td>
+                                                    <td>₹80,000</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                    <td>98803456789</td>
+                                                    <td>AGMAR262017</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div><!-- cust-lone-dtl-body -->
+                                </div><!-- rpt-defaulters-sec -->
+
+                            </div><!-- cust-id-name-list-box -->
+
+                        </div><!-- list-of-cust-lon-dtl-sec -->
+
+                    </div><!-- loan-details -->
+
+                    <div class="customer-details ShowCustomerDtl" id="">
+                        <div class="send-message">
+                            <ul>
+                                <li><a href="#" class="icon-do_not_disturb_alt"></a>
+                                    <span class="abbr mob">
+                                        <span></span>
+                                        <p>Blacklist</p>
+                                    </span><!-- abbr -->
+                                </li>
+                                <li><a href="#" class="icon-mode_edit"></a>
+                                    <span class="abbr">
+                                        <span></span>
+                                        <p>Review</p>
+                                    </span><!-- abbr -->
+                                </li>
+                                <li><a href="#" class="icon-done_all"></a>
+                                    <span class="abbr">
+                                        <span></span>
+                                        <p>Close Loan</p>
+                                    </span><!-- abbr --> 
+                                </li>
+                                <li><a href="#" class="icon-mail_outline"></a>
+                                    <span class="abbr">
+                                        <span></span>
+                                        <p>Send message</p>
+                                    </span><!-- abbr -->
+                                </li>
+                            </ul>
+                        </div><!-- send-message -->
+
+                        <div class="cust-profile-view">
+                            <div class="prf-img-text">
+                                <div class="prf-img"></div>
+                            </div><!-- prf-img-text -->
+                            <div class="prf-text">
+                                   <h2>Naveen</h2>
+                                   <p>Customer ID: STL3456789</p>     
+                            </div><!-- prf-text -->
+                        </div><!-- cust-profile-view -->
+
+                        <div class="progress-barwrap" id="page-wrap">
+                            <div class="cover-progresswrap">
+                                <p>Customer scores: 89%</p>
+                                <div class="meter">
+                                    <span></span>
+                                </div>
+                            </div><!-- cover-progress -->
+                        </div><!-- progress-bar -->
+
+                        <div class="cust-ph-em-add">
+                            <div class="ph">   
+                                <h4>Phone</h4>
+                                <p>9876543210</p>
+                            </div><!-- ph -->
+                            <div class="em">  
+                                <h4>Email</h4>
+                                <p>naveenmaddur@gmail.com</p>
+                            </div><!-- em -->
+                            <div class="add">
+                            <h4>Address</h4>
+                            <p>No 222, 2nd cross, B M Road Somanahalli, Maddur</p>
+                            </div><!-- add -->
+                        </div><!-- cust-ph-em-add -->
+                    <div class="pay-det-int-rev-wrap">
+                            <div class= "nav-pdir">
+                                <ul>
+                                    <li id="ClickPayment">Payment</li>
+                                    <li id="ClickDetails">Details</li>
+                                    <li id="ClickIntera">Interactions</li>
+                                    <li id="ClickReviews">Reviews</li>
+                                </ul>
+                            </div><!-- nav-pdir -->
+                        <div class="payment-main-wrap" id="MainPayment">
+                            <div class="payment-box">
+                                <div class="lv-em-due">
+                                    <div class="loan">
+                                        <h4>Loan Value</h4>
+                                        <p>₹ 1,00,000</p>
+                                    </div>
+                                    <div class="emi">
+                                        <h4>EMI / month</h4>
+                                        <p>₹ 6,900</p>
+                                    </div>
+                                    <div class="due">
+                                        <h4>Due Date</h4>
+                                        <p>01.04.2017</p>
+                                    </div>
+                                </div><!-- lv-em-due -->
+                                <div class="pndg-amt">
+                                    <h4>Pending Amount</h4>
+                                    <p>₹ 6,900</p>
+                                </div><!-- pndg-amt -->
+                                <div class="tol-dflt-amt">
+                                    <h4>Total Defaulted Amount</h4>
+                                    <p>₹ 13,800</p>
+                                </div><!-- tol-dflt-amt -->
+                            </div><!-- payment-box -->
+                            <div class="previous-trans">
+                                <div class="prv-txt">
+                                    <h4>Previous transactions</h4>
+                                </div><!-- prv-txt -->
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="pend-amt">₹6900.00</td>
+                                            <td>Pending</td>
+                                            <td>Mar 02, 2017 10:22</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pay-dn">₹6900.00</td>
+                                            <td>Payment done</td>
+                                            <td>Feb 02, 2017 12:12</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pay-dn">₹6900.00</td>
+                                            <td>Payment done</td>
+                                            <td>Jan 02, 2017 10:30</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pay-dn">₹6900.00</td>
+                                            <td>Payment done</td>
+                                            <td>Dec 02, 2016 11:16</td>
+                                        </tr>
+                                    </tbody>
+                                </table>    
+                            </div><!-- previous-trans -->
+                        </div><!-- payment-main-wrap -->
+
+                        <div class="details-main-wrap" id="MainDetails">
+                            <div class="details-box CustDtlWrap">
+                                    <div class="cust-dtl-heading ClickCstBioData">
+                                        <h4>Customer Details</h4>
+                                        <div class="plus-icon">
+                                            <span></span>
+                                            <span></span>
+                                        </div><!-- plus-icon -->
+                                    </div><!-- cust-dtl-heading -->
+                                    <div class="cust-dtl-heading CloseCustDtlHeading">
+                                        <h4>Customer Details</h4>
+                                        <div class="close-icon">
+                                            <span></span>
+                                            <span></span>
+                                        </div><!-- plus-icon -->
+                                    </div><!-- cust-dtl-heading -->
+                                <div class="cover-dtl-box CoverCstDtlBox">
+                                    <div class="in-dtal-box">
+                                        <div class="dofb">
+                                            <h4>Date of birth</h4>
+                                            <p>07/11/1983</p>
+                                        </div>
+                                        <div class="gnd">
+                                            <h4>Gender</h4>
+                                            <p>Male</p>
+                                        </div>
+                                        <div class="mari-s">
+                                            <h4>Marital Status</h4>
+                                            <p>Married</p>
+                                        </div>
+                                        <div class="fat-name">
+                                            <h4>Father's Name</h4>
+                                            <p>Praveen Maddur</p>
+                                        </div>
+                                        <div class="agnt">
+                                            <h4>Agent Name</h4>
+                                            <p>Karan</p>
+                                        </div>
+                                        <div class="doc-prv">
+                                            <h4>Documents Provided</h4>
+                                            <p>Drivers's License</p>
+                                            <p>Voter's ID</p>
+                                            <p>Adhaar Card</p>
+                                        </div>
+                                    </div><!-- in-dtal-box -->
+                                </div><!-- cover-dtl-box -->
+                            </div><!-- details-box -->
+                            <div class="details-box GurDtlWrp">
+                                    <div class="cust-dtl-heading ClickGurBioData">
+                                        <h4>Guarantor Details</h4>
+                                         <div class="plus-icon">
+                                            <span></span>
+                                            <span></span>
+                                        </div><!-- plus-icon -->
+                                    </div><!-- cust-dtl-heading -->
+                                    <div class="cust-dtl-heading CloseGurDtlHeading">
+                                        <h4>Guarantor Details</h4>
+                                        <div class="close-icon">
+                                            <span></span>
+                                            <span></span>
+                                        </div><!-- plus-icon -->
+                                    </div><!-- cust-dtl-heading -->
+                                <div class="cover-dtl-box CoverGurDtlBox">
+                                    <div class="in-dtal-box">
+                                        <div class="dofb">
+                                            <h4>Date of birth</h4>
+                                            <p>07/11/1983</p>
+                                        </div>
+                                        <div class="gnd">
+                                            <h4>Gender</h4>
+                                            <p>Male</p>
+                                        </div>
+                                        <div class="mari-s">
+                                            <h4>Marital Status</h4>
+                                            <p>Married</p>
+                                        </div>
+                                        <div class="fat-name">
+                                            <h4>Father's Name</h4>
+                                            <p>Praveen Maddur</p>
+                                        </div>
+                                        <div class="agnt">
+                                            <h4>Agent Name</h4>
+                                            <p>Karan</p>
+                                        </div>
+                                        <div class="doc-prv">
+                                            <h4>Documents Provided</h4>
+                                            <p>Drivers's License</p>
+                                            <p>Voter's ID</p>
+                                            <p>Adhaar Card</p>
+                                        </div>
+                                    </div><!-- in-dtal-box -->
+                                </div><!-- cover-dtl-box -->
+                            </div><!-- details-box -->
+                        </div><!-- details-main-wrap -->
+
+                        <div class="interactions-main-wrap" id="MainInteractions">
+                            <div class="interactions-box">
+                                <div class="inter-text">
+                                    <p>Hello Sir,</p>
+                                    <p>Please make the payment for pending amount of Rs. 6900 at the earliest</p>
+                                    <p class="inter-time">10:12 AM on Mon 14 Feb 2017</p>
+                                </div>
+                                <div class="inter-text">
+                                    <p>Hello Sir,</p>
+                                    <p>Please make the payment for pending amount of Rs. 6900 at the earliest</p>
+                                    <p class="inter-time">10:12 AM on Mon 14 Feb 2017</p>
+                                </div>
+                                <div class="inter-text">
+                                    <p>Hello Sir,</p>
+                                    <p>Please make the payment for pending amount of Rs. 6900 at the earliest</p>
+                                    <p class="inter-time">10:12 AM on Mon 14 Feb 2017</p>
+                                </div>
+                                <div class="inter-text lst-one">
+                                    <p>Hello Sir,</p>
+                                    <p>Please make the payment for pending amount of Rs. 6900 at the earliest</p>
+                                    <p class="inter-time">10:12 AM on Mon 14 Feb 2017</p>
+                                </div>
+                            </div><!-- interactions-box -->
+                        </div><!-- interactions-main-wrap -->
+
+                        <div class="reviews-main-wrap" id="MainReviews">
+                            <div class="reviews-box">
+                                <div class="in-reviews-box">
+                                <div class="write-review">
+                                    <h4>Write a Review</h4>
+                                    <form method="" >
+                                        <input class="what-think" type="text" placeholder="Tell us what you think">
+                                        <div class="review-options">
+                                            <div class="radio-box lft">
+                                                <input type="radio" id="good" value="good" name="review">
+                                                <label for="good">Good</label><br>
+                                                <input type="radio" id="average" value="average" name="review">
+                                                <label for="average">Average</label>
+                                            </div>
+                                            <div class="radio-box rgt">
+                                                <input type="radio" id="poor" value="poor" name="review">
+                                                <label for="poor">Poor</label><br>
+                                                <input type="radio" id="difficult" value="difficult" name="review">
+                                                <label for="difficult">Difficult to handle</label>
+                                            </div>
+                                        </div><!-- review-options -->
+                                        <input class="review-submit" type="submit" value="Submit">
+                                    </form>
+                                </div><!-- write-review -->
+                                </div><!-- in-reviews-box -->
+                                <div class="all-reviews">
+                                    <h4>All Reviews</h4>
+                                    <div class="in-all-reviews">
+                                    <div class="cust-review">
+                                        <p>Very  loyal customer. Good to do business with him.Would recommend him to anyone</p>
+                                        <p class="review-time">10:12 AM on Mon 14 Feb 2017</p>
+                                    </div>
+                                    <div class="cust-review">
+                                        <p>Very  loyal customer. Good to do business with him.Would recommend him to anyone</p>
+                                        <p class="review-time">10:12 AM on Mon 14 Feb 2017</p>
+                                    </div>
+                                    <div class="cust-review">
+                                        <p>Very  loyal customer. Good to do business with him.Would recommend him to anyone</p>
+                                        <p class="review-time">10:12 AM on Mon 14 Feb 2017</p>
+                                    </div>
+                                    </div><!-- in-all-reviews -->
+                                </div><!-- all-reviews -->
+                            </div><!-- reviews-box -->
+                        </div><!-- reviews-main-wrap -->
+
+                    </div><!-- pay-det-int-rev-wrap -->
+                        
+                        <div class="close-customer-dtl CloseCustomerDtl" id="">
+                            <span></span>   
+                            <span></span>
+                        </div><!-- close-customer-dtl -->
+                    </div><!-- customer-details -->
+                </div><!-- container-wrap -->
+            </div><!-- site-container -->
+
+                        
+<!-- =============ADD NEW CUSTOMER POPUP=============== -->
+
+             <div class="site-container AddNewCustomerPopup" id="">
+                <div class="container-wrap">          
+                    <div class="loan-details add-new-customer" id="">
+                        <div class="add-cust-dtl-heading">
+                            <h2>New Customer's Details</h2>
+                            <div class="close-cust-data-input ClickCloseAddNewCst" id="">
+                                <span></span>
+                                <span></span>
+                            </div><!-- close-cust-data-input -->
+                        </div><!-- add-cust-dtl-heading -->
+
+                        <div class="add-cust-form">
+                        <form action="" method="">
+                            <div class="cust-data-wrap">
+                                <div class="id-lable label-data">
+                                    <label for="">Customer ID</label>
+                                </div>
+                                <div class="id-input input-data">
+                                     <div class="name-input">
+                                    <input type="text" placeholder="STL12345678">
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="d-lable label-data">
+                                    <label for="">Date</label>
+                                </div>
+                                <div class="d-input input-data">
+                                     <div class="name-input">
+                                    <input type="text" placeholder="14/03/2017" id="custdate">
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Name</label>
+                                </div>
+                                <div class="input-data wrong-wrap">
+                                    <div class="name-input">
+                                        <span>
+                                            <select name="" id="">
+                                                <option value="Mr">Mr</option>
+                                                <option value="Ms">Mss</option>
+                                            </select>
+                                        </span>
+                                        <span>
+                                            <input type="text" id="" onkeyup="()">
+                                        </span>
+                                    </div>
+                                   <!--  <p class="" id="cstNameWrg">Type Your Name</p> -->
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                             <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Agent Name</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input">
+                                        <span>
+                                            <select name="" id="">
+                                                <option value="Mr">Mr</option>
+                                                <option value="Ms">Mss</option>
+                                            </select>
+                                        </span>
+                                        <span>
+                                            <input type="text">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Father's Name</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input">
+                                        <span>
+                                            <select name="" id="">
+                                                <option value="Mr">Mr</option>
+                                                <option value="Ms">Mss</option>
+                                            </select>
+                                        </span>
+                                        <span>
+                                            <input type="text">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                             <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Date Of Birth</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input date-of-birth-input">
+                                        <select class="day" name="day" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="7">8</option>
+                                            <option value="7">9</option>
+                                            <option value="7">10</option>
+                                        </select>
+                                         <select class="month" name="month" id="">
+                                            <option value="january">January</option>
+                                            <option value="february">February</option>
+                                            <option value="march">March</option>
+                                            <option value="april">April</option>
+                                            <option value="may">May</option>
+                                            <option value="june">June</option>
+                                            <option value="july">July</option>
+                                            <option value="august">August</option>
+                                            <option value="september">September</option>
+                                            <option value="october">October</option>
+                                            <option value="november">November</option>
+                                            <option value="december">December</option>
+                                        </select>
+                                        <select class="years" name="years" id="">
+                                            <option value="2017">2017</option>
+                                            <option value="2016">2016</option>
+                                            <option value="2015">2015</option>
+                                            <option value="2014">2014</option>
+                                            <option value="2013">2013</option>
+                                            <option value="2012">2012</option>
+                                            <option value="2011">2011</option>
+                                            <option value="2010">2010</option>
+                                            <option value="2009">2009</option>
+                                            <option value="2008">2008</option>
+                                            <option value="2007">2007</option>
+                                        </select>
+                                    </div><!-- name-input -->
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Gender</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input gender-input">
+                                        <select name="gender" id="">
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                             <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Marital Status</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input gender-input">
+                                        <select name="gender" id="">
+                                            <option value="male">Married</option>
+                                            <option value="female">Unmarried</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="id-lable label-data">
+                                    <label for="">No Of Dependants</label>
+                                </div>
+                                <div class="id-input input-data">
+                                    <div class="name-input">
+                                    <input type="text" placeholder="">
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="d-lable label-data">
+                                    <label for="">Years In Current Residence</label>
+                                </div>
+                                <div class="d-input input-data">
+                                    <div class="name-input">
+                                    <input type="text" placeholder="">
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Residence</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input gender-input">
+                                        <select name="gender" id="">
+                                            <option value="male">Permanent</option>
+                                            <option value="female">Permanent</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="address-input-wrap">
+                                <div class="address-input-label">
+
+                                    <label for="">Address</label>
+
+                                </div><!-- address-input-label -->
+                                <div class="address-input-lft">
+
+                                    <textarea name="" rows="10" cols="20"></textarea>
+
+                                </div><!-- address-lft -->
+                                <div class="address-input-rgt">
+                                    <div class="state">
+                                    <select name="state" id="">
+                                        <option value="karnataka">Karnataka</option>
+                                        <option value="tamilnadu">Tamil Nadu</option>
+                                    </select>
+                                    </div>
+                                    <div class="city">
+                                    <select name="city" id="">
+                                        <option value="maddur">Maddur</option>
+                                        <option value="Bangalore">Bangalore</option>
+                                    </select>
+                                    </div>
+                                    <div class="address-input">
+                                    <input type="text" placeholder="Pincode">
+                                    </div>    
+                                    <div class="address-input">
+                                    <input type="text" placeholder="Phone">
+                                    </div>
+                                    <div class="address-input"> 
+                                    <input type="text" placeholder="Email"> 
+                                    </div>
+                                </div><!-- address-rgt -->
+                            </div><!-- address-input-wrap -->
+
+                            <div class="address-input-wrap">
+                                <div class="address-input-label">
+
+                                    <div class="address-label">
+                                        <div class="id-proof-l">
+                                        <label for="">ID Proof 1</label>
+                                        </div><!-- id-proof-l -->
+                                    </div><!-- address-label -->
+
+                                </div><!-- address-input-label -->
+                                <div class="address-input-lft">
+                                     <div class="id-proof">
+                                     <div class="name-input">
+                                        <input type="text" placeholder="">
+                                     </div>
+                                    </div>
+                                </div><!-- address-lft -->
+                                <div class="address-input-rgt">
+                                      <div class="state state2">
+                                    <select name="idproof" id="">
+                                        <option value="uid">UID</option>
+                                        <option value="drivinglicence">Driving Licence</option>
+                                    </select>
+                                    </div>
+                                </div><!-- address-rgt -->
+                            </div><!-- address-input-wrap -->
+
+                            <div class="address-input-wrap">
+                                <div class="address-input-label">
+
+                                    <div class="address-label">
+                                        <div class="id-proof-l">
+                                        <label for="">ID Proof 2</label>
+                                        </div><!-- id-proof-l -->
+                                    </div><!-- address-label -->
+
+                                </div><!-- address-input-label -->
+                                <div class="address-input-lft">
+                                     <div class="id-proof">
+                                        <div class="name-input">
+                                        <input type="text" placeholder="">
+                                        </div>
+                                    </div>
+                                </div><!-- address-lft -->
+                                <div class="address-input-rgt">
+                                    <div class="city city2">
+                                    <select name="idproof" id="">
+                                        <option value="voterid">Voter ID</option>
+                                        <option value="pancard">Pan Card</option>
+                                    </select>
+                                    </div>
+                                </div><!-- address-rgt -->
+                            </div><!-- address-input-wrap -->
+
+
+                             <div class="upload-file-wrap">
+                                <div class="upload-left-wrap">
+
+                                </div><!-- address-input-label -->
+                                <div class="upload-right-wrap">
+                                    <div class="upload-lft">   
+                                        <label for="">Upload Photo</label><br>
+                                        <div class="load-img-box">
+                                            <div class="in-load-img">
+                                                <img class="blah" src="#"/>
+                                            </div>
+                                        </div><!-- load-img-box -->
+                                        <div class="fileUpload">
+                                            <span>Browse</span>
+                                            <input type='file' class="upload-file" onchange="readURL(this);"/>
+                                        </div>
+                                    </div>
+                                    <div class="upload-rgt">   
+                                        <label for="">ID Proof</label><br>
+                                        <div class="load-img-box">
+                                            <div class="in-load-img">
+                                                <img class="blah2" src="#"/>
+                                            </div>
+                                        </div><!-- load-img-box -->
+                                         <div class="fileUpload">
+                                             <span>Browse</span>
+                                            <input type='file' class="upload-file" onchange="readURL2(this);"/>
+                                        </div>
+                                    </div>
+                                </div><!-- address-lft -->
+                            </div><!-- upload-file-wrap -->
+
+                        
+                            <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Occupation</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input gender-input">
+                                        <select name="gender" id="">
+                                            <option value="male">Self Employed</option>
+                                            <option value="female">Self Employed</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+    
+                            <div class="cust-data-wrap">
+                                <div class="d-lable label-data">
+                                    <label for="">Designation</label>
+                                </div>
+                                <div class="d-input input-data">
+                                    <div class="name-input">
+                                    <input type="text" placeholder="">
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="address-input-wrap">
+                                <div class="address-input-label">
+                                    
+                                    <label for="">Address</label>
+
+                                </div><!-- address-input-label -->
+                                <div class="address-input-lft">
+
+                                    <textarea name="" rows="10" cols="22"></textarea>
+
+                                </div><!-- address-lft -->
+                                <div class="address-input-rgt">
+                                    <div class="state">
+                                    <select name="state" id="">
+                                        <option value="karnataka">Karnataka</option>
+                                        <option value="tamilnadu">Tamil Nadu</option>
+                                    </select>
+                                    </div>
+                                    <div class="city">
+                                    <select name="city" id="">
+                                        <option value="maddur">Maddur</option>
+                                        <option value="Bangalore">Bangalore</option>
+                                    </select>
+                                    </div>
+                                    <div class="address-input">
+                                    <input type="text" placeholder="Pincode">
+                                    </div>    
+                                    <div class="address-input">
+                                    <input type="text" placeholder="Phone">
+                                    </div>
+                                    <div class="address-input"> 
+                                    <input type="text" placeholder="Email"> 
+                                    </div>
+                                </div><!-- address-rgt -->
+                            </div><!-- address-input-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="d-lable label-data">
+                                    <label for="">Annual Income</label>
+                                </div>
+                                <div class="d-input input-data">
+                                    <div class="name-input">
+                                    <input type="text" placeholder="">
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="d-lable label-data">
+                                    <label for="">Other Source</label>
+                                </div>
+                                <div class="d-input input-data">
+                                    <div class="name-input">
+                                    <input type="text" placeholder="">
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+                            <div class="submit-cancel-wrap">
+                                <div class="sub-can">
+                                    <div class="submit">
+                                        <input type="submit" value="Submit">
+                                    </div><!-- submit -->
+                                    <div class="cancel">
+                                        <input type="reset" value="Cancel">
+                                    </div><!-- cancel -->
+                                </div><!-- sub-can -->
+                            </div><!-- submit-cancel-wrap -->
+                        </form>
+                        </div><!-- add-cust-form -->
+
+                    </div><!-- loan-details add-new-customer-->
+                </div><!-- container-wrap -->
+            </div><!-- site-container AddNewCustomerPopup-->
+                        
+
+<!-- =============TRANSACTION HISTORY PAGE=============== -->
+
+             <div class="site-container transaction-history" id="TransactionHistory">
+                <div class="container-wrap">           
+                    <div class="loan-details LoanDetails" id="">
+                        <div class="trncn-htry">
+                            <h2>Transcation History</h2>
+                        </div><!-- loan-types-add-cust-box -->
+                            
+                        <div class="list-of-cust-lon-dtl-sec">
+                            <div class="cust-id-name-list-box" id="">
+                                <div class="show-item-search">
+                                    <div class="show-item">
+                                        <form method="">
+                                        <label for="">Show</label>
+                                            <input type="number" max="20" min="01">
+                                        <label for="">items</label>
+                                        </form>
+                                    </div><!-- show-item -->
+                                    <div class="loan-search-box">
+                                        <div class="loan-in-search-box">
+                                            <form method="">
+                                                <input id="" type="search" placeholder="Search">
+                                            </form>
+                                            <div class="loan-search-icon">
+                                                <span class="icon-search"></span>
+                                            </div><!-- search-icon -->
+                                        </div><!-- in-search-box -->
+                                    </div><!-- loan-search-box -->
+                                </div><!-- show-item-search -->
+
+                                <div class="cust-lone-dtl-body transcation-dtl">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>TranscationID</th>
+                                                    <th>Customer ID</th>
+                                                    <th>Name</th>
+                                                    <th>Amt Paid</th>
+                                                    <th>Date</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>SAC22MAR2017</td>
+                                                    <td>STL3456789</td>
+                                                    <td>Naveen</td>
+                                                    <td>₹6900.00</td>
+                                                    <td>01/04/2017</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                </div><!-- cust-lone-dtl-body -->
+                                <div class="showing-pagination-main">
+                                    <div class="showing-item">
+                                        <p>Showing 20 of 48 entries</p>
+                                    </div><!-- showing-item -->
+                                    <div class="pagination-wrap">
+                                        <div class="pagination">
+                                            <a href="#" class="prv">Previous</a>
+                                            <a href="#" class="active">1</a>
+                                            <a href="#">2</a>
+                                            <a href="#">3</a>
+                                            <a href="#">4</a>
+                                            <a href="#" class="nxt">Next</a>
+                                        </div><!-- pagination -->
+                                    </div><!-- pagination-wrap -->
+                                </div><!-- showing-pagination-main -->
+                            </div><!-- cust-id-name-list-box -->
+                        </div><!-- list-of-cust-lon-dtl-sec -->
+
+                    </div><!-- loan-details -->
+                </div><!-- container-wrap -->
+            </div><!-- site-container transaction-history-->
+
+
+            <!-- =============SETTING PAGE=============== -->
+                            
+<!-- =====ADMIN SEC===== -->
+             <div class="site-container setting-page" id="SettingsPage">
+                <div class="container-wrap">   
+                <div class="ShowAdmin">      
+                    <div class="loan-details LoanDetails" id="">
+                        <div class="settings-heading">
+                            <h2>Settings</h2>
+                        </div><!--settings-heading-->
+                        <div class="admin-addnew">
+                            <div class="admin-list">
+                                <ul>
+                                    <li class="ClickAdmin">Admin</li>
+                                    <li class="ClickCoAdmin">Co-Admin</li>
+                                </ul>
+                            </div><!--admin-list-->
+                            <div class="add-new-admin">
+                                <div class="add-cust-button add-admin-button ClickAdminPop">
+                                    <p><i class="icon-add"></i>Add New Admin</p>
+                                </div>
+                            </div><!-- add-new-admin -->
+                        </div><!--admin-addnew-->
+                        <div class="list-of-cust-lon-dtl-sec">
+                            <div class="cust-id-name-list-box" id="">
+                                <div class="cust-lone-dtl-body setting-dtl">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Admin ID</th>
+                                                    <th>Name</th>
+                                                    <th>Phone</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>ADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>ADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>ADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>ADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>ADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>ADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>ADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                </div><!-- cust-lone-dtl-body -->
+                            </div><!-- cust-id-name-list-box -->
+                        </div><!-- list-of-cust-lon-dtl-sec -->
+                    </div><!-- loan-details -->
+
+                    <div class="customer-details ShowCustomerDtl" id="">
+                        <div class="send-message">
+                            <ul>
+                                <li><a href="#" class="icon-do_not_disturb_alt"></a>
+                                    <span class="abbr mob">
+                                        <span></span>
+                                        <p>Blacklist</p>
+                                    </span><!-- abbr -->
+                                </li>
+                                <li><a href="#" class="icon-mode_edit"></a>
+                                    <span class="abbr">
+                                        <span></span>
+                                        <p>Review</p>
+                                    </span><!-- abbr -->
+                                </li>
+                                <li><a href="#" class="icon-done_all"></a>
+                                    <span class="abbr">
+                                        <span></span>
+                                        <p>Close Loan</p>
+                                    </span><!-- abbr --> 
+                                </li>
+                                <li><a href="#" class="icon-mail_outline"></a>
+                                    <span class="abbr">
+                                        <span></span>
+                                        <p>Send message</p>
+                                    </span><!-- abbr -->
+                                </li>
+                            </ul>
+                        </div><!-- send-message -->
+
+                        <div class="cust-profile-view">
+                            <div class="prf-img-text">
+                                <div class="prf-img"></div>
+                            </div><!-- prf-img-text -->
+                            <div class="prf-text">
+                                   <h2>Naveen</h2>
+                                   <p>Admin ID : STL3456789</p>     
+                            </div><!-- prf-text -->
+                        </div><!-- cust-profile-view -->
+
+                        <div class="progress-barwrap" id="page-wrap">
+                            <div class="cover-progresswrap">
+                                <p>Customer scores: 89%</p>
+                                <div class="meter">
+                                    <span></span>
+                                </div>
+                            </div><!-- cover-progress -->
+                        </div><!-- progress-bar -->
+
+                        <div class="cust-ph-em-add">
+                            <div class="ph">   
+                                <h4>Phone</h4>
+                                <p>9876543210</p>
+                            </div><!-- ph -->
+                            <div class="em">  
+                                <h4>Email</h4>
+                                <p>naveenmaddur@gmail.com</p>
+                            </div><!-- em -->
+                            <div class="add">
+                            <h4>Address</h4>
+                            <p>No 222, 2nd cross, B M Road Somanahalli, Maddur</p>
+                            </div><!-- add -->
+                        </div><!-- cust-ph-em-add -->
+                    <div class="pay-det-int-rev-wrap">
+                            <div class= "nav-pdir setting-pssw">
+                                <ul>
+                                    <li>Password Reset</li>
+                                </ul>
+                            </div><!-- nav-pdir setting-pssw -->
+                        <div class="pssw-reset">
+                            <form action="" method="">
+                                <label for="oldpassword">Old Password</label>
+                                <input type="password" placeholder="Old Password"><br>
+                                <label for="newpassword">New Password</label>
+                                <input type="password" placeholder="New Password">
+                            </form>
+                        </div><!--pssw-reset-->
+                        <div class="setting-amin-dtl-height"></div>
+                    </div><!-- pay-det-int-rev-wrap -->
+                        
+                        
+                        <div class="close-customer-dtl CloseCustomerDtl" id="">
+                            <span></span>   
+                            <span></span>
+                        </div><!-- close-customer-dtl -->
+                    </div><!-- customer-details -->
+                </div><!-- ShowAdmin -->
+
+    <!--=======Co-ADMIN======== -->
+                <div class="ShowCoAdmin">
+                    <div class="loan-details LoanDetails" id="">
+                        <div class="settings-heading">
+                            <h2>Settings</h2>
+                        </div><!--settings-heading-->
+                        <div class="admin-addnew">
+                            <div class="admin-list">
+                                <ul>
+                                    <li class="ClickAdmin">Admin</li>
+                                    <li class="ClickCoAdmin">Co-Admin</li>
+                                </ul>
+                            </div><!--admin-list-->
+                            <div class="add-new-admin">
+                                <div class="add-cust-button add-admin-button ClickCoAdminPop">
+                                    <p><i class="icon-add"></i>Add New Co-Admin</p>
+                                </div>
+                            </div><!-- add-new-admin -->
+                        </div><!--admin-addnew-->
+                        <div class="list-of-cust-lon-dtl-sec">
+                            <div class="cust-id-name-list-box" id="">
+                                <div class="cust-lone-dtl-body setting-dtl">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Co-Admin ID</th>
+                                                    <th>Name</th>
+                                                    <th>Phone</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>CADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>CADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>CADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>CADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>CADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>CADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                                <tr class="OnClickCustomerDtl">
+                                                    <td>CADM3456789</td>
+                                                    <td>Naveen Sharma</td>
+                                                    <td>+91988012345</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                </div><!-- cust-lone-dtl-body -->
+                            </div><!-- cust-id-name-list-box -->
+                        </div><!-- list-of-cust-lon-dtl-sec -->
+                    </div><!-- loan-details -->
+
+                    <div class="customer-details ShowCustomerDtl" id="">
+                        <div class="send-message">
+                            <ul>
+                                <li><a href="#" class="icon-do_not_disturb_alt"></a>
+                                    <span class="abbr mob">
+                                        <span></span>
+                                        <p>Blacklist</p>
+                                    </span><!-- abbr -->
+                                </li>
+                                <li><a href="#" class="icon-mode_edit"></a>
+                                    <span class="abbr">
+                                        <span></span>
+                                        <p>Review</p>
+                                    </span><!-- abbr -->
+                                </li>
+                                <li><a href="#" class="icon-done_all"></a>
+                                    <span class="abbr">
+                                        <span></span>
+                                        <p>Close Loan</p>
+                                    </span><!-- abbr --> 
+                                </li>
+                                <li><a href="#" class="icon-mail_outline"></a>
+                                    <span class="abbr">
+                                        <span></span>
+                                        <p>Send message</p>
+                                    </span><!-- abbr -->
+                                </li>
+                            </ul>
+                        </div><!-- send-message -->
+
+                        <div class="cust-profile-view">
+                            <div class="prf-img-text">
+                                <div class="prf-img"></div>
+                            </div><!-- prf-img-text -->
+                            <div class="prf-text">
+                                   <h2>Naveen</h2>
+                                   <p>Co-Admin ID : STL3456789</p>     
+                            </div><!-- prf-text -->
+                        </div><!-- cust-profile-view -->
+
+                        <div class="progress-barwrap" id="page-wrap">
+                            <div class="cover-progresswrap">
+                                <p>Customer scores: 89%</p>
+                                <div class="meter">
+                                    <span></span>
+                                </div>
+                            </div><!-- cover-progress -->
+                        </div><!-- progress-bar -->
+
+                        <div class="cust-ph-em-add">
+                            <div class="ph">   
+                                <h4>Phone</h4>
+                                <p>9876543210</p>
+                            </div><!-- ph -->
+                            <div class="em">  
+                                <h4>Email</h4>
+                                <p>naveenmaddur@gmail.com</p>
+                            </div><!-- em -->
+                            <div class="add">
+                            <h4>Address</h4>
+                            <p>No 222, 2nd cross, B M Road Somanahalli, Maddur</p>
+                            </div><!-- add -->
+                        </div><!-- cust-ph-em-add -->
+                    <div class="pay-det-int-rev-wrap">
+                        
+                        <div class="setting-amin-dtl-height"></div>
+                    </div><!-- pay-det-int-rev-wrap -->
+                        
+                        
+                        <div class="close-customer-dtl CloseCustomerDtl" id="">
+                            <span></span>   
+                            <span></span>
+                        </div><!-- close-customer-dtl -->
+                    </div><!-- customer-details -->
+                </div><!-- ShowCoAdmin -->
+                </div><!-- container-wrap -->
+            </div><!-- site-container setting-page-->
+
+
+<!-- =============ADD NEW ADMIN POPUP=============== -->
+
+             <div class="site-container AddNewAdminPopup" id="">
+                <div class="container-wrap">          
+                    <div class="loan-details add-new-customer" id="">
+                        <div class="add-cust-dtl-heading">
+                            <h2>New Admin Details</h2>
+                            <div class="close-cust-data-input ClickCloseAdminPop" id="">
+                                <span></span>
+                                <span></span>
+                            </div><!-- close-cust-data-input -->
+                        </div><!-- add-cust-dtl-heading -->
+
+                        <div class="add-cust-form">
+                        <form action="" method="">
+                            <div class="cust-data-wrap">
+                                <div class="id-lable label-data">
+                                    <label for="">Admin ID</label>
+                                </div>
+                                <div class="id-input input-data">
+                                    <div class="name-input">
+                                    <input type="text" placeholder="STL12345678">
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="d-lable label-data">
+                                    <label for="">Date</label>
+                                </div>
+                                <div class="d-input input-data">
+                                    <div class="name-input">
+                                    <input type="text" placeholder="14/03/2017" id="admdate">
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Name</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input">
+                                        <span>
+                                            <select name="" id="">
+                                                <option value="Mr">Mr</option>
+                                                <option value="Ms">Mss</option>
+                                            </select>
+                                        </span>
+                                        <span>
+                                            <input type="text">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                             <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Date Of Birth</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input date-of-birth-input">
+                                        <select class="day" name="day" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="7">8</option>
+                                            <option value="7">9</option>
+                                            <option value="7">10</option>
+                                        </select>
+                                         <select class="month" name="month" id="">
+                                            <option value="january">January</option>
+                                            <option value="february">February</option>
+                                            <option value="march">March</option>
+                                            <option value="april">April</option>
+                                            <option value="may">May</option>
+                                            <option value="june">June</option>
+                                            <option value="july">July</option>
+                                            <option value="august">August</option>
+                                            <option value="september">September</option>
+                                            <option value="october">October</option>
+                                            <option value="november">November</option>
+                                            <option value="december">December</option>
+                                        </select>
+                                        <select class="years" name="years" id="">
+                                            <option value="2017">2017</option>
+                                            <option value="2016">2016</option>
+                                            <option value="2015">2015</option>
+                                            <option value="2014">2014</option>
+                                            <option value="2013">2013</option>
+                                            <option value="2012">2012</option>
+                                            <option value="2011">2011</option>
+                                            <option value="2010">2010</option>
+                                            <option value="2009">2009</option>
+                                            <option value="2008">2008</option>
+                                            <option value="2007">2007</option>
+                                        </select>
+                                    </div><!-- name-input -->
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Residence</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input gender-input">
+                                        <select name="gender" id="">
+                                            <option value="male">Permanent</option>
+                                            <option value="female">Permanent</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="address-input-wrap">
+                                <div class="address-input-label">
+
+                                    <label for="">Address</label>
+
+                                </div><!-- address-input-label -->
+                                <div class="address-input-lft">
+
+                                    <textarea name="" rows="10" cols="22"></textarea>
+
+                                </div><!-- address-lft -->
+                                <div class="address-input-rgt">
+                                    <div class="state">
+                                    <select name="state" id="">
+                                        <option value="karnataka">Karnataka</option>
+                                        <option value="tamilnadu">Tamil Nadu</option>
+                                    </select>
+                                    </div>
+                                    <div class="city">
+                                    <select name="city" id="">
+                                        <option value="maddur">Maddur</option>
+                                        <option value="Bangalore">Bangalore</option>
+                                    </select>
+                                    </div>
+                                    <div class="address-input">
+                                    <input type="text" placeholder="Pincode">
+                                    </div>    
+                                    <div class="address-input">
+                                    <input type="text" placeholder="Phone">
+                                    </div>
+                                    <div class="address-input"> 
+                                    <input type="text" placeholder="Email"> 
+                                    </div>
+                                </div><!-- address-rgt -->
+                            </div><!-- address-input-wrap -->
+
+                             <div class="upload-file-wrap">
+                                <div class="upload-left-wrap">
+
+                                </div><!-- address-input-label -->
+                                <div class="upload-right-wrap">
+                                    <div class="upload-lft">   
+                                        <label for="">Upload Photo</label><br>
+                                        <div class="load-img-box">
+                                            <div class="in-load-img">
+                                                <img class="blah3" src="#"/>
+                                            </div>
+                                        </div><!-- load-img-box -->
+                                        <div class="fileUpload">
+                                             <span>Browse</span>
+                                            <input type='file' class="upload-file" onchange="readURL3(this);"/>
+                                        </div>
+                                    </div>
+                                    <div class="upload-rgt">   
+                        
+                                    </div>
+                                </div><!-- address-lft -->
+                            </div><!-- upload-file-wrap -->
+
+                            <div class="submit-cancel-wrap">
+                                <div class="sub-can">
+                                    <div class="submit">
+                                        <input type="submit" value="Submit">
+                                    </div><!-- submit -->
+                                    <div class="cancel">
+                                        <input type="reset" value="Cancel">
+                                    </div><!-- cancel -->
+                                </div><!-- sub-can -->
+                            </div><!-- submit-cancel-wrap -->
+                        </form>
+                        </div><!-- add-cust-form -->
+                    </div><!-- loan-details add-new-customer-->
+                </div><!-- container-wrap -->
+            </div><!-- site-container AddNewAdminPopup-->
+
+
+<!-- =============ADD NEW CO-ADMIN POPUP=============== -->
+
+             <div class="site-container AddNewCoAdminPopup" id="">
+                <div class="container-wrap">          
+                    <div class="loan-details add-new-customer" id="">
+                        <div class="add-cust-dtl-heading">
+                            <h2>New Co-Admin Details</h2>
+                            <div class="close-cust-data-input ClickCloseCoAdminPop" id="">
+                                <span></span>
+                                <span></span>
+                            </div><!-- close-cust-data-input -->
+                        </div><!-- add-cust-dtl-heading -->
+
+                        <div class="add-cust-form">
+                        <form action="" method="">
+                            <div class="cust-data-wrap">
+                                <div class="id-lable label-data">
+                                    <label for="">Co-Admin ID</label>
+                                </div>
+                                <div class="id-input input-data">
+                                    <div class="name-input">
+                                    <input type="text" placeholder="STL12345678">
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="d-lable label-data">
+                                    <label for="">Date</label>
+                                </div>
+                                <div class="d-input input-data">
+                                    <div class="name-input">
+                                    <input type="text" placeholder="14/03/2017" id="coadmdate">
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Name</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input">
+                                        <span>
+                                            <select name="" id="">
+                                                <option value="Mr">Mr</option>
+                                                <option value="Ms">Mss</option>
+                                            </select>
+                                        </span>
+                                        <span>
+                                            <input type="text">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                             <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Date Of Birth</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input date-of-birth-input">
+                                        <select class="day" name="day" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="7">8</option>
+                                            <option value="7">9</option>
+                                            <option value="7">10</option>
+                                        </select>
+                                         <select class="month" name="month" id="">
+                                            <option value="january">January</option>
+                                            <option value="february">February</option>
+                                            <option value="march">March</option>
+                                            <option value="april">April</option>
+                                            <option value="may">May</option>
+                                            <option value="june">June</option>
+                                            <option value="july">July</option>
+                                            <option value="august">August</option>
+                                            <option value="september">September</option>
+                                            <option value="october">October</option>
+                                            <option value="november">November</option>
+                                            <option value="december">December</option>
+                                        </select>
+                                        <select class="years" name="years" id="">
+                                            <option value="2017">2017</option>
+                                            <option value="2016">2016</option>
+                                            <option value="2015">2015</option>
+                                            <option value="2014">2014</option>
+                                            <option value="2013">2013</option>
+                                            <option value="2012">2012</option>
+                                            <option value="2011">2011</option>
+                                            <option value="2010">2010</option>
+                                            <option value="2009">2009</option>
+                                            <option value="2008">2008</option>
+                                            <option value="2007">2007</option>
+                                        </select>
+                                    </div><!-- name-input -->
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="cust-data-wrap">
+                                <div class="name-label label-data">
+                                    <label for="">Residence</label>
+                                </div>
+                                <div class="input-data">
+                                    <div class="name-input gender-input">
+                                        <select name="gender" id="">
+                                            <option value="male">Permanent</option>
+                                            <option value="female">Permanent</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div><!-- cust-data-wrap -->
+
+                            <div class="address-input-wrap">
+                                <div class="address-input-label">
+
+                                    <label for="">Address</label>
+
+                                </div><!-- address-input-label -->
+                                <div class="address-input-lft">
+
+                                    <textarea name="" rows="10" cols="20"></textarea>
+
+                                </div><!-- address-lft -->
+                                <div class="address-input-rgt">
+                                    <div class="state">
+                                    <select name="state" id="">
+                                        <option value="karnataka">Karnataka</option>
+                                        <option value="tamilnadu">Tamil Nadu</option>
+                                    </select>
+                                    </div>
+                                    <div class="city">
+                                    <select name="city" id="">
+                                        <option value="maddur">Maddur</option>
+                                        <option value="Bangalore">Bangalore</option>
+                                    </select>
+                                    </div>
+                                    <div class="address-input">
+                                    <input type="text" placeholder="Pincode">
+                                    </div>    
+                                    <div class="address-input">
+                                    <input type="text" placeholder="Phone">
+                                    </div>
+                                    <div class="address-input"> 
+                                    <input type="text" placeholder="Email"> 
+                                    </div>
+                                </div><!-- address-rgt -->
+                            </div><!-- address-input-wrap -->
+
+                             <div class="upload-file-wrap">
+                                <div class="upload-left-wrap">
+
+                                </div><!-- address-input-label -->
+                                <div class="upload-right-wrap">
+                                    <div class="upload-lft">   
+                                        <label for="">Upload Photo</label><br>
+                                        <div class="load-img-box">
+                                            <div class="in-load-img">
+                                                <img class="blah4" src="#"/>
+                                            </div>
+                                        </div><!-- load-img-box -->
+                                        <div class="fileUpload">
+                                            <span>Browse</span>
+                                            <input type='file' class="upload-file" onchange="readURL4(this);"/>
+                                        </div>
+                                    </div>
+                                    <div class="upload-rgt">   
+                        
+                                    </div>
+                                </div><!-- address-lft -->
+                            </div><!-- upload-file-wrap -->
+
+                            <div class="submit-cancel-wrap">
+                                <div class="sub-can">
+                                    <div class="submit">
+                                        <input type="submit" value="Submit">
+                                    </div><!-- submit -->
+                                    <div class="cancel">
+                                        <input type="reset" value="Cancel">
+                                    </div><!-- cancel -->
+                                </div><!-- sub-can -->
+                            </div><!-- submit-cancel-wrap -->
+                        </form>
+                        </div><!-- add-cust-form -->
+                    </div><!-- loan-details add-new-customer-->
+                </div><!-- container-wrap -->
+            </div><!-- site-container AddNewAdminPopup-->
+
+<!-- =========End SETTIN PAGE============ -->
+
+            <!-- =============HELP PAGE=============== -->
+
+             <div class="site-container help-page" id="HelpPage">
+                <div class="container-wrap">           
+                    <div class="loan-details LoanDetails" id="">
+                        <h2>Help</h2>
+                        <div class="loan-types-add-cust-box">
+                           
+                        </div><!-- loan-types-add-cust-box -->
+                     
+
+                    </div><!-- loan-details -->
+                </div><!-- container-wrap -->
+            </div><!-- site-container help-page-->
+
+        </div><!-- main-site-wrap -->
+    </div><!-- main-body-wrap -->
+
+
+<!-- ========MODAL BOX ADD PAYMENT======== -->
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="add-heading">
+                <h3>Add Payment</h3>
+                <span class="close">&times;</span>
+            </div><!-- add-heading -->
+            <div class="payment-input">
+                <form action="" method="post">
+                <div class="lable-input">
+                    <div class="cust-id-date">
+                        <div class="label">
+                            <label for="">Customer ID</label>
+                        </div>
+                        <div class="input">
+                            <input type="text">
+                        </div>
+                         <div class="label">
+                            <label for="">Date</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" id="datepicker">
+                        </div>
+                    </div><!-- cust-id-date -->
+                    <div class="loan-payment">
+                        <div class="label">
+                            <label for="">Loan Type</label>
+                        </div>
+                        <div class="input wrong-wrap">
+                            <input type="text" placeholder="Short Term Loan" id="loanTypeCat" onkeyup="loanType()">
+                            <p id="loanTypeWrg" class="alert-wrong">Type Loan Category</p>
+                        </div>
+                         <div class="label">
+                            <label for="">Payment Mode</label>
+                        </div>
+                        <div class="input">
+                            <select name="paymode" id="">
+                                <option value="Cheque">Cheque</option>
+                                <option value="Cheque">Debit Cards</option>
+                            </select>
+                        </div>
+                    </div><!-- loan-payment -->
+                    <div class="cheque-dtl">
+                        <div class="cheque-text">
+                            <p>Cheque Details</p>
+                        </div>
+                        <div class="bank-cheque-dtl">
+                            <div class="date-bank-input">
+                                <div class="cust-id-date">
+                                    <div class="label">
+                                        <label for="">Date</label>
+                                    </div>
+                                    <div class="input">
+                                        <input type="text" id="chequedate">
+                                    </div>
+                                    <div class="label">
+                                        <label for="">Amt</label>
+                                    </div>
+                                    <div class="input wrong-wrap">
+                                        <input type="text" id="targetMe" onkeyup="checkNum()">
+                                        <p id="targetMee" class="alert-wrong">Type Amount</p>
+                                    </div>
+                                </div><!-- cust-id-date -->
+                                <div class="loan-payment">
+                                    <div class="label">
+                                        <label for="">Bank name</label>
+                                    </div>
+                                    <div class="input wrong-wrap">
+                                        <input type="text" id="bankAlp" onkeyup="bankName()">
+                                        <p id="bankWrg" class="alert-wrong">Type Name</p>
+                                    </div>
+                                    <div class="label">
+                                        <label for="">Cheque No.</label>
+                                    </div>
+                                    <div class="input">
+                                        <input type="text">
+                                    </div>
+                                </div><!-- loan-payment -->
+                            </div><!-- date-bank-input -->
+                        </div><!-- bank-cheque-dtl -->
+                    </div><!-- cheque-dtl -->
+                    <div class="submit-button">
+                        <input type="submit" value="Submit">
+                    </div><!-- submit-button -->
+                </div><!-- lable-input -->
+                </form>
+            </div><!-- payment-input -->
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
