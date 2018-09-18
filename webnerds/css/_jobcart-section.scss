@@ -1,0 +1,600 @@
+
+.job-cart-sec{
+  margin:35px 0 0 0;
+  .container{
+    .category-link{
+      height: 35px;
+      background-color:$bg-white;
+      border-radius:4px;
+      .owl-carousel{
+        position: relative;
+        .owl-stage-outer{
+          width:280px;
+          margin:0 auto;
+        }
+        .owl-item{
+          width: unset !important;
+          margin-right: 0px !important;
+          .item{
+            text-align: center;
+            margin:0 20px;
+            line-height: 35px;
+            text-transform: uppercase;
+            color:#616161;
+            font-size: 12px;
+            font-weight:$medium;
+            span{
+                cursor: pointer;
+                &:hover{
+                  color:$color-of-orange;     
+                }
+            }
+            .active{color:$color-of-orange;}
+          }
+        }
+        .owl-nav{
+          position: absolute;
+          top:0;
+          width: 100%;
+          .owl-prev{
+            position: absolute;
+            left:0;
+            color: rgba(0,0,0, 0.0);
+            background-color:$bg-white;
+            height: 35px;
+            border-radius:4px;
+              &:after{
+              content: "";
+              display: block;
+              width:15px;
+              height: 15px;
+              border-radius:2px; 
+              border:solid 2px;
+              border-color:transparent transparent #787878 #787878;
+              opacity: 0.5;
+              position: absolute;
+              top:10px;
+              left:10px;
+              right:0;
+              transform:rotate(45deg);
+            }
+            &:hover:after{
+              border-color:transparent transparent $color-of-orange $color-of-orange;
+            }
+          }
+          .owl-next{
+            position: absolute;
+            right: 0px;
+            color: rgba(0,0,0, 0.0);
+            background-color:$bg-white;
+            height: 35px;
+            border-radius:4px;
+              &:after{
+              content: "";
+              display: block;
+              width:15px;
+              height: 15px;
+              border-radius:2px; 
+              border:solid 2px;
+              border-color: #787878 #787878 transparent transparent;
+              opacity: 0.5;
+              position: absolute;
+              top:10px;
+              left:0;
+              right:0;
+              transform:rotate(45deg);
+            }
+            &:hover:after{
+              border-color: $color-of-orange $color-of-orange transparent transparent;
+            }
+          }
+          
+        }
+      }//eo owl-carousel
+    }//eo category-link
+
+    .job-cart-wraper{
+      display:flex;
+      flex-direction:column;
+      margin-top:20px;
+      .job-cart-wrap{
+        flex-basis:100%; 
+        .job-cart-row{
+          display: grid;
+          grid-template-columns:100%;
+          .job-cart-col{
+            background-color:$bg-white;
+            border-radius:2px;
+            margin:0 0 16px;
+            padding:10px;
+            min-height: 175px;
+            -webkit-box-shadow: 0px 2px 4px -4px rgba(102,102,102,1);
+            -moz-box-shadow: 0px 2px 4px -4px  rgba(102,102,102,1);
+            box-shadow: 0px 2px 4px -4px rgba(102,102,102,1);
+            position: relative;
+            display:none;
+            &:after{
+              content:"";
+              position: absolute;
+              bottom:0;
+              background-color:$color-of-orange;
+              left:0;
+              right: 0;
+              width:0;
+              height:2px;
+              border-radius:50%;
+              display: block;
+            }
+            &:hover:after{
+              width: 100%;
+              transition: 400ms;
+              -webkit-transition: 400ms;
+              -moz-transition: 400ms;
+            }
+            a{
+              text-decoration: none;
+              color:unset;
+              display: block;
+            }
+            a:first-child{
+              height: 100%;
+            }
+
+            .job-title{
+              max-width:200px;
+              height: 39px;
+              h3{
+                font-family:$font-of-body;
+                font-weight:$regular;
+                color:#0e82a9;
+                font-size:16px;
+                margin:0; 
+                display: -webkit-box;
+                height: $font-size*$line-height*$lines-to-show; 
+                font-size: $font-size;
+                line-height: $line-height;
+                -webkit-line-clamp: $lines-to-show;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }  
+            }
+            .days{
+              position: absolute;
+              top:10px;
+              right:10px;
+              font-weight:$regular;
+              color:#999999;
+              font-size: 12px;
+            }
+            .company-name{
+              font-weight: $regular;
+              font-size: 13px;
+              margin: 10px 0 0;
+            }
+            .experience, .location{
+              font-size: 12px;
+              font-weight:$light;
+              display: inline-block;
+              margin-top:15px;
+              position: relative;
+            }
+            .experience{
+              margin-left: 21px;
+            }
+            .location{
+              margin-left: 30px;
+            }
+            .tag{
+              position:absolute;
+              bottom:10px;
+              left:32px;
+              font-size: 12px;
+              font-weight: $light;
+              &:before{
+                content: "\e913";
+                font-family: 'webnerdsicon';
+                position:absolute;
+                display: block;
+                top:-2px;
+                left:-21px;
+                font-size:16px;
+              }
+            }
+
+            .experience:before{
+              content: "\e90b";
+              font-family: 'webnerdsicon';
+              display: block;
+              position: absolute;
+              top:-3px;
+              left:-21px;
+              font-size: 16px;
+            }
+            .location:before{
+              content: "\e90c";
+              font-family: '';
+              font-family: 'webnerdsicon';
+              display: block;
+              position: absolute;
+              top:-2px;
+              left:-17px;
+              font-size:16px;
+              font-weight:$light;
+            }   
+            .skills{ 
+              position: relative;
+              max-width: 260px;
+              span:before{
+                content: "\e908";
+                font-family: 'webnerdsicon';
+                display: block;
+                color:#787878;
+                font-size: 16px;
+                position: absolute;
+                top:-4px;
+                left:0px;
+              }
+              p{
+                font-size: 11px;
+                font-weight:$light;
+                margin:10px 0 0 21px;
+                overflow:hidden;
+              text-overflow:ellipsis;
+              white-space: nowrap;
+              }
+            }
+            
+            .apply-btn{
+              width:45px;
+              height: 20px;
+              border-radius:2px;
+              background-color:$btn-bgcolor;
+              text-align: center;
+              position: absolute;
+              right:10px;
+              bottom: 10px;
+              &:hover{
+                background-color:$color-of-orange;
+                transition: 300ms;
+                -webkit-transition: 300ms;
+                -moz-transition: 300ms;
+              }
+    
+              a{
+                color:$bg-white;
+                font-weight:$medium; 
+                font-size:12px;
+                line-height: 21px;
+                display: block;
+                width:100%;
+                text-decoration: none;
+                height:unset;
+              }
+            }
+          }
+          .is-animated {animation: .6s zoom-in;}
+            @keyframes zoom-in {
+              0% {
+               transform: scale(.1); 
+              } 
+              100% {
+              }
+            }
+        }//eo job-cart-row
+        .load-more{
+          width:120px;
+          height: 33px;
+          background-color:$btn-bgcolor;
+          margin:0 auto;
+          border-radius:2px;
+          margin-top:4px;
+          cursor: pointer;
+          &:hover{
+            background-color:$color-of-orange;
+            transition:300ms;
+            -webkit-transition:300ms;
+            -moz-transition:300ms;
+          }
+          p{
+            color:$bg-white;
+            font-weight:$bold;
+            font-size:16px;
+            text-align:center;
+            line-height:33px;
+            margin:0;
+          }
+        }
+      }//eo job-cart-wrap
+      .adds-wrap{
+        flex-basis:100%;
+        .adds-box{
+          background-color:$bg-white;
+          padding:10px;
+          border-radius:2px;
+          min-height: 260px;
+          position: relative;
+          margin-top:35px;
+          -webkit-box-shadow: 0px 2px 4px -4px rgba(102,102,102,1);
+            -moz-box-shadow: 0px 2px 4px -4px  rgba(102,102,102,1);
+            box-shadow: 0px 2px 4px -4px rgba(102,102,102,1);
+          h2{
+            font-size: 20px;
+            font-weight:$light;  
+            color:#616161;
+            margin:0;  
+            padding-right:20px;        
+          }
+          .load-more{
+            width:104px;
+            height: 30px;
+            background-color:$btn-bgcolor;
+            margin:0 auto;
+            border-radius:2px;
+            margin-top:4px;
+            cursor: pointer;
+            position: absolute;
+            bottom:10px;
+            right:10px;
+            &:hover{
+              background-color:$color-of-orange;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+            }
+            a{
+              color:$bg-white;
+              font-weight:$bold;
+              font-size:13px;
+              line-height:30px;
+              margin:0;
+              position: absolute;
+              right:8px;
+              text-decoration: none;
+              color:$bg-white;
+              &:after{
+                content: "\e90a";
+                font-family: 'webnerdsicon';
+                display: block;
+                position:absolute;
+                top:0;
+                font-size: 16px;
+                left: -22px;  
+              }
+            }
+          }
+          span{
+            position:absolute;
+            top:5px;
+            right: 5px; 
+            width: 20px;
+            height: 20px;
+            border-radius:50%;
+            border:solid 2px transparent;
+            cursor: pointer;
+          }
+          span:hover{
+            border:solid 2px $color-of-orange;
+          }
+          span:after{
+            content: "\e90f";
+            font-family: 'webnerdsicon';
+            display: block;
+            font-size:16px;
+            color:#787878;
+            position:absolute;
+            top:-4px;
+            left:0.5px;
+            right: 0;
+            margin:0 auto;
+            font-weight:$light;
+
+          }
+        }
+      }
+    }//eo job-cart-wrapper
+  }//eo container
+}//eo job-cart-sec
+
+@media(min-width:420px){
+   .job-cart-sec{
+    .container{
+      .category-link{
+        .owl-carousel{
+          .owl-stage-outer{
+            width:320px;
+          }
+        }//eo owl-carousel
+      }//eo category-link    
+
+      .job-cart-wraper{
+        .job-cart-wrap{
+          .job-cart-row{
+            display: grid;
+            grid-template-columns:100%;
+            .job-cart-col{
+              .job-title{
+                max-width: 290px;
+              }
+              .skills{ 
+                max-width: 345px;
+              }
+            }
+          }//eo job-cart-row
+        }//eo job-cart-wrap
+        .adds-wrap{
+          .adds-box{
+           
+          }
+        }
+      }//eo job-cart-wrapper
+
+    }//eo container
+  }//eo job-cart-sec 
+}
+
+@media(min-width:575px){   
+  .job-cart-sec{
+    .container{
+      .category-link{
+        .owl-carousel{
+          .owl-stage-outer{
+            width:380px;
+          }
+        }//eo owl-carousel
+      }//eo category-link  
+
+      .job-cart-wraper{
+        .job-cart-wrap{
+          .job-cart-row{
+            display: grid;
+            grid-column-gap:16px;
+            grid-template-columns:266px 266px;
+            .job-cart-col{
+              .job-title{
+                max-width: 200px;
+              }
+              .skills{ 
+                max-width: 243px;
+              }
+            }
+          }//eo job-cart-row
+        }//eo job-cart-wrap
+        .adds-wrap{
+          .adds-box{
+            
+          }
+        } 
+      }//eo job-cart-wrapper
+    }//eo container
+  }//eo job-cart-sec 
+}
+
+@media(min-width:768px){
+  .job-cart-sec{
+    margin:50px 0 0 0;
+    .container{
+      .category-link{
+        .owl-carousel{
+          .owl-stage-outer{
+            width:580px;
+          }
+        }//eo owl-carousel
+      }//eo category-link    
+
+      .job-cart-wraper{
+        .job-cart-wrap{
+          .job-cart-row{
+            display: grid;
+            grid-column-gap:16px;
+            grid-template-columns:344px 344px;
+            .job-cart-col{
+              background-color:$bg-white;
+              border-radius:2px;
+              margin:0 0 16px;
+              padding:10px;
+              .skills{ 
+                max-width: 297px;
+              }
+            }
+          }//eo job-cart-row
+        }//eo job-cart-wrap
+        .adds-wrap{
+          .adds-box{
+            
+          }
+        }
+      }//eo job-cart-wrapper
+    }//eo container
+  }//eo job-cart-sec     
+}
+
+@media(min-width:992px){
+  .job-cart-sec{
+    .container{
+      .category-link{
+        .owl-carousel{
+          .owl-stage-outer{
+            width:800px;
+          }
+        }//eo owl-carousel
+      }//eo category-link
+
+      .job-cart-wraper{
+        flex-direction:row;
+        justify-content: space-between;
+        .job-cart-wrap{
+          flex-basis:644px; 
+          .job-cart-row{
+            display: grid;
+            grid-column-gap:16px;
+            grid-template-columns:314px 314px;
+            .job-cart-col{
+             
+              .skills{ 
+                max-width: 260px;
+              }
+            }
+          }//eo job-cart-row
+           // =======jquery addClass Style=====
+            .addJobCartCol{
+              grid-template-columns:304px 304px 304px;
+            }
+        }//eo job-cart-wrap
+        .adds-wrap{
+          flex-basis:284px;
+          .adds-box{
+            margin-top:0;
+            min-height: 366px;
+          }
+        }
+
+        //=======jquery addClass Style========
+          .addJobCartWrap{
+            flex-basis:100% !important;
+            transition:300ms;
+            -webkit-transition:300ms;
+            -moz-transition:300ms;
+          }
+      }//eo job-cart-wrapper  
+    }//eo container
+  }//eo job-cart-sec     
+}
+
+@media(min-width:1200px){
+  .job-cart-sec{
+    .container{
+      .category-link{
+        .owl-carousel{
+          .owl-stage-outer{
+            width:1120px;
+          }
+        }//eo owl-carousel
+      }//eo category-link
+
+      .job-cart-wraper{
+        flex-direction:row;
+        justify-content: space-between;
+        .job-cart-wrap{
+          flex-basis:884px; 
+          .job-cart-row{
+            display: grid;
+            grid-column-gap:16px;
+            grid-template-columns:284px 284px 284px;
+            .job-cart-col{
+              
+            }
+          }//eo job-cart-row
+            .addJobCartCol{
+              grid-template-columns:284px 284px 284px 284px;
+            }
+        }//eo job-cart-wrap
+        .adds-wrap{ 
+          flex-basis:284px;
+        }
+      }//eo job-cart-wrapper     
+
+    }//eo container
+  }//eo job-cart-sec     
+}
+
+

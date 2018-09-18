@@ -1,0 +1,516 @@
+
+.jobpost-form-sec{
+  margin:35px 0;
+  .container{
+    .jobpost-form-box{
+      background-color:#e7e7e7;
+      border-radius:2px;
+      border:solid 1px #dfdfdf;
+      padding:0 0 35px;
+      .form-box-heading{
+        min-height: 100px;
+        background-color:$bg-white;
+        position: relative;
+        h2{
+          font-size:20px;
+          text-align: center;
+          color:#0e82a9;
+          line-height:100px;
+          margin:0;
+        }
+        span{
+          width:30px;
+          height: 30px;
+          border-radius:2px;
+          background-color:$bg-white;
+          transform: rotate(45deg);
+          display: block;
+          position: absolute;
+          left:0;
+          right: 0;
+          margin:0 auto;
+          bottom:-14px;
+        }
+      }//eo form-box-heading
+      .form-wrap{
+        padding:35px 0 0;
+        margin:0 auto;
+        max-width:280px;
+        input, textarea, select{
+          outline: none;
+        }
+        .form-division{
+          padding:15px;
+          border:solid 1px #dfdfdf;
+          background-color:$bg-white;
+          display: flex;
+          flex-direction: column;
+          flex-wrap:wrap;
+          margin:15px 0;
+          h3{
+            font-size: 16px;
+            font-weight:$light;
+            margin:0 0 20px;
+            font-family:$font-of-body;
+            width: 100%;
+          }
+          .inputs-col.flex-1{
+            flex-basis:100%;
+          }
+          .inputs-col{
+            flex-basis:100%;
+            .inputStyle{
+              color:#999999;
+              font-size: 14px;
+              font-weight: $light;
+              font-family:$font-of-body;
+              padding:9px 5px;
+            }
+            input::-webkit-input-placeholder { 
+               color:#666666;
+            }
+            input::-moz-placeholder { 
+               color:#666666;
+            }
+            input:-ms-input-placeholder { 
+               color:#666666;
+            }
+            input:-moz-placeholder { 
+               color:#666666;
+            }
+            input{
+              @extend .inputStyle;
+            }
+            .input-control{
+              border:solid 1px #e6e6e6;
+              border-radius:2px;
+              margin-bottom:20px; 
+
+              input[type=text]{
+                border-style:none;
+                width:100%;
+                height: 100%;
+              }
+              textarea{
+                @extend .inputStyle;
+                resize: none;
+                border-style:none;
+                width: 100%;  
+                height:100%;
+              }
+
+              .select-hidden {
+                display: none;
+                visibility: hidden;
+                padding-right: 10px;
+              }
+              .select {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                font-size: 14px;
+                color:#AAAAAA;
+                font-weight: $light;
+                width:100%;
+                height:100%;
+              }
+              .select-styled {
+                position: absolute; 
+                top: -23px;
+                right: 0;
+                bottom: 0;
+                left: 5px;
+                height:34px;
+                border-radius:2px;
+
+                &:after {
+                  content:"";
+                  width: 0;
+                  height: 0;
+                  border: 7px solid transparent;
+                  border-color: #999 transparent transparent transparent;
+                  position: absolute;
+                  top: 13px;
+                  right: 5px;
+                }
+                &:active, &.active {
+                  &:after {
+                    top: 5px;
+                    border-color: transparent transparent #999 transparent;
+                  }
+                }
+              }
+              .select-options {
+                display: none; 
+                position: absolute;
+                top:15px;
+                right: 0;
+                left: 0;
+                z-index: 100;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                background-color:#fff;
+                border:solid 1px #e6e6e6;
+                border-radius:2px;
+                li {
+                  margin: 0;
+                  text-indent: 10px;
+                  line-height:30px;
+                  &:hover {
+                    background-color:#dfdfdf;
+                  }
+                  &[rel="hide"] {
+                    display: none;
+                  }
+                }
+              }
+              .skill-set{
+                height:68px;
+                overflow-y:scroll;
+              }
+              .skill-set div[skill]{
+                display: none;
+              }
+              .input-checkbox{
+                border-top:solid 1px #e6e6e6;
+                padding:0 5px;
+                .check-col{
+                  display: inline-block;
+                  margin:5px 10px 5px 0;
+                  position:relative;
+                  [type="checkbox"]:not(:checked),
+                  [type="checkbox"]:checked {
+                    position: absolute;
+                    left:1px;
+                    top:6px;
+                    opacity:0;
+                    z-index:10;
+                  }
+                  [type="checkbox"]:not(:checked) + label,
+                  [type="checkbox"]:checked + label {
+                    position: relative;
+                    padding-left: 1.60em;
+                    cursor: pointer;
+                  }
+                  [type="checkbox"]:not(:checked) + label:before,
+                  [type="checkbox"]:checked + label:before {
+                    content: '';
+                    position: absolute;
+                    left: 0; top: 0;  
+                    width: 1.20em; height: 1.20em;
+                    border: 1px solid #999999;
+                    background:$bg-white;
+                    border-radius: 2px;
+                    box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+                  }
+                  [type="checkbox"]:not(:checked) + label:after,
+                  [type="checkbox"]:checked + label:after {
+                    content: '\e911';
+                    position: absolute;
+                    top:-1px; left:.240em;
+                    font-size:14px;
+                    line-height: 0.8;
+                    transition: all .2s;
+                    font-family:'webnerdsicon';
+                  }
+                  [type="checkbox"]:not(:checked) + label:after {
+                    opacity: 0;
+                    transform: scale(0);
+                  }
+                  [type="checkbox"]:checked + label:after {
+                    opacity: 1;
+                    transform: scale(1);
+                  }
+                  input[type=checkbox]{
+                    cursor:pointer;
+                  }
+                  label{
+                    font-size:12px;
+                    color:#999999;
+                    font-weight: $light;
+                    font-family:$font-of-body;
+                    cursor:pointer;
+                  }
+                }//eo check-col
+              }
+
+              .number-control{
+                border-top:solid 1px #e6e6e6;
+                min-height:52px;
+                padding:0 5px; 
+                position: relative;
+                .number-col{
+                  display: inline-block;
+                  width: 72px;
+                  min-height:28px;
+                  position: relative;
+                  top:10px;
+                  margin-right:30px;
+                  span{
+                    font-family:$font-of-body;
+                    font-size:14px;
+                    color:#999;
+                    position: absolute;
+                    top:5px;
+                    left:80px;
+                    font-weight: $light;
+                  }
+                }
+
+                input[type=number]::-webkit-inner-spin-button,
+                input[type=number]::-webkit-outer-spin-button
+                {
+                  -webkit-appearance: none;
+                  margin: 0;
+                }
+                input[type=number]
+                {
+                  -moz-appearance: textfield;
+                }
+                .quantity input {
+                  width: 70px;
+                  height: 29px;
+                  line-height: 1.65;
+                  display: block;
+                  padding: 0;
+                  margin: 0;
+                  padding-left: 20px;
+                  border: 1px solid #e6e6e6;
+                  border-radius:2px;
+                }
+                .quantity input:focus {
+                  outline: 0;
+                }
+                .quantity-nav {
+                  position: absolute;
+                  height:26px;
+                  top:2px;
+                  right:2px;
+                }
+                .quantity-button {
+                  position:relative;
+                  cursor: pointer;
+                  width: 20px;
+                  text-align: center;
+                  color: #999999;
+                  font-size: 14px;
+                  line-height: 1.7;
+                  -webkit-transform: translateX(-50%);
+                  transform: translateX(-100%);
+                  -webkit-user-select: none;
+                  -moz-user-select: none;
+                  -ms-user-select: none;
+                  -o-user-select: none;
+                  user-select: none;
+                }
+                .quantity-button.quantity-up {
+                  position: absolute;
+                  height: 16px;
+                  top:-3px;
+                }
+                .quantity-button.quantity-down {
+                  position: absolute;
+                  bottom:0px;
+                  height:17px;
+                }
+              }//eo number-control
+            }//eo input-control
+
+            .input-control.select-style{
+              line-height: 34px;
+              position: relative;
+            }
+
+            .salary-select-wrap{
+              padding:10px 5px;
+              .monthly{
+                display: block; 
+                border:solid 1px #e6e6e6;
+                border-radius:2px;
+                width:100px;
+                height:30px;
+                position: relative;
+                top:-2px;
+                margin-bottom:7px;
+                .select {
+                  font-size: 13px;
+                }
+                .select-styled {
+                  position: relative; 
+                  top:0;
+                  right: 0;
+                  bottom: 0;
+                  left: 5px;
+                  height:34px;
+                  border-radius:2px;
+
+                  &:after {
+                    top: 8px;
+                    right: 9px;
+                  }
+                  &:active, &.active {
+                    &:after {
+                      top: 0;
+                      border-color: transparent transparent #999 transparent;
+                    }
+                  }
+                }
+                .select-options {
+                  top:28px;
+                  right: 0;
+                  left: 0;
+                } 
+              }
+              .from{
+                display: inline-block;
+                border:solid 1px #e6e6e6;
+                width:82px;
+                margin:0 13px 0 0;  
+                height:30px;
+                border-radius:2px;
+                padding-left:20px;
+                position: relative;
+
+                &:before{
+                  content: "\e909";
+                  font-family:'webnerdsicon';
+                  font-size: 13px;
+                  color:#999;
+                  position: absolute;
+                  top:5px;
+                  left:10px;
+                }
+              }
+              .to{
+                display: inline-block;
+                border:solid 1px #e6e6e6;
+                width:80px;
+                height:30px;
+                border-radius:2px; 
+                padding-left:20px;
+                position: relative;
+
+                &:before{
+                  content: "\e909";
+                  font-family:'webnerdsicon';
+                  font-size: 13px;
+                  color:#999;
+                  position: absolute;
+                  top:5px;
+                  left:10px;
+                }
+              }
+            }//eo salary-select-wrap
+          }//eo inputs-col
+        }//eo form-division
+
+        .form-submit{
+          input{
+            border-radius:2px;
+            border:none;
+            background-color:$btn-bgcolor;
+            text-align: center;
+            height: 35px;
+            width:185px;
+            line-height:35px;
+            font-size: 18px;
+            font-weight:$medium;
+            color:$bg-white;
+            cursor: pointer;
+            margin:0 auto;
+            display: block;
+            &:hover{
+              background-color:$color-of-orange;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+            }
+          }
+        }
+      }//eo form-wrap
+    }//eo jobpost-form-box
+  }//eo container
+}//eo jobpost-form-sec
+
+.mce-widget.mce-notification.mce-notification-warning.mce-has-close.mce-in,
+.mce-branding.mce-widget.mce-label.mce-flow-layout-item.mce-last{
+  display:none;
+}
+.mce-tinymce.mce-container.mce-panel{
+  border:none;
+}
+
+@media(min-width:420px){
+  .jobpost-form-sec{
+    .container{
+      .jobpost-form-box{
+        .form-box-heading{
+        }//eo form-box-heading
+        .form-wrap{
+          max-width:345px;
+          .form-division{
+            padding:20px;
+            .inputs-col{
+              .input-control{
+                .salary-select-wrap{
+                  .monthly{
+                    display: inline-block;
+                    margin-bottom:0;
+                  }
+                  .from{
+                    margin:0 5px;
+                  }
+                }
+              }
+            }
+          }//eo form-division
+        }//eo form-wrap
+      }//eo jobpost-form-box
+    }//eo container
+  }//eo jobpost-form-sec
+}
+
+@media(min-width:575px){  
+  
+}
+
+@media(min-width:768px){
+  .jobpost-form-sec{
+    margin:50px 0;
+    .container{
+      .jobpost-form-box{
+        .form-box-heading{
+          h2{
+            font-size:20px;
+          }
+        }//eo form-box-heading
+        .form-wrap{
+          padding:35px 0 0;
+          max-width:675px;
+          .form-division{
+            padding:30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            h3{
+              font-size: 16px;
+            }
+            .inputs-col{
+              flex-basis:292px;
+            }
+          }//eo form-division
+        }//eo form-wrap
+      }//eo jobpost-form-box
+    }//eo container
+  }//eo jobpost-form-sec
+}
+
+@media(min-width:992px){
+    
+}
+
+@media(min-width:1200px){
+  
+}
+

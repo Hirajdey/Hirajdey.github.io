@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'webnerdsicon';
+  src:
+    url('../fonts/webnerdsicon.ttf?u6235p') format('truetype'),
+    url('../fonts/webnerdsicon.woff?u6235p') format('woff'),
+    url('../fonts/webnerdsicon.svg?u6235p#webnerdsicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webnerdsicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-price-tag:before {
+  content: "\e913";
+  color: #787878;
+}
+.icon-verification-checkmark-symbol:before {
+  content: "\e911";
+  color: #999;
+}
+.icon-verify-sign:before {
+  content: "\e912";
+  color: #999;
+}
+.icon-external-link-symbol:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-briefcase6:before {
+  content: "\e90b";
+  color: #787878;
+}
+.icon-placeholder:before {
+  content: "\e90c";
+  color: #787878;
+}
+.icon-open_in_browser:before {
+  content: "\e901";
+}
+.icon-briefcase4:before {
+  content: "\e902";
+}
+.icon-chevron-thin-right:before {
+  content: "\e90d";
+}
+.icon-chevron-thin-left:before {
+  content: "\e90e";
+}
+.icon-cross:before {
+  content: "\e90f";
+}
+.icon-location:before {
+  content: "\e910";
+}
+.icon-location2:before {
+  content: "\e903";
+}
+.icon-map:before {
+  content: "\e903";
+}
+.icon-search:before {
+  content: "\e900";
+}
+.icon-location3:before {
+  content: "\e904";
+}
+.icon-briefcase:before {
+  content: "\e905";
+}
+.icon-briefcase3:before {
+  content: "\e9ae";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-checkbox-checked:before {
+  content: "\ea52";
+}
+.icon-checkbox-unchecked:before {
+  content: "\ea53";
+}
+.icon-new-tab:before {
+  content: "\ea7e";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}
+.icon-inr:before {
+  content: "\e909";
+}
+.icon-briefcase5:before {
+  content: "\e906";
+}
+.icon-briefcase2:before {
+  content: "\e907";
+}
+.icon-code:before {
+  content: "\e908";
+}

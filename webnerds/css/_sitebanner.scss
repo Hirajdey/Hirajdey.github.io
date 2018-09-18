@@ -1,0 +1,85 @@
+
+.site-banner-sec{
+  background-color:#828282;
+  .container{
+    min-height: 130px; 
+    position: relative;
+    .banner-text{
+      position: absolute;
+      margin:auto;
+      left: 8px;
+      right: 8px;
+      top:30%;
+      h1{
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing:3px;
+        text-align:center;
+        font-weight:$light;
+        color:$bg-white;
+        span{
+          color:$color-of-orange;
+        }
+      }
+      h2{
+        font-size:12px;
+        margin:5px;
+        font-weight:$light;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: $bg-white;
+      }
+    }//eo banner-text
+  }//eo container
+}//eo site-banner-sec
+
+@media(min-width:420px){
+  .site-banner-sec{
+    .container{
+      .banner-text{
+        top:27%;
+        h1{
+          font-size: 24px;
+        }
+        h2{
+          font-size:14px;
+          margin:5px;
+        }
+      }//eo banner-text
+    }//eo container
+  }// eo site-banner-sec 
+}
+
+@media(min-width:575px){
+   
+
+}
+
+@media(min-width:768px){ 
+  .site-banner-sec{
+    .container{
+      min-height: 200px; 
+      .banner-text{
+        top:30%;
+        h1{
+          font-size: 30px;
+          letter-spacing: 5px;
+        }
+        h2{
+          font-size:18px;
+          margin:5px;
+        }
+      }//eo banner-text
+    }//eo container
+  }//eo site-banner-sec 
+}
+
+@media(min-width:992px){
+    
+}
+
+@media(min-width:1200px){
+  
+}
+

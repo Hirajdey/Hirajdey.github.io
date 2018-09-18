@@ -1,0 +1,93 @@
+
+
+.job-post-sec{
+  margin:35px 0 35px 0;
+  .container{
+    .job-post-box{
+      min-height:170px;
+      background-color:$bg-white;
+      border-radius:2px;         
+      padding:40px 0;  
+      // -webkit-box-shadow: 0px 2px 4px -4px rgba(102,102,102,1);
+      //       -moz-box-shadow: 0px 2px 4px -4px  rgba(102,102,102,1);
+      //       box-shadow: 0px 2px 4px -4px rgba(102,102,102,1);
+      h2{
+        font-weight:$light;
+        color:#616161;
+        font-size:24px;
+        text-align: center;
+        margin:0;
+      }
+      .post-job-btn{
+        width:140px;
+        height: 35px;
+        background-color:$color-of-orange;
+        border-radius:2px;
+        margin:25px auto 0;
+        cursor: pointer;
+        &:hover{
+          background-color:#eb912e;
+          transition: 400ms;
+          -webkit-transition: 400ms;
+          -moz-transition: 400ms;
+        }
+        a{
+          color:$bg-white;
+          text-align: center;
+          font-weight:$medium;
+          line-height:35px;
+          font-size: 16px;
+          text-decoration: none;
+          display: block;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width:420px){
+.job-post-sec{
+    .container{
+      .job-post-box{
+        h2{
+          font-size:30px;
+        }
+        .post-job-btn{
+          width:170px;
+          height: 40px;
+          a{
+            line-height:40px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media(min-width:575px){
+  
+}
+
+@media(min-width:768px){
+  .job-post-sec{
+    margin:50px 0 50px 0;
+    .container{
+      .job-post-box{
+        min-height:260px;   
+        padding:80px 0;  
+      }
+    }
+  }
+}
+
+@media(min-width:992px){
+    
+}
+
+@media(min-width:1200px){
+  
+}
+

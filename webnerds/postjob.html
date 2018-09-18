@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>WebNerds</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="KriShne Gowda NL">
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/webnerds.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300,400,500" rel="stylesheet">
+</head>
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+<header class="site-header">
+  <div class="container">
+    <div class="site-logo">
+      <a href="index.html"><img src="img/site-logo.png"></a>
+    </div><!--eo site-logo -->
+    <div class="search-box postform">
+      <span></span>
+      <input type="search" name="search"
+      placeholder="Search..." size="30">
+    </div><!--eo search-box -->
+  </div><!--eo container -->
+</header><!--eo site-header -->
+
+<section class="site-banner-sec description-banner">
+  <div class="container">
+    <div class="banner-text">
+      <h1>Look here for <span>Web Nerds</span></h1>
+    </div>
+  </div><!-- eo container -->
+</section><!-- eo site-banner-sec -->
+
+
+<section class="jobpost-form-sec">
+  <div class="container">
+    <div class="jobpost-form-box">
+      <div class="form-box-heading">
+        <h2>Fill the job details here</h2>
+        <span></span>  
+      </div><!-- eo form-box-heading -->
+
+      <form action="/hirajsubmit.html" method="POST" class="form-wrap">
+        <div class="form-division">
+          <h3>About the Job Opportunity</h3>
+
+          <div class="inputs-col">
+            <div class="input-control">
+              <input type="text" name="jobTitle" placeholder="Job title" title="text-box"> 
+            </div>
+            <div class="input-control">
+              <input type="text" disabled name="" placeholder="Employment type">
+              <div class="input-checkbox">
+                <div class="check-col">
+                  <input type="checkbox" name="fullTime" id="fulltime" title="empTypeVal" value="Full Time">
+                  <label for="fulltime">Full Time</label>
+                </div>
+                <div class="check-col">
+                  <input type="checkbox" name="partTime" id="parttime" title="empTypeVal" value="Part Time">
+                  <label for="parttime">Part Time</label>
+                </div>
+                <div class="check-col">
+                  <input type="checkbox" name="internship" id="internship" title="empTypeVal" value="Internship">
+                  <label for="internship">Internship</label>
+                </div>
+                 <div class="check-col">
+                  <input type="checkbox" name="workhome" id="work-home" title="empTypeVal" value="Work Form Home">
+                  <label for="work-home">Work Form Home</label>
+                </div>
+              </div><!-- eo input-checkbox -->
+            </div><!-- eo input-control --> 
+          </div><!-- eo inputs-col -->
+
+          <div class="inputs-col">
+            <div class="input-control select-style">
+                <select multiple id="year" title="select-box">
+                  <option value=""><span>Job category</span></option>
+                  <option value="webdeveloper">Web Developer</option>
+                  <option value="webdesigner">Web Designer</option>
+                  <option value="php">PHP</option>
+                  <option value="wordpress">Word Press</option>
+                  <option value="angular">Angular</option>
+                </select>
+            </div><!-- eo input-control -->
+            <div class="input-control">
+              <input type="text" name="keyskills" placeholder="Add more keyskills">
+
+              <div class="input-checkbox skill-set">
+                <div class="check-col" skill="webdeveloper">
+                  <input type="checkbox" name="html5" id="html" title="empTypeVal" value="HTML">
+                  <label for="html">HTML5</label>
+                </div>
+                <div class="check-col" skill="webdeveloper">
+                  <input type="checkbox" name="css" id="css" title="empTypeVal" value="CSS3">
+                  <label for="css">CSS3</label>
+                </div>
+                <div class="check-col" skill="webdeveloper">
+                  <input type="checkbox" name="javascript" id="javascript" title="empTypeVal" value="JavaScript">
+                  <label for="javascript">JavaScript</label>
+                </div>
+                <div class="check-col" skill="webdeveloper">
+                  <input type="checkbox" name="bootstrap" id="bootstrap" title="empTypeVal" value="BootStrap">
+                  <label for="bootstrap">BootStrap</label>
+                </div>
+                <div class="check-col" skill="php">
+                  <input type="checkbox" name="webtechnology" id="webtechnology" title="empTypeVal" value="Web Technology">
+                  <label for="webtechnology">Web Technology</label>
+                </div>
+                <div class="check-col" skill="php">
+                  <input type="checkbox" name="php" id="php" title="empTypeVal" value="PHP">
+                  <label for="php">PHP</label>
+                </div>
+                <div class="check-col" skill="webdesigner">
+                  <input type="checkbox" name="photoshop" id="photoshop" title="empTypeVal" value="Photoshop">
+                  <label for="photoshop">Photoshop</label>
+                </div>
+                <div class="check-col" skill="webdesigner">
+                  <input type="checkbox" name="deshtml" id="deshtml" title="empTypeVal" value="HTML5">
+                  <label for="deshtml">HTML</label>
+                </div>
+                <div class="check-col" skill="webdesigner">
+                  <input type="checkbox" name="descss" id="descss" title="empTypeVal" value="CSS3">
+                  <label for="descss">CSS3</label>
+                </div>
+              </div><!-- eo input-checkbox -->
+            </div><!-- eo input-control --> 
+          </div><!-- eo inputs-col -->
+
+        </div><!-- eo form-division -->
+
+        <div class="form-division">
+          <h3>Qualification and Experience</h3>
+          <div class="inputs-col">
+            <div class="input-control">
+              <input type="text" name="qualification" placeholder="Qualification" title="text-box">
+            </div>
+          </div><!-- eo inputs-col -->
+
+          <div class="inputs-col">
+            <div class="input-control">
+              <input type="text" name="experience" disabled placeholder="Experience">
+              <div class="number-control">
+                <div class="number-col quantity">
+                  <input type="number" min="0"  step="1" value="0">
+                  <span>To</span>
+                </div>
+                <div class="number-col quantity">
+                  <input type="number" min="0"  step="1" value="0" title="numberVal">
+                </div>
+              </div><!-- eo number-control -->
+            </div><!-- eo input-control --> 
+          </div><!-- eo inputs-col -->
+        </div><!-- eo form-division -->
+
+        <div class="form-division">
+          <h3>Salary and Opening</h3>
+          <div class="inputs-col">
+            <div class="input-control">
+              <input type="text" name="salary" disabled placeholder="Salary">
+              <div class="salary-select-wrap">
+                <div class="monthly">
+                  <select id="year" title="select-box">
+                    <option value="">Select</option>
+                    <option value="Yearly">Yearly</option>
+                    <option value="Monthly">Monthly</option>
+                  </select>
+                </div>
+                <div class="from">
+                  <input type="text" placeholder="Form" name="form-to" title="text-box">
+                </div>
+                <div class="to">
+                  <input type="text" placeholder="To" name="form-to" title="text-box">
+                </div>
+              </div><!-- eo salary-select -->
+            
+            </div><!-- eo input-control --> 
+          </div><!-- eo inputs-col -->
+          <div class="inputs-col">
+            <div class="input-control">
+              <input type="text" name="no-of-opening" disabled placeholder="No of Opening">
+              <div class="number-control">
+                <div class="number-col quantity">
+                  <input type="number" min="0"  step="1" value="0" title="numberVal">
+                </div>
+              </div><!-- eo number-control -->
+
+            </div><!-- eo input-control --> 
+          </div><!-- eo inputs-col -->
+        </div><!-- eo form-division -->
+
+        <div class="form-division">
+          <h3>Job Description</h3>
+          <div class="inputs-col flex-1">
+            <div class="input-control">
+                
+              <textarea placeholder="Type your job description here" rows="3" title="text-box"></textarea>
+
+            </div><!-- eo input-control --> 
+          </div><!-- eo inputs-col -->
+        </div><!-- eo form-division -->
+
+        <div class="form-division">
+          <h3>Company and Job Location</h3>
+          <div class="inputs-col">
+            <div class="input-control">
+              <input type="text" name="company-name" placeholder="Company name" title="text-box">
+            </div>
+          </div><!-- eo inputs-col -->
+          <div class="inputs-col">
+            <div class="input-control select-style">
+              <select id="year" title="select-box">
+                <option value=""><span>Location</span></option>
+                <option value="Pune">Pune</option>
+                <option value="Bengaluru">Bengaluru</option>
+              </select>
+            </div><!-- eo input-control -->
+          </div><!-- eo inputs-col -->
+        </div><!-- eo form-division -->
+
+        <div class="form-submit">
+          <!-- <input type="submit" name="formsave" value="Save"> -->
+          <input type="button" name="formsave" value="Save">
+        </div><!-- eo form-submit -->
+      </form> <!-- eo form-wrap -->
+
+    </div><!-- eo jobpost-form-box -->
+  </div><!-- eo container -->
+</section><!-- eo jobpost-form-sec -->
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-col">
+      <p>© Copyright 2017 WebNerds. All rights reserved</p>
+    </div>
+    <div class="site-col">
+      <ul>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+    <div class="site-col">
+      <p>Powered by <a href="#">dzineden</a></p>
+    </div>
+  </div><!-- eo container -->
+</footer><!--eo site-footer -->
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
+
+  <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+  <script>tinymce.init({ selector:'textarea' });</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/owl.carousel.js"></script>
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+    ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+</html>
+
