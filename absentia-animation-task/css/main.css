@@ -1,0 +1,454 @@
+/*
+ * This code is done using html5boilerplate, bootstrap 4 and other fixes.
+ * We at dzineden use this code as the base for our websites and apps,
+ */
+
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+/*font-family: 'Lato', sans-serif;*/
+
+html {font-size: 1em;}
+body {
+  background-color: lightgray;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #252525;
+}
+p {margin-bottom: 1.3em;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.414em 0 0.5em;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: 'Lato', sans-serif;
+  color:#185287;
+}
+h1 {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+h2 {font-size: 2.369em;}
+h3 {font-size: 1.777em;}
+h4 {font-size: 1.333em;}
+small, .font_small {font-size: 0.75em;}
+
+
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.container{
+  margin:0 auto;
+  padding:50px 15px;
+  max-width: 1120px;
+}
+
+#animation1,#animation2{
+  background-color:#fff;
+  padding: 15px;
+  border:none;
+  cursor: pointer;
+  margin-right:20px;
+}
+
+
+
+.text-animation-one span{
+  font-size:70px;
+  font-weight:700;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.text-animation-one span{
+  opacity: 0;
+  transition: all, 1500ms;
+  filter:blur(80px); 
+  -webkit-filter:blur(80px); 
+  -moz-filter:blur(80px); 
+  -ms-filter:blur(80px); 
+  display: inline-block;
+}
+
+.text-animation-one.addAnimate span{
+  opacity: 1;
+  filter:blur(0px); 
+  -webkit-filter:blur(0px); 
+  -moz-filter:blur(0px); 
+  -ms-filter:blur(0px); 
+}
+
+.text-animation-one span:nth-child(11){
+  transition-delay:1100ms;
+}
+.text-animation-one span:nth-child(10){
+  transition-delay:1000ms;
+}
+.text-animation-one span:nth-child(9){
+  transition-delay:900ms;
+}
+.text-animation-one span:nth-child(8){
+  transition-delay:800ms;
+}
+.text-animation-one span:nth-child(7){
+  transition-delay:700ms;
+}
+.text-animation-one span:nth-child(6){
+  transition-delay:600ms;
+}
+.text-animation-one span:nth-child(5){
+  transition-delay:500ms;
+}
+.text-animation-one span:nth-child(4){
+  transition-delay:400ms;
+}
+.text-animation-one span:nth-child(3){
+  transition-delay:300ms;
+}
+.text-animation-one span:nth-child(2){
+  transition-delay:200ms;
+}
+.text-animation-one span:nth-child(1){
+  transition-delay:100ms;
+}
+
+
+.text-animation-slide{
+  height:500px;
+  position: relative;
+}
+.text-animation-slide span{
+  font-size:50px;
+  font-weight:700;
+  text-transform: uppercase;
+  color: #fff;
+  opacity:0;
+}
+
+.text-animation-slide.textSlideTop span{
+  animation-name: slideText;  
+  -webkit-animation-name: slideText;  
+  -moz-animation-name: slideText; 
+
+  animation-duration:500ms; 
+  -webkit-animation-duration:500ms; 
+  -moz-animation-duration:500ms; 
+  
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation-timing-function: ease-in;
+
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;  
+
+  position: absolute;
+  display:inline-block;
+}
+
+@keyframes slideText{
+  0%{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+  50%{
+    opacity:0.6;
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(400px);
+    -webkit-transform: translateY(400px);
+  }
+}
+
+@-webkit-keyframes slideText{
+  0%{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+  50%{
+    opacity:0.6;
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(400px);
+    -webkit-transform: translateY(400px);
+  }
+}
+
+.text-animation-slide.textSlideTop span:nth-child(1){
+  left:0px; 
+  animation-delay:100ms; 
+}
+.text-animation-slide.textSlideTop span:nth-child(2){
+  left:50px;  
+  animation-delay:200ms;
+}
+.text-animation-slide.textSlideTop span:nth-child(3){
+  left:100px;  
+  animation-delay:300ms;
+}
+.text-animation-slide.textSlideTop span:nth-child(4){
+  left:150px;  
+  animation-delay:400ms;
+}
+.text-animation-slide.textSlideTop span:nth-child(5){
+  left:200px;  
+  animation-delay:500ms;
+}
+.text-animation-slide.textSlideTop span:nth-child(6){
+  left:250px;  
+  animation-delay:600ms;
+}
+.text-animation-slide.textSlideTop span:nth-child(7){
+  left:300px;  
+  animation-delay:700ms;
+}
+.text-animation-slide.textSlideTop span:nth-child(8){
+  left:350px;  
+  animation-delay:800ms;
+}
+.text-animation-slide.textSlideTop span:nth-child(9){
+  left:400px;  
+  animation-delay:900ms;
+}
+.text-animation-slide.textSlideTop span:nth-child(10){
+  left:450px;  
+  animation-delay:1000ms;
+}
+.text-animation-slide.textSlideTop span:nth-child(11){
+  left:500px;  
+  animation-delay:1100ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.hidden {
+    display: none !important;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+.invisible {
+    visibility: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    p:first-letter,
+    div:first-letter,
+    blockquote:first-letter,
+    li:first-letter,
+    p:first-line,
+    div:first-line,
+    blockquote:first-line,
+    li:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+
+
+
+
+
