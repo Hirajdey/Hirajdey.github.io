@@ -1,0 +1,32 @@
+[
+  {
+    "id": "22",
+    "price": "199.50",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/rifit50-ec.jpg"
+      }
+    ],
+    "title": "Rifit 50 Ec",
+    "packaging": [
+      "250 gm"
+    ],
+    "brand": "Syngenta"
+  },
+
+{
+      "id": "23",
+      "price": "555.70",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/prince.jpg"
+        }
+      ],
+      "title": "Prince",
+      "packaging": [
+        "250 gm"
+      ],
+    "brand": "Krishi Rasayan"
+  }
+
+]

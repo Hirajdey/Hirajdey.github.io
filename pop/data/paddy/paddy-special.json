@@ -1,0 +1,47 @@
+[
+  {
+    "id": "22",
+    "price": "109.72",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/paddy-special.jpg"
+      }
+    ],
+    "title": "Paddy Special",
+    "packaging": [
+      "500 gm"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "342.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mangala-paddy-special.jpg"
+        }
+      ],
+      "title": "Mangala Paddy Special",
+      "packaging": [
+        "500 gm"
+      ],
+    "brand": "MCF"
+  },
+
+  {
+      "id": "24",
+      "price": "275.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/prokissan.jpg"
+        }
+      ],
+      "title": "Prokissan",
+      "packaging": [
+        "200 gm"
+      ],
+    "brand": "Multiplex"
+  }
+
+]

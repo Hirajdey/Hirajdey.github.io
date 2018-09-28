@@ -1,0 +1,47 @@
+[
+  {
+    "id": "22",
+    "price": "2.40",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/gromor-parry-super.jpg"
+      }
+    ],
+    "title": "Gromor Parry Super (single Super Phosphate)",
+    "packaging": [
+      "300 gm"
+    ],
+    "brand": "Coromandel"
+  },
+
+  {
+      "id": "23",
+      "price": "2.70",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mangala-single-super-phosphate.jpg"
+        }
+      ],
+      "title": "Mangala Single Super Phosphate",
+      "packaging": [
+        "300 gm"
+      ],
+    "brand": "MCF"
+  },
+
+{
+      "id": "24",
+      "price": "2.80",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mahadhan-super.jpg"
+        }
+      ],
+      "title": "Mahadhan Super",
+      "packaging": [
+        "300 gm"
+      ],
+    "brand": "Mahadhan"
+  }
+
+]

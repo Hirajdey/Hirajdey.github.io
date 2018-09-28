@@ -1,0 +1,106 @@
+[
+  {
+    "id": "22",
+    "price": "179.40",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/iffco-urea_46.jpg"
+      }
+    ],
+    "title": "Iffco Urea",
+    "packaging": [
+      "30 kg"
+    ],
+    "brand": "IFFCO"
+  },
+
+  {
+      "id": "23",
+      "price": "162.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/kribhco-urea-granular.jpg"
+        }
+      ],
+      "title": "Urea Granular",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "KRIBHCO"
+  },
+
+  {
+      "id": "24",
+      "price": "179.40",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/rcf-neem-coated-urea.jpg"
+        }
+      ],
+      "title": "Ujjwala Neem Coated Urea",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "RCF"
+  },
+
+  {
+      "id": "25",
+      "price": "179.40",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mangala-urea.jpg"
+        }
+      ],
+      "title": "Mangala Urea",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "MCF"
+  },
+
+  {
+      "id": "26",
+      "price": "179.40",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/jai-kisaan-urea.jpg"
+        }
+      ],
+      "title": "Jai Kisaan Urea",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "Jai Kisaan"
+  },
+
+  {
+      "id": "27",
+      "price": "330.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mahadhan-urea-ammonium-phosphate.jpg"
+        }
+      ],
+      "title": "Mahadhan (20:20:0) Urea Ammonium Phosphate",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "Mahadhan"
+  },
+
+  {
+      "id": "28",
+      "price": "171.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/fact-urea.jpg"
+        }
+      ],
+      "title": "Fact Urea",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "FACT" 
+  }
+]

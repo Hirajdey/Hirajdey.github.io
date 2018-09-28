@@ -1,0 +1,62 @@
+[
+  {
+    "id": "22",
+    "price": "209.00",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/nagpyripos.jpg"
+      }
+    ],
+    "title": "Nagpyripos",
+    "packaging": [
+      "400 gm"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "323.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/border-50.jpg"
+        }
+      ],
+      "title": "Border-50",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "24",
+      "price": "190.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/tricel.jpg"
+        }
+      ],
+      "title": "Tricel [chlorpyriphos]",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Excel"
+  },
+
+  {
+      "id": "25",
+      "price": "231.70",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/anth-50.jpg"
+        }
+      ],
+      "title": "Anth- 50",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Krishi rasayan"
+  }
+
+]

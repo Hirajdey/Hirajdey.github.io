@@ -1,0 +1,32 @@
+[
+  {
+    "id": "22",
+    "price": "686.00",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/ammonium-sulphate.jpg"
+      }
+    ],
+    "title": "Ammonium Sulphate",
+    "packaging": [
+      "50 kg"
+    ],
+    "brand": "FACT"
+  },
+
+{
+      "id": "23",
+      "price": "770.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mahadhan-sulphate-ammonium-sulphate.jpg"
+        }
+      ],
+      "title": "Mahadhan Super",
+      "packaging": [
+        "50 kg"
+      ],
+    "brand": "Mahadhan"
+  }
+
+]

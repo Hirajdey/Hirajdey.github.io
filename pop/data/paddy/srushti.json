@@ -1,0 +1,32 @@
+[
+  {
+    "id": "22",
+    "price": "6.00",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/srushti.jpg"
+      }
+    ],
+    "title": "Srushti (zinc High)",
+    "packaging": [
+      "75 gm"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "3.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mangala-borosan.jpg"
+        }
+      ],
+      "title": "Mangala Borosan",
+      "packaging": [
+        "75 gm"
+      ],
+    "brand": "MCF"
+  }
+
+]

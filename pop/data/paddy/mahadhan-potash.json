@@ -1,0 +1,32 @@
+[
+  {
+    "id": "22",
+    "price": "1.70",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mahadhan-potash.jpg"
+      }
+    ],
+    "title": "Mahadhan Potash",
+    "packaging": [
+      "100 gm"
+    ],
+    "brand": "MCF"
+  },
+
+  {
+      "id": "23",
+      "price": "1.10",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/jai-kisaan-suraksha-mop.jpg"
+        }
+      ],
+      "title": "Jai Kisaan Suraksha Mop",
+      "packaging": [
+        "100 gm"
+      ],
+    "brand": "Jai Kisaan"
+  }
+
+]

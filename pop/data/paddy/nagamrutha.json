@@ -1,0 +1,31 @@
+[
+  {
+    "id": "22",
+    "price": "85.50",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/nagamruta.jpg"
+      }
+    ],
+    "title": "Nagamrutha",
+    "packaging": [
+      "250 ml"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "211.85",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/planofix.jpg"
+        }
+      ],
+      "title": "Planofix",
+      "packaging": [
+        "400 ml"
+      ],
+    "brand": "Bayer"
+  }
+]

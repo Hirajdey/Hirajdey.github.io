@@ -1,0 +1,47 @@
+[
+  {
+    "id": "22",
+    "price": "220.40",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/jodi.jpg"
+      }
+    ],
+    "title": "Jodi",
+    "packaging": [
+      "400 gm"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "323.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/bendaco.jpg"
+        }
+      ],
+      "title": "Bendaco [carbendazim + Mancozeb]",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": " Biostadt"
+  },
+
+  {
+      "id": "24",
+      "price": "269.80",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/macoban-c-carbendazime-12-mancozeb-63-wp.jpg"
+        }
+      ],
+      "title": "Macoban C ",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Adama"
+  }
+
+]

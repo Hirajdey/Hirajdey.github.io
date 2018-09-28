@@ -1,0 +1,78 @@
+[
+  {
+    "id": "22",
+    "price": "197.60",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/speed.jpg"
+      }
+    ],
+    "title": "Speed",
+    "packaging": [
+      "400 gm"
+    ],
+    "brand": "Multiplex"
+  },
+
+{
+      "id": "23",
+      "price": "126.90",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/dupont-manzate.jpg"
+        }
+      ],
+      "title": "Dupont Manzate 200",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Dupont"
+  },
+
+
+{
+      "id": "24",
+      "price": "1261.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/sectin.jpg"
+        }
+      ],
+      "title": "Sectin",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Bayer"
+  },
+
+{
+      "id": "25",
+      "price": "119.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/eurofil-nt.jpg"
+        }
+      ],
+      "title": "Eurofil",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Indofil"
+  },
+
+{
+      "id": "26",
+      "price": "197.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/indofil-m-45.jpg"
+        }
+      ],
+      "title": "Indofil M-45",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Indofil"
+  }
+
+]

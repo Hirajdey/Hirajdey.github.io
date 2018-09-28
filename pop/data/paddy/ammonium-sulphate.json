@@ -1,0 +1,47 @@
+[
+  {
+    "id": "22",
+    "price": "6.86",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/ammonium-sulphate.jpg"
+      }
+    ],
+    "title": "Ammonium Sulphate",
+    "packaging": [
+      "500 gm"
+    ],
+    "brand": "FACT"
+  },
+
+  {
+      "id": "23",
+      "price": "9.60",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mangala-20-twenty.jpg"
+        }
+      ],
+      "title": "Ammonium Sulphate",
+      "packaging": [
+        "500 gm"
+      ],
+    "brand": "MCF"
+  },
+
+{
+      "id": "24",
+      "price": "7.70",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mahadhan-sulphate-ammonium-sulphate.jpg"
+        }
+      ],
+      "title": "Mahadhan Super",
+      "packaging": [
+        "500 gm"
+      ],
+    "brand": "Mahadhan"
+  }
+
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "22",
+    "price": "275.5",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/bactinash-200.jpg"
+      }
+    ],
+    "title": "Bactinash",
+    "packaging": [
+      "100 gm"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "280.25",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/bactrinashak.jpg"
+        }
+      ],
+      "title": "Bacterinashak",
+      "packaging": [
+        "100 gm"
+      ],
+    "brand": "Indofil"
+  }
+
+]

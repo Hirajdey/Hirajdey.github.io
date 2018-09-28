@@ -1,0 +1,31 @@
+[
+  {
+    "id": "22",
+    "price": "418.00",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/kranti.jpg"
+      }
+    ],
+    "title": "Kranti",
+    "packaging": [
+      "400 ml"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "361.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mangala-bio-20.jpg"
+        }
+      ],
+      "title": "Mangala Bio 20 (20:20:20)",
+      "packaging": [
+        "400 ml"
+      ],
+    "brand": "MFC"
+  }
+]

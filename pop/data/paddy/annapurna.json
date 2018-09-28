@@ -1,0 +1,61 @@
+[
+  {
+    "id": "22",
+    "price": "603.25",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/annapurna.jpg"
+      }
+    ],
+    "title": "Multiplex Annapurna",
+    "packaging": [
+      "30 kg"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "352.68",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/bio-gold-plus.jpg"
+        }
+      ],
+      "title": "Biogold plus",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "Mangala"
+  },
+
+  {
+      "id": "24",
+      "price": "399.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mbf-brown-gold.jpg"
+        }
+      ],
+      "title": "Brown Gold",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "MBF"
+  },
+
+  {
+      "id": "25",
+      "price": "256.50",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/jk-compost.jpg"
+        }
+      ],
+      "title": "Compost",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "Jai Kisaan"
+  }
+]

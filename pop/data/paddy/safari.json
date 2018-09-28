@@ -1,0 +1,76 @@
+[
+  {
+    "id": "22",
+    "price": "475.00",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/safari.jpg"
+      }
+    ],
+    "title": "Safari",
+    "packaging": [
+      "300 gm"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "550.80",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/blastogan.jpg"
+        }
+      ],
+      "title": "Blastogan",
+      "packaging": [
+        "300 gm"
+      ],
+    "brand": "Adama"
+  },
+
+  {
+      "id": "24",
+      "price": "510.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/blastin.jpg"
+        }
+      ],
+      "title": "Blastin",
+      "packaging": [
+        "300 gm"
+      ],
+    "brand": "Ranadey"
+  },
+
+  {
+      "id": "25",
+      "price": "522.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/tric.jpg"
+        }
+      ],
+      "title": "Tric",
+      "packaging": [
+        "300 gm"
+      ],
+    "brand": "Krishi Rasayan"
+  },
+
+  {
+      "id": "26",
+      "price": "440.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/logik.jpg"
+        }
+      ],
+      "title": "Logik",
+      "packaging": [
+        "300 gm"
+      ],
+    "brand": "PI"
+  }
+]

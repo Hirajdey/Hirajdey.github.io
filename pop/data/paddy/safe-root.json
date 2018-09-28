@@ -1,0 +1,17 @@
+[
+  {
+    "id": "22",
+    "price": "33.20",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/safe_root.jpg"
+      }
+    ],
+    "title": "Safe Root",
+    "packaging": [
+      "100 gm"
+    ],
+    "brand": "Multiplex"
+  }
+
+]

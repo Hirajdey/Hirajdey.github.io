@@ -1,0 +1,92 @@
+[
+  {
+    "id": "22",
+    "price": "300.20",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/nagace.jpg"
+      }
+    ],
+    "title": "Nagace",
+    "packaging": [
+      "400 gm"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "195.32",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/blacemain.jpg"
+        }
+      ],
+      "title": "Acemain",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Adama"
+  },
+
+  {
+      "id": "24",
+      "price": "249.60",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/tamaron-gold.jpg"
+        }
+      ],
+      "title": "Tamaron Gold",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Bayer"
+  },
+
+  {
+      "id": "25",
+      "price": "403.60",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/hunk.jpg"
+        }
+      ],
+      "title": "Cuprina",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Rallis"
+  },
+
+  {
+      "id": "26",
+      "price": "296.40",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/acefex.jpg"
+        }
+      ],
+      "title": "Acefex",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Excel"
+  },
+
+  {
+      "id": "27",
+      "price": "258.40",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/tremor.jpg"
+        }
+      ],
+      "title": "Tremor 75 Sp",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Biostadt"
+  }
+
+]

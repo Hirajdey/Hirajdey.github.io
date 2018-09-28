@@ -1,0 +1,77 @@
+[
+  {
+    "id": "22",
+    "price": "284.80",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/nagcoper.jpg"
+      }
+    ],
+    "title": "Nagcoper",
+    "packaging": [
+      "400 gm"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "276.6",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/blue-copper.jpg"
+        }
+      ],
+      "title": "Blue Copper [copper Oxy Chloride]",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Syngenta"
+  },
+
+  {
+      "id": "24",
+      "price": "246.4",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/blitox.jpg"
+        }
+      ],
+      "title": "Blitox",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "TATA"
+  },
+
+  {
+      "id": "25",
+      "price": "258.40",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/cuprina-packshot.jpg"
+        }
+      ],
+      "title": "Cuprina",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "PI"
+  },
+
+  {
+      "id": "26",
+      "price": "228.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/trucop.jpg"
+        }
+      ],
+      "title": "Trucop",
+      "packaging": [
+        "400 gm"
+      ],
+    "brand": "Indofil"
+  }
+
+]

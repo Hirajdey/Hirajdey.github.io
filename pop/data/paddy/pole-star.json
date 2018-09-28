@@ -1,0 +1,106 @@
+[
+  {
+    "id": "22",
+    "price": "258.40",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/polestar.jpg"
+      }
+    ],
+    "title": "Pole Star",
+    "packaging": [
+      "400 ml"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "448.40",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/jawaa.jpg"
+        }
+      ],
+      "title": "Dupont Jawaa [buprofezin 25% Sc]",
+      "packaging": [
+        "400 ml"
+      ],
+    "brand": "Dupont"
+  },
+
+  {
+      "id": "24",
+      "price": "395.20",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/pi-bupro.jpg"
+        }
+      ],
+      "title": "Pi Bupro",
+      "packaging": [
+        "400 ml"
+      ],
+    "brand": "PI"
+  },
+
+  {
+      "id": "25",
+      "price": "317.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/bipimain.jpg"
+        }
+      ],
+      "title": "Bipimain [buprofezin 25% Sc]",
+      "packaging": [
+        "400 ml"
+      ],
+    "brand": "Adama"
+  },
+
+  {
+      "id": "26",
+      "price": "398.80",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/tapuz.jpg"
+        }
+      ],
+      "title": "Tapuz [buprofezin 15% + Acephate 35% Wp]",
+      "packaging": [
+        "400 ml"
+      ],
+    "brand": "Adama"
+  },
+
+  {
+      "id": "27",
+      "price": "458.80",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/flotis.jpg"
+        }
+      ],
+      "title": "Flotis (buprofezin 25 Sc)",
+      "packaging": [
+        "400 ml"
+      ],
+    "brand": "Bayer"
+  },
+
+  {
+      "id": "28",
+      "price": "284.90",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/banzo.jpg"
+        }
+      ],
+      "title": "Banzo",
+      "packaging": [
+        "400 ml"
+      ],
+    "brand": "Biostadt"
+  }
+]

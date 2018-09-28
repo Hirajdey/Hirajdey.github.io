@@ -1,0 +1,46 @@
+[
+  {
+    "id": "22",
+    "price": "123.50",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/swarna-zn.jpg"
+      }
+    ],
+    "title": "Swarna Zn",
+    "packaging": [
+      "100 gm"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "150.10",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/chelamin-gold-zn-as-zn-edta-15.jpg"
+        }
+      ],
+      "title": "Chelamin Gold (zn As Zn Edta 15%)",
+      "packaging": [
+        "100 gm"
+      ],
+    "brand": "Aries"
+  },
+
+  {
+      "id": "24",
+      "price": "171.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/chelamin-zn-as-zn-edta-12.jpg"
+        }
+      ],
+      "title": "Chelamin",
+      "packaging": [
+        "100 gm"
+      ],
+    "brand": "Aries"
+  }
+]

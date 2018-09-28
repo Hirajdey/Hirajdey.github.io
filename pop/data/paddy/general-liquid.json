@@ -1,0 +1,46 @@
+[
+  {
+    "id": "22",
+    "price": "285.00",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/general-liquid.jpg"
+      }
+    ],
+    "title": "General Liquid",
+    "packaging": [
+      "600 ml"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "188.10",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/agromin-[liquid].jpg"
+        }
+      ],
+      "title": "Agromin [liquid]",
+      "packaging": [
+        "600 ml"
+      ],
+    "brand": "Aries"
+  },
+
+  {
+      "id": "24",
+      "price": "250.80",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/kiecitegeneral-liquid.jpg"
+        }
+      ],
+      "title": "Kiecite G General Liquid",
+      "packaging": [
+        "600 ml"
+      ],
+    "brand": "Ranadey"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "22",
+    "price": "239.40",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/nagphos.jpg"
+      }
+    ],
+    "title": "Nagphos",
+    "packaging": [
+      "400 ml"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "199.50",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/crotocel.gif"
+        }
+      ],
+      "title": "Crotocel",
+      "packaging": [
+        "500 gm"
+      ],
+    "brand": "Excel"
+  },
+
+  {
+      "id": "24",
+      "price": "250.80",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/monomain.jpg"
+        }
+      ],
+      "title": "Monomain ",
+      "packaging": [
+        "500 gm"
+      ],
+    "brand": "Adama"
+  }
+
+]

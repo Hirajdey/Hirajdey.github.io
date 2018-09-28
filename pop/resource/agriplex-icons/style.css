@@ -1,0 +1,451 @@
+@font-face {
+  font-family: 'agriplex';
+  src:  url('fonts/agriplex.eot?oauirl');
+  src:  url('fonts/agriplex.eot?oauirl#iefix') format('embedded-opentype'),
+    url('fonts/agriplex.ttf?oauirl') format('truetype'),
+    url('fonts/agriplex.woff?oauirl') format('woff'),
+    url('fonts/agriplex.svg?oauirl#agriplex') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'agriplex' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-leaf:before {
+  content: "\e977";
+}
+.icon-tea:before {
+  content: "\e976";
+}
+.icon-beetroot:before {
+  content: "\e92c";
+}
+.icon-black-pepper(1):before {
+  content: "\e92d";
+}
+.icon-brinjal:before {
+  content: "\e930";
+}
+.icon-brocolli:before {
+  content: "\e931";
+}
+.icon-carnations:before {
+  content: "\e934";
+}
+.icon-cauliflower:before {
+  content: "\e935";
+}
+.icon-chinese-cabbage:before {
+  content: "\e938";
+}
+.icon-coriander:before {
+  content: "\e93b";
+}
+.icon-garlic:before {
+  content: "\e942";
+}
+.icon-gauva:before {
+  content: "\e945";
+}
+.icon-gerbera:before {
+  content: "\e947";
+}
+.icon-gladiolus:before {
+  content: "\e948";
+}
+.icon-ground-nut:before {
+  content: "\e94b";
+}
+.icon-methi-leaves:before {
+  content: "\e94d";
+}
+.icon-mousambi:before {
+  content: "\e94e";
+}
+.icon-mulberry:before {
+  content: "\e950";
+}
+.icon-muskmelon:before {
+  content: "\e951";
+}
+.icon-pea:before {
+  content: "\e953";
+}
+.icon-pomegranate:before {
+  content: "\e95c";
+}
+.icon-pumpkin:before {
+  content: "\e95d";
+}
+.icon-raddish:before {
+  content: "\e95e";
+}
+.icon-sapota:before {
+  content: "\e95f";
+}
+.icon-wax-pepper:before {
+  content: "\e960";
+}
+.icon-black-pepper:before {
+  content: "\e909";
+}
+.icon-cabbage:before {
+  content: "\e915";
+}
+.icon-capsicum:before {
+  content: "\e91e";
+}
+.icon-chrysanthemum:before {
+  content: "\e921";
+}
+.icon-cucumber:before {
+  content: "\e923";
+}
+.icon-ginger:before {
+  content: "\e924";
+}
+.icon-soya-bean:before {
+  content: "\e929";
+}
+.icon-lemon:before {
+  content: "\e959";
+}
+.icon-others:before {
+  content: "\e901";
+}
+.icon-seller:before {
+  content: "\e903";
+}
+.icon-shopping:before {
+  content: "\e908";
+}
+.icon-green-gram:before {
+  content: "\e95a";
+}
+.icon-papaya:before {
+  content: "\e95b";
+}
+.icon-sponge-gourd:before {
+  content: "\e96c";
+}
+.icon-chick-pea:before {
+  content: "\e970";
+}
+.icon-field-bean:before {
+  content: "\e972";
+}
+.icon-bitter-gourd:before {
+  content: "\e973";
+}
+.icon-cardamom:before {
+  content: "\e975";
+}
+.icon-ash-gourd:before {
+  content: "\e925";
+}
+.icon-bhendi:before {
+  content: "\e928";
+}
+.icon-black-gram:before {
+  content: "\e92b";
+}
+.icon-bottle-gourd:before {
+  content: "\e949";
+}
+.icon-cow-pea:before {
+  content: "\e963";
+}
+.icon-ginger2:before {
+  content: "\e964";
+}
+.icon-palak:before {
+  content: "\e965";
+}
+.icon-papaya2:before {
+  content: "\e966";
+}
+.icon-pole-beans:before {
+  content: "\e967";
+}
+.icon-ridge-gourd:before {
+  content: "\e968";
+}
+.icon-snack-gourd:before {
+  content: "\e969";
+}
+.icon-turmeric:before {
+  content: "\e96a";
+}
+.icon-amaranthus:before {
+  content: "\e962";
+}
+.icon-dill:before {
+  content: "\e96b";
+}
+.icon-knol-khol:before {
+  content: "\e96d";
+}
+.icon-marigold:before {
+  content: "\e96e";
+}
+.icon-moringa:before {
+  content: "\e96f";
+}
+.icon-ragi:before {
+  content: "\e971";
+  color: #000;
+}
+.icon-sorghum:before {
+  content: "\e974";
+}
+.icon-sugarcane:before {
+  content: "\e956";
+}
+.icon-cashew:before {
+  content: "\e957";
+}
+.icon-Cotton:before {
+  content: "\e958";
+}
+.icon-discount:before {
+  content: "\e954";
+}
+.icon-rose:before {
+  content: "\e90a";
+}
+.icon-add:before {
+  content: "\e911";
+}
+.icon-placed:before {
+  content: "\e912";
+}
+.icon-addresses:before {
+  content: "\e913";
+}
+.icon-delivered:before {
+  content: "\e914";
+}
+.icon-seeds:before {
+  content: "\e916";
+}
+.icon-popular-seeds:before {
+  content: "\e917";
+}
+.icon-payments:before {
+  content: "\e918";
+}
+.icon-delivery:before {
+  content: "\e919";
+}
+.icon-orders:before {
+  content: "\e91a";
+}
+.icon-question:before {
+  content: "\e91b";
+}
+.icon-mail:before {
+  content: "\e91c";
+}
+.icon-pesticides:before {
+  content: "\e91d";
+}
+.icon-placeholder:before {
+  content: "\e91f";
+}
+.icon-shop-by-crop:before {
+  content: "\e920";
+}
+.icon-review:before {
+  content: "\e922";
+}
+.icon-smartphone:before {
+  content: "\e926";
+}
+.icon-substract:before {
+  content: "\e927";
+}
+.icon-apple:before {
+  content: "\e92a";
+}
+.icon-banana:before {
+  content: "\e92e";
+}
+.icon-beans:before {
+  content: "\e92f";
+}
+.icon-carrot:before {
+  content: "\e932";
+}
+.icon-chili:before {
+  content: "\e933";
+}
+.icon-coconut:before {
+  content: "\e936";
+}
+.icon-coffee:before {
+  content: "\e937";
+}
+.icon-corncob:before {
+  content: "\e939";
+}
+.icon-depressed-face:before {
+  content: "\e93a";
+  color: #fff;
+}
+.icon-paddy:before {
+  content: "\e93c";
+}
+.icon-grapes:before {
+  content: "\e93d";
+}
+.icon-arecanut:before {
+  content: "\e93e";
+}
+.icon-maize:before {
+  content: "\e93f";
+}
+.icon-corn:before {
+  content: "\e940";
+}
+.icon-mango:before {
+  content: "\e941";
+}
+.icon-onion:before {
+  content: "\e943";
+}
+.icon-orange:before {
+  content: "\e944";
+}
+.icon-potatoes:before {
+  content: "\e946";
+}
+.icon-sunflower:before {
+  content: "\e94a";
+}
+.icon-tomato:before {
+  content: "\e94c";
+}
+.icon-watermelon:before {
+  content: "\e94f";
+}
+.icon-wheat:before {
+  content: "\e952";
+}
+.icon-latest-updates:before {
+  content: "\e90d";
+}
+.icon-easy-payment:before {
+  content: "\e90e";
+}
+.icon-trust-wrap:before {
+  content: "\e90f";
+}
+.icon-technical-support:before {
+  content: "\e910";
+}
+.icon-cart:before {
+  content: "\e900";
+}
+.icon-fertillizer:before {
+  content: "\e902";
+}
+.icon-tobacco:before {
+  content: "\e904";
+}
+.icon-pop:before {
+  content: "\e905";
+}
+.icon-accessiories:before {
+  content: "\e906";
+}
+.icon-search:before {
+  content: "\e907";
+}
+.icon-heart:before {
+  content: "\e955";
+}
+.icon-user:before {
+  content: "\e90c";
+}
+.icon-like:before {
+  content: "\e961";
+}
+.icon-android:before {
+  content: "\e859";
+}
+.icon-view-all:before {
+  content: "\e5c3";
+}
+.icon-edit:before {
+  content: "\e254";
+}
+.icon-done:before {
+  content: "\e876";
+}
+.icon-star:before {
+  content: "\e838";
+}
+.icon-helpline:before {
+  content: "\e311";
+}
+.icon-star-border:before {
+  content: "\e83a";
+}
+.icon-star-half:before {
+  content: "\e839";
+}
+.icon-language:before {
+  content: "\e90b";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-trash:before {
+  content: "\f014";
+}
+.icon-track-order:before {
+  content: "\f041";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-angle-double-right:before {
+  content: "\f101";
+}
+.icon-download-app:before {
+  content: "\f10b";
+}
+.icon-rupee:before {
+  content: "\f156";
+}
+.icon-youtube:before {
+  content: "\f16a";
+}
+.icon-apple2:before {
+  content: "\f179";
+}

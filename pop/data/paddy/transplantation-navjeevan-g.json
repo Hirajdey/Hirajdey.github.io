@@ -1,0 +1,46 @@
+[
+  {
+    "id": "22",
+    "price": "788.50",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/navajeevan-g.jpg"
+      }
+    ],
+    "title": "Navjeevan - G",
+    "packaging": [
+      "10 kg"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "684.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/gold-humic-substances-granules.jpg"
+        }
+      ],
+      "title": "Gold (humic Substances Granules)",
+      "packaging": [
+        "10 kg"
+      ],
+    "brand": "Mangala"
+  },
+
+  {
+      "id": "24",
+      "price": "772.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/spic-empower-granules.jpg"
+        }
+      ],
+      "title": "Spic Em Power Granules",
+      "packaging": [
+        "10 kg"
+      ],
+    "brand": "SPIC"
+  }
+]

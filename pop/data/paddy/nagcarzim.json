@@ -1,0 +1,31 @@
+[
+  {
+    "id": "22",
+    "price": "76.00",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/nagcarzim.jpg"
+      }
+    ],
+    "title": "Nagcarzim",
+    "packaging": [
+      "100 gm"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "99.75",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/benmain.jpg"
+        }
+      ],
+      "title": "Benmain [ Carbendazim]",
+      "packaging": [
+        "100 gm"
+      ],
+    "brand": "ADAMA"
+  }
+]

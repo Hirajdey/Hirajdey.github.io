@@ -1,0 +1,46 @@
+[
+  {
+    "id": "22",
+    "price": "393.30",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/samruddhi.jpg"
+      }
+    ],
+    "title": "Multiplex Samruddhi",
+    "packaging": [
+      "30 kg"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "270.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mangala-setright-for-alkaline-soils.jpg"
+        }
+      ],
+      "title": "Mangala Setright (for Alkaline Soils)",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "Mangala"
+  },
+
+  {
+      "id": "24",
+      "price": "541.50",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/satrite.jpg"
+        }
+      ],
+      "title": "Satrite",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "Ranadey"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "22",
+    "price": "1140.00",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/nagtap.jpg"
+      }
+    ],
+    "title": "Nagtap",
+    "packaging": [
+      "10 kg"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "760.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/cartox-g.jpg"
+        }
+      ],
+      "title": "Cartox G",
+      "packaging": [
+        "10 kg"
+      ],
+    "brand": "Rallis"
+  },
+
+  {
+      "id": "24",
+      "price": "1116",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/prince.jpg"
+        }
+      ],
+      "title": "Kri-tap 4g [cartap Hydrochloride 4% G]",
+      "packaging": [
+        "10 kg"
+      ],
+    "brand": "Krishi Rasayan"
+  },
+
+  {
+      "id": "25",
+      "price": "893.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/boregan.jpg"
+        }
+      ],
+      "title": "Boregan G [cartap Hydrochloride 4% Gr]",
+      "packaging": [
+        "10 kg"
+      ],
+    "brand": "Adama"
+  }
+
+]

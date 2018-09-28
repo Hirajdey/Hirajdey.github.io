@@ -1,0 +1,46 @@
+[
+  {
+    "id": "22",
+    "price": "90.00",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/navajeevan-g.jpg"
+      }
+    ],
+    "title": "Navjeevan - G",
+    "packaging": [
+      "1 kg"
+    ],
+    "brand": "Multiplex"
+  },
+
+  {
+      "id": "23",
+      "price": "63.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/gold-humic-substances-granules.jpg"
+        }
+      ],
+      "title": "Gold (humic Substances Granules)",
+      "packaging": [
+        "1 kg"
+      ],
+    "brand": "Mangala"
+  },
+
+  {
+      "id": "24",
+      "price": "77.90",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/bt-biozyme-gr.jpg"
+        }
+      ],
+      "title": "Bt Biozyme [gr]",
+      "packaging": [
+        "1 kg"
+      ],
+    "brand": "Biostadt"
+  }
+]

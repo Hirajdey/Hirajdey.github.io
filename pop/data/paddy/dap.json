@@ -1,0 +1,46 @@
+[
+  {
+    "id": "22",
+    "price": "696.60",
+    "images": [
+      {
+        "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/iffco-dap.jpg"
+      }
+    ],
+    "title": "Iffco Dap",
+    "packaging": [
+      "30 kg"
+    ],
+    "brand": "IFFCO"
+  },
+
+  {
+      "id": "23",
+      "price": "787.80",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/mangala-dap.jpg"
+        }
+      ],
+      "title": "Mangala Dap",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "MCF"
+  },
+
+  {
+      "id": "24",
+      "price": "812.00",
+      "images": [
+        {
+          "medium": "https://dl3cu2mlc0wom.cloudfront.net/images/products/medium/jai-kisaan-samrat-dap.jpg"
+        }
+      ],
+      "title": "Jai Kisaan Samrat [dap]",
+      "packaging": [
+        "30 kg"
+      ],
+    "brand": "Jai Kisaan"
+  }
+]
