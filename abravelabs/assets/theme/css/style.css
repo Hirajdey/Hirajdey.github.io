@@ -335,7 +335,9 @@ nav .mbr-section-btn {
 .mbr-arrow {
   position: absolute;
   bottom: 45px;
-  left: 50%;
+  left:0;
+  right:0;
+  margin:auto;
   width: 20px;
   height: 20px;
   cursor: pointer;
