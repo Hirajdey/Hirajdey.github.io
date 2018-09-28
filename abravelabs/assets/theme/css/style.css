@@ -361,7 +361,8 @@ nav .mbr-section-btn {
 
 @keyframes arrowdown {
   0% {
-    transform: translateY(0px);
+    transform: 
+    translateY(0px);
     -webkit-transform: translateY(0px); }
   50% {
     transform: translateY(-5px);
@@ -506,6 +507,16 @@ nav .mbr-section-btn {
 .cid-r4QdV00OTj.footer-bg{
   background-color: #232323 !important;
 }
+.mbr-fullscreen{
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+@media (max-width: 767px){
+  .mbr-arrow {
+    display: block !important;
+  }
+}
 
 @media(min-width:768px){
  .bravelablogo{
@@ -513,6 +524,10 @@ nav .mbr-section-btn {
   } 
   .lends-conversions{ 
     width:400px;
+  }
+  .mbr-fullscreen{
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
   }
 }
 
