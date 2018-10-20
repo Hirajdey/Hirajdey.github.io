@@ -1,0 +1,153 @@
+
+.home-service-box{
+	position: relative;
+	.marquee-box{
+	  position: absolute;
+	  bottom:15%;
+	  z-index:-0;
+	  h2{
+	  	font-size: 230px;
+	  	color:#EFEFEF !important;
+	  }
+	}
+	.container{
+		z-index:100;
+	}
+
+	h2{
+		font-size:36px;
+	}
+	.home-services-cart-img{
+		border: solid 10px $white;
+	}
+	.home-service-small-cart{
+		width:100%;
+		background-color:$white;
+		padding:25px;
+		-webkit-box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.06);
+		-moz-box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.06);
+		box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.06);
+		h3{
+			font-size:30px;
+			font-weight:700;
+		}
+		ul{
+			padding:0;
+			margin:0;
+			li{
+				list-style-type:none;
+				margin:15px 0;
+				a{
+					color:#414141;
+					font-size:18px;
+				}
+			}
+		}
+	}
+	.home-service-text{
+		p{
+	    font-size: 18px;
+	    line-height: 30px;
+	    font-weight: 300;
+		}
+	}
+}
+
+.explore-moreBtn{
+	line-height: 35px;
+  font-size: 20px;
+  color: #3271D1;
+  position: relative;
+  padding-left: 50px;
+  display: block;
+  height: 35px;
+  margin-top: 35px;
+  width:180px;
+	span{
+		display: inline-block;
+		width:35px;
+		height:35px;
+		color:$white;
+		border-radius:50%;
+		background-color:$btn-color;
+		position: absolute;
+		top:0;
+		left:0;
+	}
+}
+
+
+
+@include media-breakpoint-up(xs) {
+	
+}
+
+@include media-breakpoint-up(sm) {
+	.home-service-box{
+		h2{
+			font-size:50px;
+		}
+	}
+}
+
+@include media-breakpoint-up(md) {
+	.home-service-box{
+		h2{
+			font-size:60px;
+		}
+		.home-service-small-cart{
+			width:75%;
+	    position: absolute;
+	    top: -80px;
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+		}
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	.home-service-box{
+		margin-bottom: 100px;
+		h2{
+			font-size:80px;
+		}
+		.home-service-text{
+			p{
+				font-size: 22px;
+		    line-height: 40px;
+			}
+		}
+		.homeservice-cart-wrap{
+			// max-width:992px;
+			// margin:auto;
+		}
+		.home-service-small-cart{
+			padding:50px;
+			h3{
+				font-size:40px;
+			}
+			ul{
+				li{
+					margin:24px 0;
+					a{
+						font-size:20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include media-breakpoint-up(xl) {
+	.home-service-box{
+		h2{
+			font-size:120px;
+		}
+		.homeservice-cart-wrap{
+			// max-width:992px; 
+		}
+	}
+}
+
+
