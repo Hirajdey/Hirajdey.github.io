@@ -1,0 +1,60 @@
+/*========================
+   =            banner         
+   ==========================*/
+.banner{
+  position: relative;
+  color:$white;
+  @include media-breakpoint-down(sm){
+    img{
+      height:230px;
+      object-fit: cover;
+    }
+  }
+
+  .banner-caption{
+    position: absolute;
+    top: 15%;
+    @include media-breakpoint-up(lg){
+      top: 50%;
+      transform: translate(-50%,-50%);
+      left: 40%;
+    }
+   
+    .container{
+      @include media-breakpoint-down(lg){
+        padding:0;
+      }
+      h1{
+      color:$golden;
+      font-weight: 300;
+      font-size: 28px;
+      @include media-breakpoint-up(lg){
+      font-size:50px;
+      }
+    }
+    p{
+      margin:0;
+    }
+    span{
+      display: block;
+      margin-bottom: 10px;
+    }
+    }
+    
+    
+  }
+}
+
+.owl-theme .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+/*========================
+   =          eo  banner         
+   ==========================*/
+

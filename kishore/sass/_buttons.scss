@@ -1,0 +1,166 @@
+// stylelint-disable selector-no-qualifying-type
+
+//
+// Base styles
+//
+
+.btn {
+  display: inline-block;
+  font-weight: $btn-font-weight;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: $btn-border-width solid transparent;
+  @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
+  @include transition($btn-transition);
+
+  // Share hover and focus styles
+  @include hover-focus {
+    text-decoration: none;
+  }
+
+  &:focus,
+  &.focus {
+    outline: 0;
+    box-shadow: $btn-focus-box-shadow;
+  }
+
+  // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled {
+    opacity: $btn-disabled-opacity;
+    @include box-shadow(none);
+  }
+
+  // Opinionated: add "hand" cursor to non-disabled .btn elements
+  &:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active {
+    background-image: none;
+    @include box-shadow($btn-active-box-shadow);
+
+    &:focus {
+      @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+    }
+  }
+}
+
+// Future-proof disabling of clicks on `<a>` elements
+a.btn.disabled,
+fieldset:disabled a.btn {
+  pointer-events: none;
+}
+
+
+//
+// Alternate buttons
+//
+
+  .btn-outline {
+    @include button-outline-variant($primary);
+  }
+
+
+
+//
+// Link buttons
+//
+
+// Make a button look and behave like a link
+.btn-link {
+  font-weight: $font-weight-normal;
+  color: $link-color;
+  background-color: transparent;
+
+  @include hover {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  &:focus,
+  &.focus {
+    text-decoration: $link-hover-decoration;
+    border-color: transparent;
+    box-shadow: none;
+  }
+
+  &:disabled,
+  &.disabled {
+    color: $btn-link-disabled-color;
+    pointer-events: none;
+  }
+
+  // No need for an active state here
+}
+
+
+
+//
+// Block button
+//
+
+.btn-block {
+  display: block;
+  width: 100%;
+
+  // Vertically space out multiple block buttons
+  + .btn-block {
+    margin-top: $btn-block-spacing-y;
+  }
+}
+
+// Specificity overrides
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  &.btn-block {
+    width: 100%;
+  }
+}
+/*========================
+   =            btn       
+   ==========================*/
+.btn{
+  border:solid 1px $golden;
+}
+.btn{
+  position: relative;
+  z-index: 99;
+  &:before{
+    content: "";
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    background-color: $golden;
+    z-index: -1;
+
+  }
+  a{
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+.btn:hover::before {
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+
+/*========================
+   =        eo btn       
+   ==========================*/

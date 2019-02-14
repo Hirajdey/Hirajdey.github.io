@@ -1,0 +1,36 @@
+.myfooter{
+  background-color: $black;
+  padding-top: 65px;
+}
+.social-icons{
+  ul{
+    display: flex;
+    li{
+      padding-left: 20px;
+      a{
+        color:$golden;
+        border:solid 1px $golden;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.footer-row{
+  display: flex;
+  .footer-col{
+    width:33.3333%;
+  }
+}
+
+.f-menu{
+  .half{
+    float:left;
+    width:50%;
+  }
+}

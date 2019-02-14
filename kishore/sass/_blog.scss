@@ -1,0 +1,77 @@
+/*========================
+   =       blogs        
+   ==========================*/
+.blog{
+  color:$white;
+  h2{
+    text-align: center;
+    
+  }
+  h4{
+    font-size: 20px;
+    color:$white;
+  }
+  a{
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+.blogs-row{
+  display:flex;
+  grid-gap:40px;
+  max-width: 880px;
+  margin:75px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include media-breakpoint-up(lg){
+    flex-wrap: unset;
+  }
+
+  .blog-col{
+    background: rgb(25,25,25);
+    background: -moz-linear-gradient(top, rgba(25,25,25,1) 0%, rgba(65,65,65,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(25,25,25,1) 0%,rgba(65,65,65,1) 100%);
+    background: linear-gradient(to bottom, rgba(25,25,25,1) 0%,rgba(65,65,65,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191919', endColorstr='#414141',GradientType=0 );
+    background-image: linear-gradient(to bottom right, #171717, #353535);
+    flex-basis: 100%;
+    @include media-breakpoint-up(sm){
+      flex-basis:45%;
+    }
+    @include media-breakpoint-up(lg){
+      flex-basis: 33.333%;
+    }
+
+
+    .blog-img{
+    position: relative;
+      i{
+        position: absolute;
+        bottom:-15px;
+        right:22px;
+        width:26px;
+        height:26px;
+        background-color: $golden;
+        border-radius: 50%;
+        color:$white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+.blog-info{
+  padding: 25px 5px 10px 15px;
+  span{
+    padding-bottom: 25px;
+    display: block;
+    font-size: 12px;
+    font-weight:300;
+  }
+
+}
+/*========================
+   =       eo blogs         
+   ==========================*/

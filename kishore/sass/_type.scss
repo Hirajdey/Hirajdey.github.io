@@ -1,0 +1,90 @@
+// stylelint-disable declaration-no-important, selector-list-comma-newline-after
+
+//
+// Headings
+//
+
+h1, h2, h3, h4, h5, h6{
+  margin-bottom: $headings-margin-bottom;
+  font-family: $headings-font-family;
+  font-weight: 300;
+  line-height: $headings-line-height;
+  color: $headings-color;
+}
+
+h1{ font-size: 30px;
+  @include media-breakpoint-up(lg){
+    font-size:50px;
+  } }
+
+h2{ font-size: 30px; color:#111111;}
+h3{ 
+  font-size: 22px; 
+  @include media-breakpoint-up(lg){
+    font-size: 25px;
+  }
+}
+h4{ font-size: $h4-font-size; }
+h5{ font-size: $h5-font-size; }
+h6{ font-size: $h6-font-size; }
+li{
+  list-style-type: none;
+}
+p{
+  // margin:0;
+}
+ul{
+  padding:0;
+}
+a{
+  color:$white;
+  &:hover{
+    color:$white;
+  }
+}
+.lead {
+  font-size: $lead-font-size;
+  font-weight: $lead-font-weight;
+}
+
+// Type display classes
+.display-1 {
+  font-size: $display1-size;
+  font-weight: $display1-weight;
+  line-height: $display-line-height;
+}
+.display-2 {
+  font-size: $display2-size;
+  font-weight: $display2-weight;
+  line-height: $display-line-height;
+}
+
+
+//
+// Horizontal rules
+//
+
+hr {
+  margin-top: $hr-margin-y;
+  margin-bottom: $hr-margin-y;
+  border: 0;
+  border-top: $hr-border-width solid $hr-border-color;
+}
+
+
+//
+// Emphasis
+//
+
+small,
+.small {
+  font-size: $small-font-size;
+  font-weight: $font-weight-normal;
+}
+
+mark,
+.mark {
+  padding: $mark-padding;
+  background-color: $mark-bg;
+}
+
