@@ -1,0 +1,72 @@
+
+/*========================
+   =           Products         
+   ==========================*/
+.produts-heading{
+  display: flex;
+  justify-content: center;
+  padding:40px 0 70px 0;
+  li{
+    
+    a{
+      font-size: 18px;
+      color:$black;
+      padding:15px;
+      border:solid 1px #d6d6d6;
+      @include media-breakpoint-up(md){
+        font-size: 25px;
+      }
+      &:hover{
+        text-decoration: none;
+        color:$golden;
+        border:solid 1px $golden;
+      }
+    }
+  }
+}
+.product-row{
+  display: grid;
+  grid-template-columns:1fr;
+  text-align: center;
+  grid-gap:30px;
+  padding-bottom: 100px;
+  @include media-breakpoint-up(sm){
+    grid-template-columns:1fr 1fr;
+  }
+  @include media-breakpoint-up(md){
+    grid-template-columns:1fr 1fr 1fr ;
+  }
+  @include media-breakpoint-up(lg){
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+  }
+  .product-col{
+    background-color: #f0f0f0;
+    color:$white;
+    img{
+      object-fit: contain;
+      height: 270px;
+    }
+    .product-info{
+      background: rgb(25,25,25);
+      background: -moz-linear-gradient(top, rgba(25,25,25,1) 0%, rgba(65,65,65,1) 100%);
+      background: -webkit-linear-gradient(top, rgba(25,25,25,1) 0%,rgba(65,65,65,1) 100%);
+      background: linear-gradient(to bottom, rgba(25,25,25,1) 0%,rgba(65,65,65,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191919', endColorstr='#414141',GradientType=0 );
+      background-image: linear-gradient(to bottom right, #171717, #353535);
+      padding:25px 0;
+      span{
+        font-size: 13px;
+      }
+      h4{
+        font-size: 18px;
+        margin-top: 8px;
+      }
+      p{
+        margin:0;
+        .new-price{
+          color:$golden;
+        }
+      }
+    }
+  }
+}
