@@ -1,0 +1,227 @@
+// footer
+
+/* STYLES SPECIFIC TO FOOTER  */
+.site-footer {
+  background-color: #000;
+  color: #d6b449;;
+  clear: both;
+  line-height: 36px;
+}
+.site-footer a {
+  color: #d6b449;;
+}
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  align-items: center;
+  @media (min-width:992px){
+    flex-wrap:unset;
+  }
+}
+.site-info {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  border-top: solid 1px #d6b449;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.site-info i {
+  color: #ffd700;
+  margin-left: 6px;
+  display: inline-block;
+}
+
+.-sf .col {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  @media (min-width:992px){
+    width:unset;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .-sf .col {
+    width: 50%;
+    text-align: left;
+    padding: unset;
+  }
+  .-sf .col:last-child {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .-sf .col {
+    text-align: left;
+    // width: 34.3333%;
+    margin-bottom: 0;
+    padding: unset;
+  }
+}
+.f-links{
+  display: flex;
+  text-align: left !important;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .f-links{
+    justify-content: space-between;
+  }
+}
+
+.-sf .col .half {
+  width: 100%;
+  float: left;
+  padding-right: 15px;
+}
+.-sf ul {
+  padding-left: 0;
+  list-style: none;
+  font-size: 15px;
+  margin: 0;
+}
+
+.-sf h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #d6b449;
+  font-weight: 400;
+}
+
+.f-logo span {
+  font-size: 25px;
+  font-weight: 300;
+  display: block;
+}
+  .f-logo {
+    max-width: 300px;
+  }
+@media (max-width: 767.98px) {
+  .f-logo {
+    max-width: 300px;
+  }
+}
+
+
+
+@media (min-width: 992px){
+  .f-links{
+    justify-content: space-evenly;
+  }
+  .-sf .col .half {
+  width: unset;
+  padding-right: unset;
+}
+}
+.k-social {
+  margin-top: 25px !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .k-social {
+    justify-content: start;
+    padding-left: 15px !important;
+  }
+}
+@media (min-width: 992px) {
+  .k-social {
+    justify-content: center;
+  }
+}
+.k-social li a {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  transition: all 0.5s ease;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.k-social li a i {
+  color: #d6b449;
+  transition: all 0.5s ease;
+  font-size: 16px;
+}
+.k-social li a:hover {
+  text-decoration: none;
+}
+.k-social li.facebook a:hover {
+  border-color: #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+}
+.k-social li.facebook a:hover i:before {
+  color: #3b5998;
+}
+.k-social li.twitter a:hover {
+  border-color: #1da1f2;
+  box-shadow: 0 0 15px #1da1f2;
+}
+.k-social li.twitter a:hover i:before {
+  color: #1da1f2;
+}
+.k-social li.instagram a:hover {
+  border-color: #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+}
+.k-social li.instagram a:hover i:before {
+  color: #bc2a8d;
+}
+.k-social li.googleplus a:hover {
+  border-color: #dc4e41;
+  box-shadow: 0 0 15px #dc4e41;
+}
+.k-social li.googleplus a:hover i:before {
+  color: #dc4e41;
+}
+.k-social li.github a:hover {
+  border-color: #000;
+  box-shadow: 0 0 15px #000;
+}
+.k-social li.github a:hover i:before {
+  color: #000;
+}
+.k-social li.linkedin a:hover {
+  border-color: #0077b5;
+  box-shadow: 0 0 15px #0077b5;
+}
+.k-social li.linkedin a:hover i:before {
+  color: #0077b5;
+}
+.k-social li.youtube a:hover {
+  border-color: #f00;
+  box-shadow: 0 0 15px #f00;
+}
+.k-social li.youtube a:hover i:before {
+  color: #f00;
+}
+
+.f-contact{
+  line-height: 35px;
+}
+.f-contact address {
+  font-size: 15px;
+  font-style: normal;
+}
+
+  img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*=====  End of footer bottom  ======*/
+
+sass --watch wp-content/themes/pest-busters/sass:wp-content/themes/pest-busters --style expanded
